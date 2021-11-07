@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Simulate gacha encounters for the mobile game, Another Eden">
+  <title>Another Eden Encounter Simulator</title>
+  <link rel="stylesheet" href="css/vendor/bootswatch-litera-4.4.1/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vendor/fontawesome-pro-5.14.0-web/css/all.min.css">
+  <link rel="stylesheet" href="css/encounter-sim.css?v=vJ58HywVid">
+  
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4582ec">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#4582ec">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+    <div class="container">
+      <a class="navbar-brand" href="/">Another Eden Encounter Sim</a>
+    </div>
+  </nav>
+  <div id="container" class="container py-2">
+    <div id="loading-images">
+
+    </div>
+    <div id="banner-options" class="row collapse show" data-parent="#container">
+      
+    </div>
+    
+    <div id="encounter-info" class="row collapse" data-parent="#container">
+      <div class="col">
+        <a id="back-to-banners" href="#" data-toggle="collapse" data-target="#banner-options">&lt; Back to banners</a>
+        <h2 id="banner-name">Banner Name</h2>
+        <div class="row">
+          <div class="col-12 col-lg">
+            <img id="banner-img" class="img-fluid">
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <a href="#" id="official-rates" class="btn btn-secondary btn-block my-2" target="_blank">Official Encounter Rates <i class="fas fa-external-link-alt"></i></a>
+                <h4 class="d-none d-lg-block">Rate Up</h4>
+                <div id="rateup-chars" class="d-none d-lg-block"></div>
+                <div id="enc-notes" class="text-danger mt-2">* Encounter 10 allies using 1000 paid Chrono Stones. Guaranteed 5★ on the tenth encounter. 1 Time Only.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col">
+            <button id="enc-one" type="button" class="btn btn-info btn-block" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
+          </div>
+          <div class="col">
+            <button id="enc-ten" type="button" class="btn btn-warning btn-block" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
+          </div>
+        </div>
+
+        <div class="row mt-2 pt-2 border-top" id="encounter-results-row-1">
+          <!-- <div class="col">༼ つ ◕_◕ ༽つ SUMMON HISUMENA ༼ つ ◕_◕ ༽つ</div> -->
+        </div>
+        <div class="row pb-2 border-bottom" id="encounter-results-row-2">
+
+        </div>
+        <div id="summary-stats" class="row mt-4">
+          <div class="col-12 col-sm-6" id="total-pulls">
+            <span id="counters" data-lone-enc="0" data-tenth-enc="0" data-single-pull="0" data-ten-pull="0"></span>
+            <span id="five-stars" data-on-banner="" data-off-banner="" data-all=""></span>
+            <span id="fourpointfive-stars" data-on-banner="" data-off-banner="" data-all=""></span>
+            <h3>Totals <button type="button" id="reset-totals" class="btn btn-primary float-right">Reset</button></h3>
+            <div class="d-block text-center">
+              <img src="images/gem.png" class="gem"><span id="cs-used">0</span> CS Used
+            </div>
+            <div class="d-block text-center">
+              <span id="currency-spent">0</span> USD Spent <i id="cs-spent-tooltip" class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="Chronos Stones are purchased in batches of 3250 at the regular price of $79.99"></i>
+            </div>
+            <div class="d-block text-center mt-2">
+              Buy CS in bundles of: 
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" class="buy-cs" autocomplete="off" value="3250" data-usd="79.99" checked=""> 3250
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" class="buy-cs" autocomplete="off" value="1050" data-usd="31.99"> 1050
+                </label>
+                <label class="btn btn-secondary active">
+                  <input type="radio" name="options" class="buy-cs" autocomplete="off" value="500" data-usd="16.99"> 500
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <h3>5★ Pulled</h3>
+            <div id="pulled-five"></div>
+            <h3>4.5★ Pulled</h3>
+            <div id="pulled-fourpointfive"></div>
+          </div>
+        </div>
+        <div id="probabilities" class="row mb-4">
+          <div class="col">
+            <h3 class="d-inline-block">Probabilities</h3>
+            <a class="ml-2" href="#prob-more-info" data-toggle="collapse" aria-expanded="false">
+              <span class="info-closed">more info <i class="fas fa-angle-down"></i></span>
+              <span class="info-open">less info <i class="fas fa-angle-up"></i></span>
+            </a>
+            <p id="prob-more-info" class="lead collapse">
+              Probability is calculated as an overall chance to pull 1 or more copies of a unit for the attempted number of pulls using the <a href="https://en.wikipedia.org/wiki/Binomial_distribution" target="_blank">Binomial distribution</a>; remember that each pull is an independent event and past failures do not increase the likelihood of successful pulls in the future.
+            </p>
+            <div class="pb-2">
+              For 
+              <div id="ten-pull-badge">
+                <strong id="ten-pull"></strong>x <span class="badge badge-pill badge-warning">Ten pulls</span> 
+              </div>
+              <div id="single-pull-badge">
+                <strong id="single-pull"></strong>x <span class="badge badge-pill badge-info">Single pulls</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="text-center">Probability</th>
+                      <th scope="col">to pull 1 or more</th>
+                      <th scope="col" class="text-center d-none d-lg-table-cell">at rate(s) <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="The percentage written in brackets reflects the appearance ratio on the tenth (10) encounter"></i></th>
+                    </tr>
+                  </thead>
+                  <tbody id="prob-characters">
+                    
+                  </tbody>
+                </table>
+              </div>
+              <div class="col">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="text-center">Probability</th>
+                      <th scope="col">to pull 1 or more</th>
+                      <th scope="col" class="text-center d-none d-lg-table-cell">at rate(s) <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="The percentage written in brackets reflects the appearance ratio on the tenth (10) encounter"></i></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td id="prob-banner-missing" data-rate-lone="" data-rate-tenth="" data-name="missingCharacter" class="text-center">0%</td>
+                      <td>Any Missing Characters</td>
+                      <td class="text-center d-none d-lg-table-cell"></td>
+                    </tr>
+                    <tr>
+                      <td id="prob-banner-five" data-rate-lone="" data-rate-tenth="" data-name="bannerFive" class="text-center">0%</td>
+                      <td>Any Banner 5★</td>
+                      <td class="text-center d-none d-lg-table-cell"></td>
+                    </tr>
+                    <tr>
+                      <td id="prob-any-five" data-rate-lone="" data-rate-tenth="" data-name="anyFive" class="text-center">0%</td>
+                      <td>Any 5★</td>
+                      <td class="text-center d-none d-lg-table-cell"></td>
+                    </tr>
+                    <tr>
+                      <td id="prob-banner-fourpointfive" data-rate-lone="" data-rate-tenth="" data-name="bannerFourpointfive" class="text-center">0%</td>
+                      <td>Any Banner 4.5★</td>
+                      <td class="text-center d-none d-lg-table-cell"></td>
+                    </tr>
+                    <tr>
+                      <td id="prob-any-fourpointfive" data-rate-lone="" data-rate-tenth="" data-name="anyFourpointfive" class="text-center">0%</td>
+                      <td>Any 4.5★</td>
+                      <td class="text-center d-none d-lg-table-cell"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <footer class="bg-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h6 class="d-none d-md-block">Another Eden Info</h6>
+          <ul class="list-unstyled">
+            <li class="mb-1"><a href="//anothereden.miraheze.org/wiki/Another_Eden_Wiki">Wiki</a></li>
+            <li class="mb-1"><a href="//www.reddit.com/r/AnotherEdenGlobal"><i class="fab fa-reddit-alien"></i> Reddit</a></li>
+            <li class="mb-1"><a href="//discordapp.com/invite/Y7pHyvC"><i class="fab fa-discord"></i> Discord</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="d-none d-md-block">Simulator Info</h6>
+          <ul class="list-unstyled">
+            <li class="mb-1"><a href="//reddit.com/r/AnotherEdenGlobal/comments/f50oc4/another_encounter_simulator/" target="_blank"><i class="fab fa-reddit-alien"></i> Reddit post</a></li>
+            <li class="mb-1"><a href="//github.com/ae-encounter-sim/ae-encounter-sim.github.io" target="_blank"><i class="fab fa-github"></i> Github repo</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h6 class="d-none d-md-block">Legal</h6>
+          <div><small>All encounters, images, and characters copyright &copy; WFS</small></div>
+          <div><small>This website is not affiliated with WFS in any way</small></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/vendor/jquery-3.4.1/jquery.min.js"></script>
+  <script src="js/vendor/popper-1.12.9/popper.min.js"></script>
+  <script src="js/vendor/bootstrap-4.4.1/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/binarysearch.js"></script>
+  <script>
+    function createStars(rarity, maxRarity, isAS, isES) {
+        if (isAS) {
+            let starAS = $("<img>").attr("src", "images/style.png").addClass("star");
+            return [starAS, starAS.clone(), starAS.clone(), starAS.clone(), starAS.clone()];
+        } else if (isES) {
+            let starES = $("<img>").attr("src", "images/ex.png").addClass("star");
+            return [starES, starES.clone(), starES.clone(), starES.clone(), starES.clone()];
+        } else {
+            let starOn = $("<img>").attr("src", "images/on.png").addClass("star");
+            let starArray = [];
+            for (let i = 0; i < rarity; i++) {
+                starArray.push(starOn.clone());
+            }
+            if (rarity < maxRarity) {
+                starArray.push($("<img>").attr("src", "images/off.png").addClass("star"));
+            }
+            return starArray;
+        }
+    }
+    function prepareImage(name, rarity, charImages) {
+        if (name in charImages) {
+            let charId = charImages[name]["id"];
+            let imgPath = "images/characters/party_portrait/" + charId + "/" + charId + charImages[name][String(rarity)] + ".png";
+            let divWrapper = $("<div></div>").addClass("img-wrap d-block mx-auto");
+
+            let divRarity = $("<div></div>").addClass("overlay rarity-overlay d-flex align-items-center justify-content-center").append(createStars(rarity, charImages[name]["max_rarity"], ("AS" in charImages[name]),("ES" in charImages[name])))
+            return divWrapper.append($("<img>").attr("src", imgPath).addClass("character")).append($("<span></span>").addClass("overlay name-overlay").html(name)).append(divRarity);
+        } else {
+            return $("<div>Character not found!</div>");
+        }
+    }
+    function updateSpecificUnitPulls(unit, rateUp, charInfo) {
+        if (unit["rarity"] === 4 && ((unit["name"] in charInfo) || (unit["name"].slice(0, -4) in charInfo))) {
+            let fourpointfiveStars = document.getElementById("fourpointfive-stars").dataset;
+
+            let fourpointfiveStarsAll = fourpointfiveStars["all"].split(",");
+            if (fourpointfiveStarsAll[0] == "") {
+                fourpointfiveStarsAll.shift();
+            }
+            fourpointfiveStarsAll.push(unit["name"]);
+            fourpointfiveStars["all"] = fourpointfiveStarsAll.join(",");
+
+            //add to on or off banner
+            let onOff = rateUp.includes(unit["name"]) ? "onBanner" : "offBanner";
+            let fourpointfiveStarsOnOff = fourpointfiveStars[onOff].split(",");
+            if (fourpointfiveStarsOnOff[0] == "") {
+                fourpointfiveStarsOnOff.shift();
+            }
+            fourpointfiveStarsOnOff.push(unit["name"]);
+            fourpointfiveStars[onOff] = fourpointfiveStarsOnOff.join(",");
+        }
+
+        if (unit["rarity"] === 5) {
+            let fiveStars = document.getElementById("five-stars").dataset;
+
+            let fiveStarsAll = fiveStars["all"].split(",");
+            if (fiveStarsAll[0] == "") {
+                fiveStarsAll.shift();
+            }
+            fiveStarsAll.push(unit["name"]);
+            fiveStars["all"] = fiveStarsAll.join(",");
+
+            //add to on or off banner
+            let onOff = rateUp.includes(unit["name"]) ? "onBanner" : "offBanner";
+            let fiveStarsOnOff = fiveStars[onOff].split(",");
+            if (fiveStarsOnOff[0] == "") {
+                fiveStarsOnOff.shift();
+            }
+            fiveStarsOnOff.push(unit["name"]);
+            fiveStars[onOff] = fiveStarsOnOff.join(",");
+        }
+    }
+    function pullUnit(encounter, loneOrTenth, charInfo) {
+        let pull = Math.random();
+        let unitPulled = binarySearch(encounter["range_rows"][loneOrTenth], 0, encounter["range_rows"][loneOrTenth].length, pull);
+        updateSpecificUnitPulls(unitPulled, encounter["rate_up"], charInfo);
+        return unitPulled;
+    }
+    function getCommandImage(name, rarity, charImages) {
+        if (name in charImages) {
+            let charId = charImages[name]["id"];
+            let maxRarity = (rarity > 0) ? rarity : charImages[name]["max_rarity"];
+            let imgPath = "images/characters/command/" + charId + "/" + charId + charImages[name][maxRarity] + ".png";
+            return $("<img>").attr("src", imgPath).addClass("p-1");
+        } else {
+            return $("<div>Character not found!</div>");
+        }
+    }
+    function clearEncounterResults() {
+        $("#encounter-results-row-1").html("");
+        $("#encounter-results-row-2").html("");
+    }
+    function getEncounterButtonHtml(encType) {
+        if (encType == null) {
+            return '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...';
+        } else {
+            let typeDict = { "one" : { "label" : "A Lone Encounter", "cost" : "100" }, "ten" : { "label" : "10 Allies Bundle", "cost" : "1,000" } };
+            let label = '<div class="d-block text-align-center">' + typeDict[encType]["label"] + '</div>';
+            let gems = '<div class="d-block text-align-center"><img src="images/gem.png" class="gem"> ' + typeDict[encType]["cost"] + '</div>';
+            return label + gems;
+        }
+    }
+    function resetEncounter() {
+        $("#rateup-chars").html("");
+        currentEnc = {};
+        $("#enc-one").prop("disabled", true).html(getEncounterButtonHtml(null)).parent().show();
+        $("#enc-ten").prop("disabled", true).html(getEncounterButtonHtml(null));
+        clearEncounterResults();
+        resetTotalsAndProbabilities();
+        $("#prob-characters>tr").remove();
+    }
+    function buildSelectorBanner(banner) {
+        let bannerClass = [banner["banner_short_name"], "banner-select", "d-block", "mx-auto"];
+        return $("<div></div>").addClass("col py-1").append($("<a></a>").addClass(bannerClass).attr({ "href" : "#", "data-banner-file" : banner["banner_file"], "data-banner-img" : banner["banner_image"], "data-toggle" : "collapse", "data-target" : "#encounter-info", "data-banner-official" : banner["official_link"], "data-banner-name" : banner["name"] }));
+    }
+    function calculateProbabilityOneOrMore(loneRate, lonePulls, tenthRate, tenthPulls) {
+        // 1 - (1 - loneRate)^lonePulls * (1 - tenthRate)^tenthPulls
+        return 1 - (Math.pow(1 - loneRate, lonePulls) * Math.pow(1 - tenthRate, tenthPulls));
+    }
+    function updateCSAndDollars(){
+        let csUsed = (parseInt($("#counters").attr("data-ten-pull")) * 1000) + (parseInt($("#counters").attr("data-single-pull")) * 100);
+        $("#cs-used").text(new Intl.NumberFormat().format(csUsed));
+        let selectedCost = $("input.buy-cs:checked");
+        let infoMsg = "Chronos Stones are purchased in batches of " + selectedCost.val() + " at the regular price of $" + selectedCost.attr("data-usd");
+        $("#cs-spent-tooltip").attr("data-original-title", infoMsg);
+        let csToPurchase = Math.ceil(csUsed / parseInt(selectedCost.val()));
+        $("#currency-spent").text(new Intl.NumberFormat(undefined, { style: "currency", currency: "USD" }).format(csToPurchase * parseFloat(selectedCost.attr("data-usd"))));
+    }
+    function updateTotalsAndProbabilities(encType, charImages) {
+        //update counters
+        let counters = document.getElementById("counters").dataset;
+        if (encType == "lone") {
+            counters["loneEnc"] = parseInt(counters["loneEnc"]) + 1;
+            counters["singlePull"] = parseInt(counters["singlePull"]) + 1;
+            $("#single-pull").text(counters["singlePull"]);
+        } else {
+            counters["loneEnc"] = parseInt(counters["loneEnc"]) + 9;
+            counters["tenthEnc"] = parseInt(counters["tenthEnc"]) + 1;
+            counters["tenPull"] = parseInt(counters["tenPull"]) + 1;
+            $("#ten-pull").text(counters["tenPull"]);
+        }
+        //update CS and $$ 
+        updateCSAndDollars();
+        //add new 5* pulls
+        let fiveStarsAll = $("#five-stars").attr("data-all");
+        let fiveStars = fiveStarsAll.split(",");
+        if (fiveStars[0] != "") {
+            $("#pulled-five").html("");
+            fiveStars.forEach(function(character){
+                $("#pulled-five").append(getCommandImage(character, 5, charImages));
+            })
+        }
+
+        //add new 4.5* pulls
+        let fourpointfiveStarsAll = $("#fourpointfive-stars").attr("data-all");
+        let fourpointfiveStars = fourpointfiveStarsAll.split(",");
+        if (fourpointfiveStars[0] != "") {
+            $("#pulled-fourpointfive").html("");
+            fourpointfiveStars.forEach(function(character){
+                $("#pulled-fourpointfive").append(getCommandImage(character, 4, charImages));
+            })
+        }
+
+        //update probabilities
+        $("#prob-characters>tr>td.prob, #prob-banner-missing, #prob-banner-five, #prob-any-five, #prob-banner-fourpointfive, #prob-any-fourpointfive").each(function(i, character) {
+            let characterProb = calculateProbabilityOneOrMore($(this).attr("data-rate-lone"), counters["loneEnc"], $(this).attr("data-rate-tenth"), counters["tenthEnc"]);
+            characterProb = (characterProb > 0.9999) ? 0.9999 : characterProb;
+            $(this).text(new Intl.NumberFormat(undefined, { style: "percent", maximumFractionDigits: 2 }).format(characterProb));
+        });
+
+        $("#summary-stats, #probabilities").show("slow");
+    }
+    function sumRatesPerType(character) {
+        let loneRate = 0;
+        let tenthRate = 0;
+        Object.keys(character).forEach(function(rarity){
+            loneRate += character[rarity]["lone"];
+            tenthRate += character[rarity]["tenth"];
+        })
+        return [loneRate, tenthRate];
+    }
+    function addCharacterProbabilityRow(displayString, rates) {
+        let attributes = {"data-rate-lone" : rates[0], "data-rate-tenth" : rates[1]};
+        let loneRate = new Intl.NumberFormat(undefined, { style: "percent", maximumFractionDigits: 2 }).format(rates[0]);
+        let tenthRate = new Intl.NumberFormat(undefined, { style: "percent", maximumFractionDigits: 2 }).format(rates[1]);
+        $("#prob-characters").append($("<tr></tr>").append($("<td></td>").text("0%").addClass("prob text-center").attr(attributes)).append($("<td></td>").text(displayString)).append($("<td></td>").text("".concat(loneRate, " (", tenthRate, ")")).addClass("text-center d-none d-lg-table-cell")));
+    }
+    function setProbabilityRates(encounter, charInfo, charImages) {
+        let overallRates = { 
+            "lone" : { "bannerFive" : 0, "anyFive" : 0, "bannerFourpointfive" : 0, "anyFourpointfive" : 0, "missingCharacter" : 0 }, 
+            "tenth" : { "bannerFive" : 0, "anyFive" : 0, "bannerFourpointfive" : 0, "anyFourpointfive" : 0, "missingCharacter" : 0 } 
+		};
+        let characterRates = {};
+        //find 5* banner units and set base character names
+        encounter["rate_up"].forEach(function(name){
+            if (charImages[name]["max_rarity"] === 5) {
+                if (name.includes("(AS)") || name.includes("(ES)")) {
+                    characterRates[name.slice(0, -4)] = {};
+                } else {
+                    characterRates[name] = {};
+                }
+            }
+        })
+        //loop through both range_rows and sum various rate ups
+        Object.keys(encounter["range_rows"]).forEach(function(loneOrTenth){
+            encounter["range_rows"][loneOrTenth].forEach(function(character){
+                if (character["rarity"] === 5) {
+                    if (character["name"] in characterRates) {
+                        if (!("5" in characterRates[character["name"]])) {
+                            characterRates[character["name"]]["5"] = { "lone" : 0, "tenth" : 0 };
+                        }
+                        characterRates[character["name"]]["5"][loneOrTenth] = (character["end_range"] - character["start_range"]);
+                    } else if (character["name"].includes("(AS)") && character["name"].slice(0, -4) in characterRates) {
+                        if (!("AS" in characterRates[character["name"].slice(0, -4)])) {
+                            characterRates[character["name"].slice(0, -4)]["AS"] = { "lone" : 0, "tenth" : 0 };
+                        }
+                        characterRates[character["name"].slice(0, -4)]["AS"][loneOrTenth] = (character["end_range"] - character["start_range"]);
+                    } else if (character["name"].includes("(ES)") && character["name"].slice(0, -4) in characterRates) {
+                        if (!("ES" in characterRates[character["name"].slice(0, -4)])) {
+                            characterRates[character["name"].slice(0, -4)]["ES"] = { "lone" : 0, "tenth" : 0 };
+                        }
+                        characterRates[character["name"].slice(0, -4)]["ES"][loneOrTenth] = (character["end_range"] - character["start_range"]);
+                    }
+                    overallRates[loneOrTenth]["anyFive"] += (character["end_range"] - character["start_range"]);
+
+                    if (encounter["rate_up"].includes(character["name"])) {
+                        overallRates[loneOrTenth]["bannerFive"] += (character["end_range"] - character["start_range"]);
+                    }
+
+                    //add missing characters
+                    if ((character["name"] in charInfo && !charInfo[character["name"]]["Acquired"]) || (character["name"].slice(0, -4) in charInfo && !charInfo[character["name"].slice(0, -4)]["Acquired"])) {
+                        overallRates[loneOrTenth]["missingCharacter"] += (character["end_range"] - character["start_range"]);
+                    }
+
+                } else if (character["rarity"] === 4 && ((character["name"] in charInfo) || (character["name"].slice(0, -4) in charInfo))) {
+                    if (character["name"] in characterRates) {
+                        if (!("4" in characterRates[character["name"]])) {
+                            characterRates[character["name"]]["4"] = { "lone" : 0, "tenth" : 0 };
+                        }
+                        characterRates[character["name"]]["4"][loneOrTenth] = (character["end_range"] - character["start_range"]);
+                    }
+                    overallRates[loneOrTenth]["anyFourpointfive"] += (character["end_range"] - character["start_range"]);
+
+                    if (encounter["rate_up"].includes(character["name"])) {
+                        overallRates[loneOrTenth]["bannerFourpointfive"] += (character["end_range"] - character["start_range"]);
+                    }
+
+                    //add missing characters
+                    if ((character["name"] in charInfo && !charInfo[character["name"]]["Acquired"]) || (character["name"].slice(0, -4) in charInfo && !charInfo[character["name"].slice(0, -4)]["Acquired"])) {
+                        overallRates[loneOrTenth]["missingCharacter"] += (character["end_range"] - character["start_range"]);
+                    }
+                } else if (character["rarity"] === 4 && character["name"] in characterRates) {
+                    if (!("4" in characterRates[character["name"]])) {
+                        characterRates[character["name"]]["4"] = { "lone" : 0, "tenth" : 0 };
+                    }
+                    characterRates[character["name"]]["4"][loneOrTenth] = (character["end_range"] - character["start_range"]);
+                }
+            })
+        })
+        //create rows for rate up five stars with rates
+        Object.keys(characterRates).forEach(function(character){
+            if ("5" in characterRates[character] && "ES" in characterRates[character]) {
+                addCharacterProbabilityRow("Any " + character + " (4★, 5★, AS, or ES)", sumRatesPerType(characterRates[character]));
+            } else if ("5" in characterRates[character] && "AS" in characterRates[character]) {
+                addCharacterProbabilityRow("Any " + character + " (4★, 5★ or AS)", sumRatesPerType(characterRates[character]));
+            } else if ("4" in characterRates[character] && "5" in characterRates[character]) {
+                addCharacterProbabilityRow("Any " + character + " (4★ or 5★)", sumRatesPerType(characterRates[character]));
+            }
+
+            if ("ES" in characterRates[character] && encounter["rate_up"].includes(character+"(ES)")) {
+                addCharacterProbabilityRow("5★ " + character + " (ES)", [characterRates[character]["ES"]["lone"], characterRates[character]["ES"]["tenth"]]);
+            }
+            if ("AS" in characterRates[character] && encounter["rate_up"].includes(character+"(AS)")) {
+                addCharacterProbabilityRow("5★ " + character + " (AS)", [characterRates[character]["AS"]["lone"], characterRates[character]["AS"]["tenth"]]);
+            }
+            if ("5" in characterRates[character] && encounter["rate_up"].includes(character)) {
+                addCharacterProbabilityRow("5★ " + character, [characterRates[character]["5"]["lone"], characterRates[character]["5"]["tenth"]]);
+            }
+        })
+        //set overall rates
+        $("#prob-banner-missing, #prob-banner-five, #prob-any-five, #prob-banner-fourpointfive, #prob-any-fourpointfive").each(function(i, character) {
+            let name = $(this).attr("data-name");
+            $(this).attr({"data-rate-lone" : overallRates["lone"][name], "data-rate-tenth" : overallRates["tenth"][name]});
+            let loneRate = new Intl.NumberFormat(undefined, { style: "percent", maximumFractionDigits: 2 }).format(overallRates["lone"][name]);
+            let tenthRate = new Intl.NumberFormat(undefined, { style: "percent", maximumFractionDigits: 2 }).format(overallRates["tenth"][name]);
+            $(this).next().next().text("".concat(loneRate, " (", tenthRate, ")"));
+        });
+    }
+    function resetTotalsAndProbabilities() {
+        $("#cs-used, #currency-spent").text("0");
+        $("#pulled-five").html("");
+        $("#pulled-fourpointfive").html("");
+        $("#single-pull, #ten-pull").text("");
+        $("#prob-characters>tr>td.prob, #prob-banner-missing, #prob-banner-five, #prob-any-five, #prob-banner-fourpointfive, #prob-any-fourpointfive").text("0%");
+        $("#counters").attr({ "data-lone-enc" : 0, "data-tenth-enc" : 0, "data-single-pull" : 0, "data-ten-pull" : 0 });
+        $("#five-stars").attr({ "data-on-banner" : "", "data-off-banner" : "", "data-all" : "" });
+        $("#fourpointfive-stars").attr({ "data-on-banner" : "", "data-off-banner" : "", "data-all" : "" });
+        $("#single-pull-badge, #ten-pull-badge").hide();
+    }
+
+    $( document ).ready(function() {
+        var currentEnc = {};
+        var charImages = {};
+		var charInfo = {};
+
+        $('[data-toggle="tooltip"]').tooltip();
+
+        $.getJSON("character_images.json?v=vJ58HywVid", function(images) {
+            $("#loading-images").append($("<div></div>").addClass("toast").attr({"role" : "alert", "data-delay" : 1000}).append($("<div></div>").addClass("toast-body").text("Loading character image map...")).toast("show"));
+            charImages = images;
+            $("#container").trigger("imageMapLoaded");
+        });
+
+        $.getJSON("character_info.json?v=vJ58HywVid", function(characterinfo) {
+            charInfo = characterinfo;
+        });
+
+        $("#container").on("imageMapLoaded", function() {
+            $("#loading-images").append($("<div></div>").addClass("toast").attr({"role" : "alert", "data-delay" : 1000}).append($("<div></div>").addClass("toast-body").text("Character image map load complete!")).toast("show"));
+        });
+
+        $.getJSON("encounter_banners.json?v=vJ58HywVid", function(bannerList) {
+            if ("future" in bannerList) {
+              $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Future")));
+              $.each(bannerList["future"], function(i, banner) {
+                  $("#banner-options").append(buildSelectorBanner(banner));
+              });
+            }
+            $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Fateful")));
+            $.each(bannerList["limited"], function(i, banner) {
+                let bannerDate = new Date(banner["banner_enddatetime"]);
+                    $("#banner-options").append(buildSelectorBanner(banner));
+            });
+            $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Non Fateful")));
+            $.each(bannerList["limited-nonfateful"], function(i, banner) {
+                let bannerDate = new Date(banner["banner_enddatetime"]);
+                //if (bannerDate > Date.now()) {
+                    $("#banner-options").append(buildSelectorBanner(banner));
+                //}
+            });
+            $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Regular")));
+            $.each(bannerList["regular"], function(i, banner) {
+                $("#banner-options").append(buildSelectorBanner(banner));
+            });
+        });
+
+        $("#banner-options").on("click", "a.banner-select", function(e) {
+            e.preventDefault();
+            let selectedBannerImg = "images/banners/" + $(this).attr("data-banner-img");
+            $("#banner-img").attr("src", selectedBannerImg);
+            $("#official-rates").attr("href", $(this).attr("data-banner-official"));
+            $("#banner-name").text($(this).attr("data-banner-name"));
+            $("#summary-stats, #probabilities").hide();
+
+            let bannerToLoad = 'banners/' + $(this).attr("data-banner-file");
+            $.getJSON(bannerToLoad, function(encounter) {
+                currentEnc = encounter;
+                $.each(encounter["rate_up"], function(i, character) {
+                    $("#rateup-chars").append(getCommandImage(character, 0, charImages));
+                });
+                $("#container").trigger("jsonLoaded");
+            });
+        });
+
+        $("#container").on("jsonLoaded", function() {
+            setProbabilityRates(currentEnc, charInfo, charImages);
+            $("#single-pull-badge, #ten-pull-badge").hide();
+            if ($("#banner-name").text().includes("Fateful")) {
+                $("#enc-one").parent().hide();
+                $("#enc-notes").show();
+            } else {
+                $("#enc-one").prop("disabled", false).html(getEncounterButtonHtml("one"));
+                $("#enc-notes").hide();
+            }
+            $("#enc-ten").prop("disabled", false).html(getEncounterButtonHtml("ten"));
+        });
+
+        $("#back-to-banners").on("click", resetEncounter);
+        $("#reset-totals").on("click", resetTotalsAndProbabilities);
+
+        $("input.buy-cs").on("change click", updateCSAndDollars);
+
+        $("#enc-one").on("click", function(e) {
+            e.preventDefault();
+            clearEncounterResults();
+            let unit_pulled = pullUnit(currentEnc, "lone", charInfo);
+            $("#encounter-results-row-1").html($("<div></div>").addClass("col py-2").append(prepareImage(unit_pulled["name"], unit_pulled["rarity"], charImages)));
+            updateTotalsAndProbabilities("lone", charImages);
+            $("#single-pull-badge").show("fast");
+        });
+
+        $("#enc-ten").on("click", function(e) {
+            e.preventDefault();
+            clearEncounterResults();
+            let single_pulls = 9;
+            let tenth_pulls = 1;
+            if ($("#banner-name").text().includes("Fateful")) {
+                resetTotalsAndProbabilities();
+            }
+            if ($("#banner-name").text().includes("Twin Destinies")) {
+                single_pulls = 8;
+                tenth_pulls = 2;
+            }
+            let unit_pulled = {};
+            for (let x = 0; x < single_pulls; x++) {
+                unit_pulled = pullUnit(currentEnc, "lone", charInfo);
+                resultRow = x < 5 ? $("#encounter-results-row-1") : $("#encounter-results-row-2");
+                resultRow.append($("<div></div>").addClass("col py-2").append(prepareImage(unit_pulled["name"], unit_pulled["rarity"], charImages)));
+            }
+            for (let y = 0; y < tenth_pulls; y++) {
+                unit_pulled = pullUnit(currentEnc, "tenth", charInfo);
+                $("#encounter-results-row-2").append($("<div></div>").addClass("col py-2").append(prepareImage(unit_pulled["name"], unit_pulled["rarity"], charImages)));
+            }
+            updateTotalsAndProbabilities("tenth", charImages);
+            $("#ten-pull-badge").show("fast");
+        });
+    });
+ 
+  </script>
+</body>
+</html>
