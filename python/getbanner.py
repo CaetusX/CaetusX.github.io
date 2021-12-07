@@ -116,9 +116,9 @@ def scrape_html(url):
 
 
 def main():
-    url = 'https://api-us.another-eden.games/asset/lottery_notice/view/a8776d945162961f99460ab92f9bc79d?language=en'
-    banner_name = 'Black Friday 2021 The Chosen Ones Antiquity'
-    rate_up = ['Veina(AS)', 'Shanie(AS)','Tiramisu','Yuna(AS)']
+    url = 'https://api-us.another-eden.games/asset/lottery_notice/view/95fa896f636eeced3b862c4f55f9acc3?language=en'
+    banner_name = 'Brilliant Encounter Special Winter 2021 Series'
+    rate_up = []
 
     scrape_html(url)
 
