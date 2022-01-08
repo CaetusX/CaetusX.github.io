@@ -55,6 +55,6 @@
 	"Melina" : { "id" : 101070061, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Biaka" : { "id" : 101070081, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Myunfa" : { "id" : 101070091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
-	"Yipha" : { "id" : 101070101, "5" : true, "AS" : false, "ES" : false, "Acquired" : true }
+	"Yipha" : { "id" : 101070101, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Daisy" : { "id" : 101070111, "5" : true, "AS" : false, "ES" : false, "Acquired" : true }
 }
