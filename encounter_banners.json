@@ -1,5 +1,5 @@
 {
-	"limited" : [
+	"fateful" : [
 		{
 			"name" : "Fateful Encounter: Zone Quartet 2022 Vernal",
 			"banner_file" : "Fateful Encounter Zone Quartet 2022 Vernal.json",
@@ -801,7 +801,7 @@
 			"banner_short_name" : "fateful-hardy"
 		}
 	],
-	"limited-nonfateful" : [
+	"nonfateful" : [
 		{
 			"name" : "Another Style: Soul Keeper",
 			"banner_file" : "Another Style Soul Keeper.json",
