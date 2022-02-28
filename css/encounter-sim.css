@@ -14,7 +14,7 @@ div.img-wrap {
   width: 4.625rem;
   background: rgba(46, 22, 21, 0.75);
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   color: #D1CB89;
 }
 .name-overlay {
@@ -75,7 +75,7 @@ a[aria-expanded="true"] .info-closed, a[aria-expanded="false"] .info-open {
   }
   .overlay {
     width: 9.25rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .name-overlay {
     height: 2.5rem;
@@ -778,6 +778,15 @@ a.banner-select.zeviro-as {
 }
 a.banner-select.manifest-shion-mighty {
   background: url("../images/banners/91040.truemanifestshion.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-red-clad-flam {
+  background: url("../images/banners/91029.fatefuldeweyalt.combo.png") 0 0 no-repeat;
+}
+a.banner-select.dewey-alter-blunt-force {
+  background: url("../images/banners/91024.deweyaltbluntforce.combo.png") 0 0 no-repeat;
+}
+a.banner-select.dewey-alter-fire-force {
+  background: url("../images/banners/91028.deweyaltfireforce.combo.png") 0 0 no-repeat;
 }
 
 a.banner-select:hover {
