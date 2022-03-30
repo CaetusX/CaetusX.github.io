@@ -28,7 +28,7 @@
 	"Nagi" : { "id" : 101030071, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Renri" : { "id" : 101030091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Ilulu" : { "id" : 101030101, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
-	"Philo" : { "id" : 101030111, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
+	"Philo" : { "id" : 101030111, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Kikyo" : { "id" : 101030121, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Zeviro" : { "id" : 101030131, "5" : true, "AS" : true, "ES" : false, "Acquired" : false },
 	"Necoco" : { "id" : 101030151, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
