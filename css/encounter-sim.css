@@ -40,7 +40,7 @@ div.img-wrap {
 #banner-img {
   height: auto;
 }
-#rateup-chars > img, #pulled-five > img {
+#rateup-chars > img, #pulled-five > img, #pulled-fourpointfive > img  {
   width: 5rem;
 }
 #total-pulls {
