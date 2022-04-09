@@ -9,6 +9,7 @@
 	"Myrus" : { "id" : 101000221, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Rosetta" : { "id" : 101000241, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Dunarith" : { "id" : 101000251, "5" : true, "AS" : true, "ES" : false, "Acquired" : false },
+	"Flammelapis" : { "id" : 101000271, "5" : true, "AS" : false, "ES" : false, "Acquired" : false },
 	"Eva" : { "id" : 101000281, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Anabel" : { "id" : 101010011, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Shanie" : { "id" : 101010081, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
