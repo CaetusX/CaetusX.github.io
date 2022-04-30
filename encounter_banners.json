@@ -1,6 +1,30 @@
 {
 	"fateful" : [
 		{
+			"name" : "Fateful Encounter: Silver Striker",
+			"banner_file" : "Fateful Encounter Silver Striker.json",
+			"banner_image" : "Fateful Encounter Silver Striker.png",
+			"banner_enddatetime" : "2022-05-27T14:59:59Z",
+			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ab283958e51706569811c6d6268c0526?language=en",
+			"banner_short_name" : "fateful-silver-striker"
+		},
+		{
+			"name" : "Fateful Encounter: Splendid Epoch Edition",
+			"banner_file" : "Fateful Encounter Splendid Epoch Edition.json",
+			"banner_image" : "Fateful Encounter Splendid Epoch Edition.png",
+			"banner_enddatetime" : "2022-05-15T14:59:59Z",
+			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1eed10b318b9ee8c4e69f2fb07f2bd71?language=en",
+			"banner_short_name" : "fateful-splendid-epoch"
+		},
+		{
+			"name" : "Fateful Encounter: Violet Lancer",
+			"banner_file" : "Fateful Encounter Violet Lancer.json",
+			"banner_image" : "Fateful Encounter Violet Lancer.png",
+			"banner_enddatetime" : "2022-05-15T14:59:59Z",
+			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/3dbdc163466cae2264d6570a92bb9b35?language=en",
+			"banner_short_name" : "fateful-violet-lancer"
+		},
+		{
 			"name" : "Fateful Encounter: Flammelapis",
 			"banner_file" : "Fateful Encounter Flammelapis.json",
 			"banner_image" : "Fateful Encounter Flammelapis.png",
@@ -866,6 +890,38 @@
 		}
 	],
 	"nonfateful" : [
+		{
+			"name" : "Encounter Silver Striker: Piercing Force Edition",
+			"banner_file" : "Encounter Silver Striker Piercing Force Edition.json",
+			"banner_image" : "Encounter Silver Striker Piercing Force Edition.png",
+			"banner_enddatetime" : "2022-05-27T14:59:59Z",
+			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/faa4c51900f879eed63656ece074caf4?language=en",
+			"banner_short_name" : "silver-striker-pierce-force"
+		},
+		{
+			"name" : "Encounter Silver Striker: Water Force Edition",
+			"banner_file" : "Encounter Silver Striker Water Force Edition.json",
+			"banner_image" : "Encounter Silver Striker Water Force Edition.png",
+			"banner_enddatetime" : "2022-05-27T14:59:59Z",
+			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/42f0727bc7c90e126425e13d6689a236?language=en",
+			"banner_short_name" : "silver-striker-water-force"
+		},
+		{
+			"name" : "Encounter Violet Lancer: Piercing Force Edition",
+			"banner_file" : "Encounter Violet Lancer Piercing Force Edition.json",
+			"banner_image" : "Encounter Violet Lancer Piercing Force Edition.png",
+			"banner_enddatetime" : "2022-05-15T14:59:59Z",
+			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a10b609b22218746b217179a22aabedc?language=en",
+			"banner_short_name" : "violet-lancer-pierce-force"
+		},
+		{
+			"name" : "Encounter Violet Lancer: Earth Force Edition",
+			"banner_file" : "Encounter Violet Lancer Earth Force Edition.json",
+			"banner_image" : "Encounter Violet Lancer Earth Force Edition.png",
+			"banner_enddatetime" : "2022-05-15T14:59:59Z",
+			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b1bc3265a77bef4a427d7a473008046d?language=en",
+			"banner_short_name" : "violet-lancer-earth-force"
+		},
 		{
 			"name" : "Ally Encounter: Flammelapis",
 			"banner_file" : "Ally Encounter Flammelapis.json",
@@ -1946,7 +2002,7 @@
 			"banner_file" : "Default Encounter.json",
 			"banner_image" : "Default Encounter.png",
 			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/262d35badd4faefeec17a358d6217ee3?language=en",
+			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/c44c63535acdd77cfba8fb5306d76138?language=en",
 			"banner_short_name" : "default-encounter"
 		}
 	]
