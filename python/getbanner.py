@@ -116,9 +116,9 @@ def scrape_html(url):
 
 
 def main():
-    url = 'https://api-us.another-eden.games/asset/lottery_notice/view/bb7b50c3fbb08d2f1a41b6f6737913a2?language=en'
-    banner_name = 'Default Encounter'
-    rate_up = []
+    url = 'https://api-us.another-eden.games/asset/lottery_notice/view/10fc9a1335fc2b4b5dc74efbd93b28af?language=en'
+    banner_name = 'Fateful Encounter Seven Days Encounter Black Clad Sw'
+    rate_up = ['Black Clad Sw.','Melissa','Nikeh(AS)']
 
     scrape_html(url)
 
