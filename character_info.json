@@ -8,7 +8,7 @@
 	"Radica" : { "id" : 101000171, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Myrus" : { "id" : 101000221, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Rosetta" : { "id" : 101000241, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
-	"Dunarith" : { "id" : 101000251, "5" : true, "AS" : true, "ES" : false, "Acquired" : false },
+	"Dunarith" : { "id" : 101000251, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Flammelapis" : { "id" : 101000271, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Eva" : { "id" : 101000281, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Jet Tactician Shion" : { "id" : 101000301, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
