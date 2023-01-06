@@ -562,15 +562,15 @@
             $.each(bannerList["regular"], function(i, banner) {
                 $("#banner-options").append(buildSelectorBanner(banner));
             });
-            $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Ended Fateful")));
-            $.each(bannerList["fateful"], function(i, banner) {
+            $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Ended Non Fateful")));
+            $.each(bannerList["nonfateful"], function(i, banner) {
                 let bannerDate = new Date(banner["banner_enddatetime"]);
                 if (bannerDate <= Date.now()) {
                     $("#banner-options").append(buildSelectorBanner(banner));
 				}
             });
-            $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Ended Non Fateful")));
-            $.each(bannerList["nonfateful"], function(i, banner) {
+            $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Ended Fateful")));
+            $.each(bannerList["fateful"], function(i, banner) {
                 let bannerDate = new Date(banner["banner_enddatetime"]);
                 if (bannerDate <= Date.now()) {
                     $("#banner-options").append(buildSelectorBanner(banner));
