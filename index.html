@@ -306,7 +306,9 @@
 					charactersPulledAll.push(unit["name"].slice(0, -4));
 				}
 			} else if (unit["name"] in charInfo) {
-				charactersPulledAll.push(unit["name"]);
+				if (charactersPulledAll.indexOf(unit["name"]) === -1) {
+					charactersPulledAll.push(unit["name"]);
+				}
 			}
         }
 
