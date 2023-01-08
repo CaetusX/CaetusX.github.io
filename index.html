@@ -316,7 +316,7 @@
 		$("#char-pulled").text(new Intl.NumberFormat().format(charactersPulledAll.length));
 
 		charactersPulled["all"] = charactersPulledAll.join(",");
-		$("#char-list-pulled").text(":".concat(charactersPulled["all"]));
+		$("#char-list-pulled").text(charactersPulled["all"]);
     }
     function pullUnit(encounter, loneOrTenth, charInfo) {
         let pull = Math.random();
