@@ -98,6 +98,12 @@
                 </label>
               </div>
             </div>
+            <div class="d-block text-center">
+              <span id="char-pulled">0</span> Characters Pulled
+            </div>
+            <div class="d-block text-center">
+              <span id="char-list-pulled" data-all=""></span>
+            </div>
           </div>
           <div class="col-12 col-sm-6">
             <h3>5★ Pulled</h3>
@@ -249,27 +255,34 @@
         }
     }
     function updateSpecificUnitPulls(unit, rateUp, charInfo) {
-        if (unit["rarity"] === 4 && ((unit["name"] in charInfo) || (unit["name"].slice(0, -4) in charInfo))) {
-            let fourpointfiveStars = document.getElementById("fourpointfive-stars").dataset;
+		let charactersPulled = document.getElementById("char-list-pulled").dataset;
+		let charactersPulledAll = charactersPulled["all"].split(",");
 
-            let fourpointfiveStarsAll = fourpointfiveStars["all"].split(",");
-            if (fourpointfiveStarsAll[0] == "") {
-                fourpointfiveStarsAll.shift();
-            }
-            fourpointfiveStarsAll.push(unit["name"]);
-            fourpointfiveStars["all"] = fourpointfiveStarsAll.join(",");
+		if (unit["rarity"] === 4) {
+			if (unit["name"] in charInfo) {
+				let fourpointfiveStars = document.getElementById("fourpointfive-stars").dataset;
 
-            //add to on or off banner
-            let onOff = rateUp.includes(unit["name"]) ? "onBanner" : "offBanner";
-            let fourpointfiveStarsOnOff = fourpointfiveStars[onOff].split(",");
-            if (fourpointfiveStarsOnOff[0] == "") {
-                fourpointfiveStarsOnOff.shift();
-            }
-            fourpointfiveStarsOnOff.push(unit["name"]);
-            fourpointfiveStars[onOff] = fourpointfiveStarsOnOff.join(",");
-        }
+				let fourpointfiveStarsAll = fourpointfiveStars["all"].split(",");
+				if (fourpointfiveStarsAll[0] == "") {
+					fourpointfiveStarsAll.shift();
+				}
+				fourpointfiveStarsAll.push(unit["name"]);
+				fourpointfiveStars["all"] = fourpointfiveStarsAll.join(",");
 
-        if (unit["rarity"] === 5) {
+				//add to on or off banner
+				let onOff = rateUp.includes(unit["name"]) ? "onBanner" : "offBanner";
+				let fourpointfiveStarsOnOff = fourpointfiveStars[onOff].split(",");
+				if (fourpointfiveStarsOnOff[0] == "") {
+					fourpointfiveStarsOnOff.shift();
+				}
+				fourpointfiveStarsOnOff.push(unit["name"]);
+				fourpointfiveStars[onOff] = fourpointfiveStarsOnOff.join(",");
+
+				if (charactersPulledAll.indexOf(unit["name"]) === -1) {
+					charactersPulledAll.push(unit["name"]);
+				}
+			}
+        } else if (unit["rarity"] === 5) {
             let fiveStars = document.getElementById("five-stars").dataset;
 
             let fiveStarsAll = fiveStars["all"].split(",");
@@ -287,7 +300,20 @@
             }
             fiveStarsOnOff.push(unit["name"]);
             fiveStars[onOff] = fiveStarsOnOff.join(",");
+
+			if ((unit["name"].includes("(AS)") || unit["name"].includes("(ES)")) && unit["name"].slice(0, -4) in charInfo) {
+				if (charactersPulledAll.indexOf(unit["name"].slice(0, -4)) === -1) {
+					charactersPulledAll.push(unit["name"].slice(0, -4));
+				}
+			}
         }
+
+		if (charactersPulledAll[0] == "") {
+			charactersPulledAll.shift();
+		}
+		$("#char-pulled").text(new Intl.NumberFormat().format(charactersPulledAll.length));
+
+		charactersPulled["all"] = charactersPulledAll.join(",");
     }
     function pullUnit(encounter, loneOrTenth, charInfo) {
         let pull = Math.random();
@@ -507,6 +533,8 @@
     }
     function resetTotalsAndProbabilities() {
         $("#cs-used, #currency-spent").text("0");
+        $("#char-pulled").text("0");
+        $("#char-list-pulled").text("");
         $("#pulled-five").html("");
         $("#pulled-fourpointfive").html("");
         $("#single-pull, #ten-pull").text("");
