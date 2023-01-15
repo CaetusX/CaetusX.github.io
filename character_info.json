@@ -47,7 +47,7 @@
 	"Ewella" : { "id" : 101040141, "5" : true, "AS" : false, "ES" : false, "Acquired" : false },
 	"Garambarrel" : { "id" : 101040161, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Violet Lancer" : { "id" : 101040171, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
-	"Tsukiha(Alter)" : { "id" : 101040181, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
+	"\"Noble Blossom\" Tsukiha" : { "id" : 101040181, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Laclair" : { "id" : 101050061, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Claude" : { "id" : 101050081, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Hozuki" : { "id" : 101050091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
