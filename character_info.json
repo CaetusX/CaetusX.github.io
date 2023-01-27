@@ -12,6 +12,7 @@
 	"Flammelapis" : { "id" : 101000271, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Eva" : { "id" : 101000281, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"\"Jet Tactician\" Shion" : { "id" : 101000301, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
+	"Iphi" : { "id" : 101000321, "5" : true, "AS" : false, "ES" : false, "Acquired" : false },
 	"Anabel" : { "id" : 101010011, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Shanie" : { "id" : 101010081, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Shannon" : { "id" : 101010091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
