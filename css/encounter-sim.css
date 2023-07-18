@@ -1163,6 +1163,39 @@ a.banner-select.sunlit-amber {
 a.banner-select.bs-shannon {
   background: url("../images/banners/91022.bsshannon.combo.png") 0 0 no-repeat;
 }
+a.banner-select.fateful-twin-destinies-origins-june-2023 {
+  background: url("../images/banners/91015.fatefultwinorigins.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-twin-destinies-rebirth-june-2023 {
+  background: url("../images/banners/91040.fatefultwinrebirth.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-wanderers-special {
+  background: url("../images/banners/91032.fatefulwanderersspecial.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-lovely-as {
+  background: url("../images/banners/91044.fatefullovelyas.combo.png") 0 0 no-repeat;
+}
+a.banner-select.lovely-as {
+  background: url("../images/banners/91019.lovelyas.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-wind-force-sesta {
+  background: url("../images/banners/91045.fatefulwindforcesesta.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-shade-force-toova-es {
+  background: url("../images/banners/91046.fatefulshadeforcetoovaes.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-wanderer-binding-night {
+  background: url("../images/banners/91006.fatefulwandererbindingnight.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-es-series {
+  background: url("../images/banners/91012.fatefulesseries.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-deft-destruction {
+  background: url("../images/banners/91003.fatefuldeftdestruction.combo.png") 0 0 no-repeat;
+}
+a.banner-select.wanderer-binding-night {
+  background: url("../images/banners/91010.wandererbindingnight.combo.png") 0 0 no-repeat;
+}
 
 a.banner-select:hover {
   background-position: 0 -7.625rem;
