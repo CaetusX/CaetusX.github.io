@@ -1,5 +1,157 @@
 {
 	"fateful" : [
+        {
+            "name": "Fateful Encounter: Twin Destinies Encounter Japan Version Main Story Part 3 Volume 2 Edition",
+            "banner_file": "Twin Destinies Encounter Japan Version Main Story Part 3 Volume 2 Edition.json",
+            "banner_image": "Twin Destinies Encounter Japan Version Main Story Part 3 Volume 2 Edition.png",
+            "banner_enddatetime": "2023-08-31T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/afb2f50d5154384a47537d1e72e2c0e3?language=en",
+            "banner_short_name": "fateful-twin-jp-pt3-vol2"
+        },
+        {
+            "name": "Fateful Encounter: Main Story Special Edition",
+            "banner_file": "Fateful Encounter Main Story Special Edition.json",
+            "banner_image": "Fateful Encounter Main Story Special Edition.png",
+            "banner_enddatetime": "2023-09-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/c3de187f2305b10831141052678345f3?language=en",
+            "banner_short_name": "fateful-main-special"
+        },
+        {
+            "name": "Fateful Encounter: Earth Force Edition",
+            "banner_file": "Fateful Encounter Earth Force Edition.json",
+            "banner_image": "Fateful Encounter Earth Force Edition.png",
+            "banner_enddatetime": "2023-09-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/51bb67c737b957362749cc50d3c73dcd?language=en",
+            "banner_short_name": "fateful-earth-force"
+        },
+        {
+            "name": "Fateful Encounter: Another Style Devotroid",
+            "banner_file": "Fateful Encounter Another Style Devotroid.json",
+            "banner_image": "Fateful Encounter Another Style Devotroid.png",
+            "banner_enddatetime": "2023-09-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/83f59008b252aee9ecd4d9be152496e3?language=en",
+            "banner_short_name": "fateful-premaya-as"
+        },
+        {
+            "name": "Fateful Encounter: Parallel Time Layer Series",
+            "banner_file": "Fateful Encounter Parallel Time Layer Series.json",
+            "banner_image": "Fateful Encounter Parallel Time Layer Series.png",
+            "banner_enddatetime": "2023-09-03T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/3072df782de596f4607a4e26da6c7a54?language=en",
+            "banner_short_name": "fateful-ptl-series"
+        },
+        {
+            "name": "Fateful Encounter: \"Crimson Reaper\" Ilulu <Limil>",
+            "banner_file": "Fateful Encounter Crimson Reaper Ilulu Limil.json",
+            "banner_image": "Fateful Encounter Crimson Reaper Ilulu Limil.png",
+            "banner_enddatetime": "2023-09-03T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/a2bafc3895554eac11e7beaa930cc443?language=en",
+            "banner_short_name": "fateful-cr-ilulu"
+        },
+        {
+            "name": "Fateful Encounter: Seven Days Encounter",
+            "banner_file": "Fateful Encounter Seven Days Encounter August 2023.json",
+            "banner_image": "Fateful Encounter Seven Days Encounter August 2023.png",
+            "banner_enddatetime": "2023-08-07T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/c7f80c05da519f43f5dc094a3591706a?language=en",
+            "banner_short_name": "fateful-seven-days"
+        },
+        {
+            "name": "Fateful Encounter Recollection: The 3000 Realm Ark Series",
+            "banner_file": "Fateful Encounter Recollection The 3000 Realm Ark Series.json",
+            "banner_image": "Fateful Encounter Recollection The 3000 Realm Ark Series.png",
+            "banner_enddatetime": "2023-08-24T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/afc8727deaf276f57b72311fcea52384?language=en",
+            "banner_short_name": "fateful-recollection-3000-realm"
+        },
+        {
+            "name": "Fateful Encounter: Erato",
+            "banner_file": "Fateful Encounter Erato.json",
+            "banner_image": "Fateful Encounter Erato.png",
+            "banner_enddatetime": "2023-08-24T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/cecbd98b37a7538b7cc6b8c9837f3612?language=en",
+            "banner_short_name": "fateful-pizzica-as"
+        },
+        {
+            "name": "Fateful Encounter: Wind Force Special Edition -Sesta-",
+            "banner_file": "Fateful Encounter Wind Force Special Edition Sesta.json",
+            "banner_image": "Fateful Encounter Wind Force Special Edition Sesta.png",
+            "banner_enddatetime": "2023-08-13T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/58b654e04fc90358b09553e0bd1c663e?language=en",
+            "banner_short_name": "fateful-wind-force-sesta"
+        },
+        {
+            "name": "Fateful Encounter: Shade Force Special Edition -Toova ES-",
+            "banner_file": "Fateful Encounter Shade Force Special Edition Toova ES.json",
+            "banner_image": "Fateful Encounter Shade Force Special Edition Toova ES.png",
+            "banner_enddatetime": "2023-08-13T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/6415e0c1fae2875fd7cc6cbbcd84f453?language=en",
+            "banner_short_name": "fateful-shade-force-toova-es"
+        },
+        {
+            "name": "Fateful Encounter: Wanderer in the Binding Night",
+            "banner_file": "Fateful Encounter Wanderer in the Binding Night.json",
+            "banner_image": "Fateful Encounter Wanderer in the Binding Night.png",
+            "banner_enddatetime": "2023-08-13T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/d889268a1f38578c375c218649e1ea75?language=en",
+            "banner_short_name": "fateful-wanderer-binding-night"
+        },
+        {
+            "name": "Fateful Encounter: Extra Style Series",
+            "banner_file": "Fateful Encounter Extra Style Series.json",
+            "banner_image": "Fateful Encounter Extra Style Series.png",
+            "banner_enddatetime": "2023-08-13T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/3c1163b6a177ccfeee0ce12312bd0067?language=en",
+            "banner_short_name": "fateful-es-series"
+        },
+        {
+            "name": "Fateful Encounter: Deft Destruction Series",
+            "banner_file": "Fateful Encounter Deft Destruction Series.json",
+            "banner_image": "Fateful Encounter Deft Destruction Series.png",
+            "banner_enddatetime": "2023-08-13T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/13fb866beb14701a153f3895d6f51ea9?language=en",
+            "banner_short_name": "fateful-deft-destruction"
+        },
+        {
+            "name": "Fateful Encounter: Lovebird",
+            "banner_file": "Fateful Encounter Lovebird.json",
+            "banner_image": "Fateful Encounter Lovebird.png",
+            "banner_enddatetime": "2023-08-04T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/446b03195fd78a2dbcf6a33b8e0e551a?language=en",
+            "banner_short_name": "fateful-lovely-as"
+        },
+        {
+            "name": "Fateful Encounter: Seven Days Encounter",
+            "banner_file": "Fateful Encounter Seven Days Encounter July 2023.json",
+            "banner_image": "Fateful Encounter Seven Days Encounter July 2023.png",
+            "banner_enddatetime": "2023-07-07T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/1a352ea8d02653f4a6fdf18f1b9716d1?language=en",
+            "banner_short_name": "fateful-seven-days"
+        },
+        {
+            "name": "Fateful Encounter: Twin Destinies Encounter Origins Edition",
+            "banner_file": "Fateful Encounter Twin Destinies Encounter Origins Edition June 2023.json",
+            "banner_image": "Fateful Encounter Twin Destinies Encounter Origins Edition June 2023.png",
+            "banner_enddatetime": "2023-06-30T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/522f224668b1985366248e526c308fb2?language=en",
+            "banner_short_name": "fateful-twin-destinies-origins-june-2023"
+        },
+        {
+            "name": "Fateful Encounter: Twin Destinies Encounter Rebirth Edition",
+            "banner_file": "Fateful Encounter Twin Destinies Encounter Rebirth Edition June 2023.json",
+            "banner_image": "Fateful Encounter Twin Destinies Encounter Rebirth Edition June 2023.png",
+            "banner_enddatetime": "2023-06-30T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/aff0524815a372d3252784525a58a539?language=en",
+            "banner_short_name": "fateful-twin-destinies-rebirth-june-2023"
+        },
+        {
+            "name": "Fateful Encounter: Wanderer's Diary Special Edition",
+            "banner_file": "Fateful Encounter Wanderers Diary Special Edition.json",
+            "banner_image": "Fateful Encounter Wanderers Diary Special Edition.png",
+            "banner_enddatetime": "2023-06-30T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/260cd857711d28eee25af208c0787714?language=en",
+            "banner_short_name": "fateful-wanderers-special"
+        },
 		{
 			"name" : "Fateful Encounter Recollection: The 3000 Realm Ark Series",
 			"banner_file" : "Fateful Encounter Recollection The 3000 Realm Ark Series.json",
@@ -1699,6 +1851,46 @@
 	],
 	"nonfateful" : [
 		{
+            "name": "The Ways We Walked",
+            "banner_file": "The Ways We Walked.json",
+            "banner_image": "The Ways We Walked.png",
+            "banner_enddatetime": "2023-08-29T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/433ffa96f9aa75cc472a72782ecbe027?language=en",
+            "banner_short_name": "ways-we-walked"
+        },
+        {
+            "name": "Re-encounter: Ally Encounter Minalca <Tetra>",
+            "banner_file": "Re-encounter Ally Encounter Minalca Tetra.json",
+            "banner_image": "Re-encounter Ally Encounter Minalca Tetra.png",
+            "banner_enddatetime": "2023-09-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/9cb5c498907bfd87d39afabb6c3d477b?language=en",
+            "banner_short_name": "reenc-minalca"
+        },
+        {
+            "name": "Another Style: Devotroid",
+            "banner_file": "Another Style Devotroid.json",
+            "banner_image": "Another Style Devotroid.png",
+            "banner_enddatetime": "2023-10-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/bed53c5b4e999fc398e404a345a890a9?language=en",
+            "banner_short_name": "premaya-as"
+        },
+        {
+            "name": "Ally Encounter: Parallel Time Layer Series",
+            "banner_file": "Ally Encounter Parallel Time Layer Series.json",
+            "banner_image": "Ally Encounter Parallel Time Layer Series.png",
+            "banner_enddatetime": "2023-10-03T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/dcaf54f88db7cbf83420e4b4fc721d79?language=en",
+            "banner_short_name": "ptl-series"
+        },
+        {
+            "name": "Encounter Across Time Layers: \"Crimson Reaper\" Ilulu <Limil>",
+            "banner_file": "Encounter Across Time Layers Crimson Reaper Ilulu Limil.json",
+            "banner_image": "Encounter Across Time Layers Crimson Reaper Ilulu Limil.png",
+            "banner_enddatetime": "2023-10-03T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/e5d057414f41b26c324325c804b307ce?language=en",
+            "banner_short_name": "cr-ilulu"
+        },
+        {
 			"name" : "Another Style: Erato",
 			"banner_file" : "Another Style Erato.json",
 			"banner_image" : "Another Style Erato.png",
@@ -3226,7 +3418,7 @@
 			"banner_file" : "Default Encounter.json",
 			"banner_image" : "Default Encounter.png",
 			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b9881a1ddb4e00109b39ce237d7ee368?language=en",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/5d0ba6902b7ec580f83c9ba750ce56ec?language=en",
 			"banner_short_name" : "default-encounter"
 		}
 	]
