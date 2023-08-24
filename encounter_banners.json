@@ -152,22 +152,7 @@
             "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/260cd857711d28eee25af208c0787714?language=en",
             "banner_short_name": "fateful-wanderers-special"
         },
-		{
-			"name" : "Fateful Encounter Recollection: The 3000 Realm Ark Series",
-			"banner_file" : "Fateful Encounter Recollection The 3000 Realm Ark Series.json",
-			"banner_image" : "Fateful Encounter Recollection The 3000 Realm Ark Series.png",
-			"banner_enddatetime" : "2023-08-24T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/afc8727deaf276f57b72311fcea52384?language=en",
-			"banner_short_name" : "fateful-recollection-3000-realm"
-		},
-		{
-			"name" : "Fateful Encounter: Erato",
-			"banner_file" : "Fateful Encounter Erato.json",
-			"banner_image" : "Fateful Encounter Erato.png",
-			"banner_enddatetime" : "2023-08-24T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/cecbd98b37a7538b7cc6b8c9837f3612?language=en",
-			"banner_short_name" : "fateful-pizzica-as"
-		},
+
 		{
 			"name" : "Fateful Encounter: Wind Force Special Edition -Sesta-",
 			"banner_file" : "Fateful Encounter Wind Force Special Edition Sesta.json",
