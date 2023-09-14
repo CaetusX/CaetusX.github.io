@@ -1,6 +1,62 @@
 {
 	"fateful" : [
         {
+            "name": "Fateful Encounter: The Ways We Walked Round 2 (Twin Destinies)",
+            "banner_file": "Fateful Encounter The Ways We Walked Round 2.json",
+            "banner_image": "Fateful Encounter The Ways We Walked Round 2.png",
+            "banner_enddatetime": "2023-09-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/58b58733a57409f64a68e81f6e6761f2?language=en",
+            "banner_short_name": "fateful-ways-we-walked-2"
+        },
+        {
+            "name": "Fateful Encounter: Boundless Heights Summit Edition",
+            "banner_file": "Fateful Encounter Boundless Heights Summit Edition.json",
+            "banner_image": "Fateful Encounter Boundless Heights Summit Edition.png",
+            "banner_enddatetime": "2023-09-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/dd18f31a7f00d209289fa4ef20891ac2?language=en",
+            "banner_short_name": "fateful-boundless-summit"
+        },
+        {
+            "name": "Fateful Encounter: Extra Style Erinys",
+            "banner_file": "Fateful Encounter Extra Style Erinys.json",
+            "banner_image": "Fateful Encounter Extra Style Erinys.png",
+            "banner_enddatetime": "2023-10-06T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/1dddf4ce989470169e2c4dfaeb291ee1?language=en",
+            "banner_short_name": "fateful-felmina-es"
+        },
+        {
+            "name": "Fateful Encounter: Seven Days Encounter",
+            "banner_file": "Fateful Encounter Seven Days Encounter September 2023.json",
+            "banner_image": "Fateful Encounter Seven Days Encounter September 2023.png",
+            "banner_enddatetime": "2023-09-07T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/14f6bc09306d7e9d4c0e3ff510d46b05?language=en",
+            "banner_short_name": "fateful-seven-days"
+        },
+        {
+            "name": "Fateful Encounter: Boundless Heights Fire/Water Edition",
+            "banner_file": "Fateful Encounter Boundless Heights FireWater Edition.json",
+            "banner_image": "Fateful Encounter Boundless Heights FireWater Edition.png",
+            "banner_enddatetime": "2023-09-24T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/4940884efc33f62809ab026dbfcf4554?language=en",
+            "banner_short_name": "fateful-boundless-firewater"
+        },
+        {
+            "name": "Fateful Encounter: Boundless Heights Wind/Earth Edition",
+            "banner_file": "Fateful Encounter Boundless Heights WindEarth Edition.json",
+            "banner_image": "Fateful Encounter Boundless Heights WindEarth Edition.png",
+            "banner_enddatetime": "2023-09-24T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/f183b0fc0400c54fe861e08cabf6ae53?language=en",
+            "banner_short_name": "fateful-boundless-windearth"
+        },
+        {
+            "name": "Fateful Encounter: Elseal",
+            "banner_file": "Fateful Encounter Elseal.json",
+            "banner_image": "Fateful Encounter Elseal.png",
+            "banner_enddatetime": "2023-09-24T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/72f78ed689861cdf3006f4be14b34335?language=en",
+            "banner_short_name": "fateful-elseal"
+        },
+        {
             "name": "Fateful Encounter: Twin Destinies Encounter Japan Version Main Story Part 3 Volume 2 Edition",
             "banner_file": "Twin Destinies Encounter Japan Version Main Story Part 3 Volume 2 Edition.json",
             "banner_image": "Twin Destinies Encounter Japan Version Main Story Part 3 Volume 2 Edition.png",
@@ -1836,6 +1892,22 @@
 	],
 	"nonfateful" : [
 		{
+            "name": "Extra Style: Erinys",
+            "banner_file": "Extra Style Erinys.json",
+            "banner_image": "Extra Style Erinys.png",
+            "banner_enddatetime": "2023-11-05T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/92dcfa12b6d490251a44f3787e6674e4?language=en",
+            "banner_short_name": "felmina-es"
+        },
+        {
+            "name": "Ally Encounter: Elseal",
+            "banner_file": "Ally Encounter Elseal.json",
+            "banner_image": "Ally Encounter Elseal.png",
+            "banner_enddatetime": "2023-10-24T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/8fde0f225e62b25f4140ea0b1cfae886?language=en",
+            "banner_short_name": "elseal"
+        },
+        {
             "name": "The Ways We Walked",
             "banner_file": "The Ways We Walked.json",
             "banner_image": "The Ways We Walked.png",
@@ -1876,1535 +1948,254 @@
             "banner_short_name": "cr-ilulu"
         },
         {
-			"name" : "Another Style: Erato",
-			"banner_file" : "Another Style Erato.json",
-			"banner_image" : "Another Style Erato.png",
-			"banner_enddatetime" : "2023-09-23T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/badc7911e57261e0d4adb6ff70622e37?language=en",
-			"banner_short_name" : "pizzica-as"
-		},
-		{
-			"name" : "Wanderer in the Binding Night",
-			"banner_file" : "Wanderer in the Binding Night.json",
-			"banner_image" : "Wanderer in the Binding Night.png",
-			"banner_enddatetime" : "2023-09-12T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f89c962dc2658177edc3b948facd052b?language=en",
-			"banner_short_name" : "wanderer-binding-night"
-		},
-		{
-			"name" : "Another Style: Lovebird",
-			"banner_file" : "Another Style Lovebird.json",
-			"banner_image" : "Another Style Lovebird.png",
-			"banner_enddatetime" : "2023-09-03T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/271b15a21f3124e8a1207e6b545464dc?language=en",
-			"banner_short_name" : "lovely-as"
-		},
-		{
-			"name" : "Wanderer's Diary: Chapter 6",
-			"banner_file" : "Wanderers Diary Chapter 6.json",
-			"banner_image" : "Wanderers Diary Chapter 6.png",
-			"banner_enddatetime" : "2023-06-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/22d7ced79eccfa93e9135f70fc5dc360?language=en",
-			"banner_short_name" : "wanderers-diary-ch-6"
-		},
-		{
-			"name" : "Ally Encounter: Sunlit Amber Series",
-			"banner_file" : "Ally Encounter Sunlit Amber Series.json",
-			"banner_image" : "Ally Encounter Sunlit Amber Series.png",
-			"banner_enddatetime" : "2023-07-21T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e0cca3c6547686637e2d58cd41a9afbc?language=en",
-			"banner_short_name" : "sunlit-amber"
-		},
-		{
-			"name" : "Encounter Across Time Layers: \"Beautiful Stranger\" Shannon",
-			"banner_file" : "Encounter Across Time Layers Beautiful Stranger Shannon.json",
-			"banner_image" : "Encounter Across Time Layers Beautiful Stranger Shannon.png",
-			"banner_enddatetime" : "2023-08-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/c5cce865e9196b3364db48bc70714327?language=en",
-			"banner_short_name" : "bs-shannon"
-		},
-		{
-			"name" : "Wanderer's Diary: Chapter 5",
-			"banner_file" : "Wanderers Diary Chapter 5.json",
-			"banner_image" : "Wanderers Diary Chapter 5.png",
-			"banner_enddatetime" : "2023-06-21T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/cd1153ed1a4c38b9bb457e214b854c86?language=en",
-			"banner_short_name" : "wanderers-diary-ch-5"
-		},
-		{
-			"name" : "Wanderer's Diary: Chapter 4",
-			"banner_file" : "Wanderers Diary Chapter 4.json",
-			"banner_image" : "Wanderers Diary Chapter 4.png",
-			"banner_enddatetime" : "2023-06-15T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a513a6bcb04be94a9958ff8316080e46?language=en",
-			"banner_short_name" : "wanderers-diary-ch-4"
-		},
-		{
-			"name" : "Ally Encounter: Yakumo <Kumos>",
-			"banner_file" : "Ally Encounter Yakumo Kumos.json",
-			"banner_image" : "Ally Encounter Yakumo Kumos.png",
-			"banner_enddatetime" : "2023-08-08T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/7c17090e098962de8d7cc0098ac46262?language=en",
-			"banner_short_name" : "yakumo"
-		},
-		{
-			"name" : "Wanderer's Diary: Chapter 3",
-			"banner_file" : "Wanderers Diary Chapter 3.json",
-			"banner_image" : "Wanderers Diary Chapter 3.png",
-			"banner_enddatetime" : "2023-06-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/d0a728c3e8e008d869a7a0d577373df8?language=en",
-			"banner_short_name" : "wanderers-diary-ch-3"
-		},
-		{
-			"name" : "Wanderer's Diary: Chapter 2",
-			"banner_file" : "Wanderers Diary Chapter 2.json",
-			"banner_image" : "Wanderers Diary Chapter 2.png",
-			"banner_enddatetime" : "2023-06-03T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/31ae196c4b5876965790894acd4b0102?language=en",
-			"banner_short_name" : "wanderers-diary-ch-2"
-		},
-		{
-			"name" : "Wanderer's Diary: Chapter 1",
-			"banner_file" : "Wanderers Diary Chapter 1.json",
-			"banner_image" : "Wanderers Diary Chapter 1.png",
-			"banner_enddatetime" : "2023-05-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e5bfc569e7ccff5965eda781320e73a2?language=en",
-			"banner_short_name" : "wanderers-diary-ch-1"
-		},
-		{
-			"name" : "Ally Encounter: Shrouded Wisdom Series",
-			"banner_file" : "Ally Encounter Shrouded Wisdom Series.json",
-			"banner_image" : "Ally Encounter Shrouded Wisdom Series.png",
-			"banner_enddatetime" : "2023-07-22T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/329e6c3fdf66a705e8987c9947f82057?language=en",
-			"banner_short_name" : "shrouded-wisdom"
-		},
-		{
-			"name" : "Ally Encounter: Lazuline Sky Series",
-			"banner_file" : "Ally Encounter Lazuline Sky Series.json",
-			"banner_image" : "Ally Encounter Lazuline Sky Series.png",
-			"banner_enddatetime" : "2023-06-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1ab25e1c30d92fcde09ed11161d0219a?language=en",
-			"banner_short_name" : "lazuline-sky"
-		},
-		{
-			"name" : "Ally Encounter: Phantom Thief",
-			"banner_file" : "Ally Encounter Phantom Thief.json",
-			"banner_image" : "Ally Encounter Phantom Thief.png",
-			"banner_enddatetime" : "2023-07-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/0d6da72e7bf0009afbbba63b63bee8b7?language=en",
-			"banner_short_name" : "dewey-as"
-		},
-		{
-			"name" : "Encounter Across Time Layers: \"Vermillion Whip\" Hozuki",
-			"banner_file" : "Encounter Across Time Layers Vermillion Whip Hozuki.json",
-			"banner_image" : "Encounter Across Time Layers Vermillion Whip Hozuki.png",
-			"banner_enddatetime" : "2023-06-25T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f0998ab640b09698480a0110c095f502?language=en",
-			"banner_short_name" : "vw-hozuki"
-		},
-		{
-			"name" : "Ally Encounter: Japan Ver. 6th Anniversary Blessing Series",
-			"banner_file" : "Ally Encounter Japan Ver 6th Anniversary Blessing Series.json",
-			"banner_image" : "Ally Encounter Japan Ver 6th Anniversary Blessing Series.png",
-			"banner_enddatetime" : "2023-04-25T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/df7257a55b6eecaf7f2692a6ea87cb95?language=en",
-			"banner_short_name" : "jp-6th-anni-blessing"
-		},
-		{
-			"name" : "Ally Encounter: Japan Ver. 6th Anniversary Fighting Spirit Series",
-			"banner_file" : "Ally Encounter Japan Ver 6th Anniversary Fighting Spirit Series.json",
-			"banner_image" : "Ally Encounter Japan Ver 6th Anniversary Fighting Spirit Series.png",
-			"banner_enddatetime" : "2023-04-25T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/6b2e8b75208aa9fbddce5a1d76b7545a?language=en",
-			"banner_short_name" : "jp-6th-anni-fighting-spirit"
-		},
-		{
-			"name" : "Extra Style: Arcana",
-			"banner_file" : "Extra Style Arcana.json",
-			"banner_image" : "Extra Style Arcana.png",
-			"banner_enddatetime" : "2023-06-10T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/470f47fb6dea29a9e2a1c239f59f9d0d?language=en",
-			"banner_short_name" : "mariel-es"
-		},
-		{
-			"name" : "Another Style: Jorurihime",
-			"banner_file" : "Another Style Jorurihime.json",
-			"banner_image" : "Another Style Jorurihime.png",
-			"banner_enddatetime" : "2023-05-23T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/60ed12a6dd77a55f4bba74b369df8fba?language=en",
-			"banner_short_name" : "heena-as"
-		},
-		{
-			"name" : "Another Style: Ymir",
-			"banner_file" : "Another Style Ymir.json",
-			"banner_image" : "Another Style Ymir.png",
-			"banner_enddatetime" : "2023-05-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1c3570f0b168af75830c4a4a97dc813d?language=en",
-			"banner_short_name" : "garambarrel-as"
-		},
-		{
-			"name" : "Ally Encounter: Minalca <Tetra>",
-			"banner_file" : "Ally Encounter Minalca Tetra.json",
-			"banner_image" : "Ally Encounter Minalca Tetra.png",
-			"banner_enddatetime" : "2023-04-25T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8a4a4fc32b9833f5d961ea53f50087dd?language=en",
-			"banner_short_name" : "minalca"
-		},
-		{
-			"name" : "Brilliant Encounter",
-			"banner_file" : "Brilliant Encounter Valentines Day 2023 Series.json",
-			"banner_image" : "Brilliant Encounter Valentines Day 2023 Series.png",
-			"banner_enddatetime" : "2023-02-21T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a2f72c2a1455844c6fa29c15e5c2c7bd?language=en",
-			"banner_short_name" : "brilliant-valentines-2023"
-		},
-		{
-			"name" : "Another Style: Volva",
-			"banner_file" : "Another Style Volva.json",
-			"banner_image" : "Another Style Volva.png",
-			"banner_enddatetime" : "2023-04-11T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ef1322128f396d32b29aab93422401d9?language=en",
-			"banner_short_name" : "flammelapis-as"
-		},
-		{
-			"name" : "Ally Encounter: Iphi",
-			"banner_file" : "Ally Encounter Iphi.json",
-			"banner_image" : "Ally Encounter Iphi.png",
-			"banner_enddatetime" : "2023-03-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ddedbd094f46823eeb740a8420f94f1b?language=en",
-			"banner_short_name" : "iphi"
-		},
-		{
-			"name" : "Re-encounter Ally Encounter: Eva",
-			"banner_file" : "Re-encounter Ally Encounter Eva.json",
-			"banner_image" : "Re-encounter Ally Encounter Eva.png",
-			"banner_enddatetime" : "2023-03-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/990f15937f42bf31ae6080993d64932d?language=en",
-			"banner_short_name" : "re-encounter-eva"
-		},
-		{
-			"name" : "Encounter Across Time Layers: \"Noble Blossom\" Tsukiha",
-			"banner_file" : "Encounter Across Time Layers Noble Blossom Tsukiha.json",
-			"banner_image" : "Encounter Across Time Layers Noble Blossom Tsukiha.png",
-			"banner_enddatetime" : "2023-03-12T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a6bcccfee246b9664772b71c2324aafe?language=en",
-			"banner_short_name" : "nb-tsukiha"
-		},
-		{
-			"name" : "Another Style: Fireside Cat",
-			"banner_file" : "Another Style Fireside Cat.json",
-			"banner_image" : "Another Style Fireside Cat.png",
-			"banner_enddatetime" : "2023-02-25T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/6433019886bedae03aa032928778e229?language=en",
-			"banner_short_name" : "necoco-as"
-		},
-		{
-			"name" : "Encounter Across Time Layers: \"Moonlight Flower\" Hismena",
-			"banner_file" : "Encounter Across Time Layers Moonlight Flower Hismena.json",
-			"banner_image" : "Encounter Across Time Layers Moonlight Flower Hismena.png",
-			"banner_enddatetime" : "2023-02-18T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ac30f2c23e3ceeb856de8068c81b5310?language=en",
-			"banner_short_name" : "mf-hismena"
-		},
-		{
-			"name" : "Brilliant Encounter",
-			"banner_file" : "Brilliant Encounter Special Winter 2022 Series.json",
-			"banner_image" : "Brilliant Encounter Special Winter 2022 Series.png",
-			"banner_enddatetime" : "2022-12-19T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/d3ab5b42e0e8d9c993ada41c326bf088?language=en",
-			"banner_short_name" : "brilliant-winter-2022"
-		},
-		{
-			"name" : "Another Style: Rose Unseen",
-			"banner_file" : "Another Style Rose Unseen.json",
-			"banner_image" : "Another Style Rose Unseen.png",
-			"banner_enddatetime" : "2023-02-05T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1f7561acf271ed9781fd73087dae7fa7?language=en",
-			"banner_short_name" : "biaka-as"
-		},
-		{
-			"name" : "Another Style: Avesta",
-			"banner_file" : "Another Style Avesta.json",
-			"banner_image" : "Another Style Avesta.png",
-			"banner_enddatetime" : "2023-01-21T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/3c56b24a0ce745843fdb27e0f246110c?language=en",
-			"banner_short_name" : "cynthia-as"
-		},
-		{
-			"name" : "Extra Style: Kelkale",
-			"banner_file" : "Extra Style Kelkale.json",
-			"banner_image" : "Extra Style Kelkale.png",
-			"banner_enddatetime" : "2023-01-08T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/4fe5c8679ef25fb54243b3b06e3eeae4?language=en",
-			"banner_short_name" : "claude-es"
-		},
-		{
-			"name" : "Ally Encounter: Weapon Resonance Series",
-			"banner_file" : "Ally Encounter Weapon Resonance Series.json",
-			"banner_image" : "Ally Encounter Weapon Resonance Series.png",
-			"banner_enddatetime" : "2022-12-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ce48a4acc4379e8964e6232064c51e0b?language=en",
-			"banner_short_name" : "weapon-res"
-		},
-		{
-			"name" : "Brilliant Encounter",
-			"banner_file" : "Brilliant Encounter JP Version Main Story Ch 3 Release.json",
-			"banner_image" : "Brilliant Encounter JP Version Main Story Ch 3 Release.png",
-			"banner_enddatetime" : "2022-10-31T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a8f1ef3555f5c2e6808bfaf75466f12d?language=en",
-			"banner_short_name" : "brilliant-jp-main-story-ch-3"
-		},
-		{
-			"name" : "Another Style: Aristocrat",
-			"banner_file" : "Another Style Aristocrat.json",
-			"banner_image" : "Another Style Aristocrat.png",
-			"banner_enddatetime" : "2022-12-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/7dd1023d8e6516846c9bdeeab627dd1c?language=en",
-			"banner_short_name" : "soira-as"
-		},
-		{
-			"name" : "Another Style: Okaminokami",
-			"banner_file" : "Another Style Okaminokami.json",
-			"banner_image" : "Another Style Okaminokami.png",
-			"banner_enddatetime" : "2022-12-10T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b7622cd1b6525a25653e6f07f0d556e6?language=en",
-			"banner_short_name" : "yukino-as"
-		},
-		{
-			"name" : "Another Style: Miracle Worker",
-			"banner_file" : "Another Style Miracle Worker.json",
-			"banner_image" : "Another Style Miracle Worker.png",
-			"banner_enddatetime" : "2022-10-22T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b0596d07a74937dc7db439c8014a2183?language=en",
-			"banner_short_name" : "lele-as"
-		},
-		{
-			"name" : "Ally Encounter: Alma",
-			"banner_file" : "Ally Encounter Alma.json",
-			"banner_image" : "Ally Encounter Alma.png",
-			"banner_enddatetime" : "2022-10-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/d3620395e91bec0a5dba430fb145c0f1?language=en",
-			"banner_short_name" : "alma"
-		},
-		{
-			"name" : "Another Style: Juno",
-			"banner_file" : "Another Style Juno.json",
-			"banner_image" : "Another Style Juno.png",
-			"banner_enddatetime" : "2022-09-22T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e1dee1a45d33b7615633ba0b87fa0e38?language=en",
-			"banner_short_name" : "yipha-as"
-		},
-		{
-			"name" : "Ally Encounter: Eastern Force Summer 2022 Special",
-			"banner_file" : "Ally Encounter Eastern Force Summer 2022 Special.json",
-			"banner_image" : "Ally Encounter Eastern Force Summer 2022 Special.png",
-			"banner_enddatetime" : "2022-09-11T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/c7ff9d1aba01f3b7fa0c1482d0c46cc2?language=en",
-			"banner_short_name" : "eastern-summer-2022"
-		},
-		{
-			"name" : "Encounter Across Time Layers: \"Jet Tactician\" Shion",
-			"banner_file" : "Encounter Across Time Layers Jet Tactician Shion.json",
-			"banner_image" : "Encounter Across Time Layers Jet Tactician Shion.png",
-			"banner_enddatetime" : "2022-09-11T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/3792bb265f6cbe63866a47ffaa323d5f?language=en",
-			"banner_short_name" : "jt-shion"
-		},
-		{
-			"name" : "Another Style: Flare Knight",
-			"banner_file" : "Another Style Flare Knight.json",
-			"banner_image" : "Another Style Flare Knight.png",
-			"banner_enddatetime" : "2022-08-24T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/9dd45abaf64d5e8370434f857cbcd6f7?language=en",
-			"banner_short_name" : "radias-as"
-		},
-		{
-			"name" : "Wanderer in the Vortex",
-			"banner_file" : "Wanderer in the Vortex.json",
-			"banner_image" : "Wanderer in the Vortex.png",
-			"banner_enddatetime" : "2022-08-07T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ea76337218b2d63bcc6e34ed38a75541?language=en",
-			"banner_short_name" : "orleya-miyu-es"
-		},
-		{
-			"name" : "Another Style: Harmonia",
-			"banner_file" : "Another Style Harmonia.json",
-			"banner_image" : "Another Style Harmonia.png",
-			"banner_enddatetime" : "2022-07-14T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1bd7bfecf3a7553b6921012433a3b8c7?language=en",
-			"banner_short_name" : "milsha-as"
-		},
-		{
-			"name" : "Another Style: Bucheron",
-			"banner_file" : "Another Style Bucheron.json",
-			"banner_image" : "Another Style Bucheron.png",
-			"banner_enddatetime" : "2022-07-06T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/21b106123b82ecffe6b19e580189638e?language=en",
-			"banner_short_name" : "philo-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Nagi AS.json",
-			"banner_image" : "Manifestation Weapon Discovery Nagi AS.png",
-			"banner_enddatetime" : "2022-07-06T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/5c01fad176cefb531f9426374db3cbde?language=en",
-			"banner_short_name" : "manifest-nagi-as"
-		},
-		{
-			"name" : "Ally Encounter: The Apex of Logic and Cardinal Scales Special Edition",
-			"banner_file" : "Ally Encounter The Apex of Logic and Cardinal Scales Special Edition.json",
-			"banner_image" : "Ally Encounter The Apex of Logic and Cardinal Scales Special Edition.png",
-			"banner_enddatetime" : "2022-06-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1f2c519ecc99c82679f3d175c7fb1f55?language=en",
-			"banner_short_name" : "apex-special"
-		},
-		{
-			"name" : "Another Style: Nekogami",
-			"banner_file" : "Another Style Nekogami.json",
-			"banner_image" : "Another Style Nekogami.png",
-			"banner_enddatetime" : "2022-06-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/2dd4a72a7accaffde493796cc1d976a0?language=en",
-			"banner_short_name" : "otoha-as"
-		},
-		{
-			"name" : "Extra Style: Lucifer",
-			"banner_file" : "Extra Style Lucifer.json",
-			"banner_image" : "Extra Style Lucifer.png",
-			"banner_enddatetime" : "2022-06-18T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/6a9899949e9dc836356d21cc9791166c?language=en",
-			"banner_short_name" : "suzette-es"
-		},
-		{
-			"name" : "Ally Encounter: Bonds of Adventure Daisy Edition",
-			"banner_file" : "Ally Encounter Bonds of Adventure Daisy Edition.json",
-			"banner_image" : "Ally Encounter Bonds of Adventure Daisy Edition.png",
-			"banner_enddatetime" : "2022-06-10T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8192e925357bc3b83058ce8f7f772bbf?language=en",
-			"banner_short_name" : "bonds-adventure-daisy"
-		},
-		{
-			"name" : "Brilliant Encounter",
-			"banner_file" : "Brilliant Encounter JP 5th Anniversary Series.json",
-			"banner_image" : "Brilliant Encounter JP 5th Anniversary Series.png",
-			"banner_enddatetime" : "2022-05-10T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f002a2eade53c67f062d38527e07c7ab?language=en",
-			"banner_short_name" : "brilliant-jp-5-anni"
-		},
-		{
-			"name" : "Encounter Silver Striker: Piercing Force Edition",
-			"banner_file" : "Encounter Silver Striker Piercing Force Edition.json",
-			"banner_image" : "Encounter Silver Striker Piercing Force Edition.png",
-			"banner_enddatetime" : "2022-05-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/faa4c51900f879eed63656ece074caf4?language=en",
-			"banner_short_name" : "silver-striker-pierce-force"
-		},
-		{
-			"name" : "Encounter Silver Striker: Water Force Edition",
-			"banner_file" : "Encounter Silver Striker Water Force Edition.json",
-			"banner_image" : "Encounter Silver Striker Water Force Edition.png",
-			"banner_enddatetime" : "2022-05-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/42f0727bc7c90e126425e13d6689a236?language=en",
-			"banner_short_name" : "silver-striker-water-force"
-		},
-		{
-			"name" : "Encounter Violet Lancer: Piercing Force Edition",
-			"banner_file" : "Encounter Violet Lancer Piercing Force Edition.json",
-			"banner_image" : "Encounter Violet Lancer Piercing Force Edition.png",
-			"banner_enddatetime" : "2022-05-15T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a10b609b22218746b217179a22aabedc?language=en",
-			"banner_short_name" : "violet-lancer-pierce-force"
-		},
-		{
-			"name" : "Encounter Violet Lancer: Earth Force Edition",
-			"banner_file" : "Encounter Violet Lancer Earth Force Edition.json",
-			"banner_image" : "Encounter Violet Lancer Earth Force Edition.png",
-			"banner_enddatetime" : "2022-05-15T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b1bc3265a77bef4a427d7a473008046d?language=en",
-			"banner_short_name" : "violet-lancer-earth-force"
-		},
-		{
-			"name" : "Ally Encounter: Flammelapis",
-			"banner_file" : "Ally Encounter Flammelapis.json",
-			"banner_image" : "Ally Encounter Flammelapis.png",
-			"banner_enddatetime" : "2022-05-07T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/693433b7175f21f2525d2ab748568760?language=en",
-			"banner_short_name" : "flammelapis"
-		},
-		{
-			"name" : "Another Style: Pluma Diana",
-			"banner_file" : "Another Style Pluma Diana.json",
-			"banner_image" : "Another Style Pluma Diana.png",
-			"banner_enddatetime" : "2022-04-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/9d62ca4ef1f47e32db1378580075b714?language=en",
-			"banner_short_name" : "mistrare-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Melina AS.json",
-			"banner_image" : "Manifestation Weapon Discovery Melina AS.png",
-			"banner_enddatetime" : "2022-04-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/49da29750ee6fcc897f144238556741d?language=en",
-			"banner_short_name" : "manifest-melina-as"
-		},
-		{
-			"name" : "Encounter Cyan Scyther: Slash Force Edition",
-			"banner_file" : "Encounter Cyan Scyther Slash Force Edition.json",
-			"banner_image" : "Encounter Cyan Scyther Slash Force Edition.png",
-			"banner_enddatetime" : "2022-04-15T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/0e2b84ec6ca7f75e0eec706d5c1d12bd?language=en",
-			"banner_short_name" : "cyan-scyther-slash-force"
-		},
-		{
-			"name" : "Encounter Cyan Scyther: Wind Force Edition",
-			"banner_file" : "Encounter Cyan Scyther Wind Force Edition.json",
-			"banner_image" : "Encounter Cyan Scyther Wind Force Edition.png",
-			"banner_enddatetime" : "2022-04-15T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/45851dd4857dd1b54afe72fb878402e7?language=en",
-			"banner_short_name" : "cyan-scyther-wind-force"
-		},
-		{
-			"name" : "Encounter Red Clad Flamemancer: Blunt Force Edition",
-			"banner_file" : "Encounter Red Clad Flamemancer Blunt Force Edition.json",
-			"banner_image" : "Encounter Red Clad Flamemancer Blunt Force Edition.png",
-			"banner_enddatetime" : "2022-03-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/269e38557a69163148ba8795571c10bd?language=en",
-			"banner_short_name" : "dewey-alter-blunt-force"
-		},
-		{
-			"name" : "Encounter Red Clad Flamemancer: Fire Force Edition",
-			"banner_file" : "Encounter Red Clad Flamemancer Fire Force Edition.json",
-			"banner_image" : "Encounter Red Clad Flamemancer Fire Force Edition.png",
-			"banner_enddatetime" : "2022-03-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ec63bf69ea79f6615787314b97c1ee6e?language=en",
-			"banner_short_name" : "dewey-alter-fire-force"
-		},
-		{
-			"name" : "Another Style: Soul Keeper",
-			"banner_file" : "Another Style Soul Keeper.json",
-			"banner_image" : "Another Style Soul Keeper.png",
-			"banner_enddatetime" : "2022-03-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/c73f9e2554f58a1175ff8c9e91eb7498?language=en",
-			"banner_short_name" : "zeviro-as"
-		},
-		{
-			"name" : "Manifestation: True Weapon Discovery",
-			"banner_file" : "Manifestation True Weapon Discovery Shion Mighty.json",
-			"banner_image" : "Manifestation True Weapon Discovery Shion Mighty.png",
-			"banner_enddatetime" : "2022-03-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8fcfc24c022dd7b01fbeed247527a479?language=en",
-			"banner_short_name" : "manifest-shion-mighty"
-		},
-		{
-			"name" : "Encounter Black Clad Swordsman: Slash Force Edition",
-			"banner_file" : "Encounter Black Clad Swordsman Slash Force Edition.json",
-			"banner_image" : "Encounter Black Clad Swordsman Slash Force Edition.png",
-			"banner_enddatetime" : "2022-03-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/2d41ce03e2a3aa37c9ae755c797e80e8?language=en",
-			"banner_short_name" : "isuka-alter-slash-force"
-		},
-		{
-			"name" : "Encounter Black Clad Swordsman: Earth Force Edition",
-			"banner_file" : "Encounter Black Clad Swordsman Earth Force Edition.json",
-			"banner_image" : "Encounter Black Clad Swordsman Earth Force Edition.png",
-			"banner_enddatetime" : "2022-03-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/aa21efc9f535bf26c40feb43efde7ca8?language=en",
-			"banner_short_name" : "isuka-alter-earth-force"
-		},
-		{
-			"name" : "Brilliant Encounter",
-			"banner_file" : "Brilliant Encounter New Year 2022 Special.json",
-			"banner_image" : "Brilliant Encounter New Year 2022 Special.png",
-			"banner_enddatetime" : "2022-02-06T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1c0611577ed8d55bb71bd62d4002258f?language=en",
-			"banner_short_name" : "brilliant-new-year-2022"
-		},
-		{
-			"name" : "Ally Encounter: Eva",
-			"banner_file" : "Ally Encounter Eva.json",
-			"banner_image" : "Ally Encounter Eva.png",
-			"banner_enddatetime" : "2022-02-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/c566b31a3bcba37ce18bfa35319b811e?language=en",
-			"banner_short_name" : "eva"
-		},
-		{
-			"name" : "Re-Encounter Ally Encounter: Melissa",
-			"banner_file" : "Re-Encounter Ally Encounter Melissa.json",
-			"banner_image" : "Re-Encounter Ally Encounter Melissa.png",
-			"banner_enddatetime" : "2022-02-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/006f89362558b9bf8cac1e9a68d1642c?language=en",
-			"banner_short_name" : "melissa-2"
-		},
-		{
-			"name" : "Extra Style: Justitia",
-			"banner_file" : "Extra Style Justitia.json",
-			"banner_image" : "Extra Style Justitia.png",
-			"banner_enddatetime" : "2022-02-18T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/5daa792352e10519d01887fe692479a2?language=en",
-			"banner_short_name" : "isuka-es"
-		},
-		{
-			"name" : "Ally Encounter: Daisy",
-			"banner_file" : "Ally Encounter Daisy.json",
-			"banner_image" : "Ally Encounter Daisy.png",
-			"banner_enddatetime" : "2022-02-06T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/642afc73fce77e446be51b9c296c3cbd?language=en",
-			"banner_short_name" : "daisy"
-		},
-		{
-			"name" : "Extra Style: Cthulhu",
-			"banner_file" : "Extra Style Cthulhu.json",
-			"banner_image" : "Extra Style Cthulhu.png",
-			"banner_enddatetime" : "2022-01-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/bbbffd6b684982bf2eb0726679dcb4ef?language=en",
-			"banner_short_name" : "nagi-es"
-		},
-		{
-			"name" : "Adventurers Welcome 2021: 1st Edition",
-			"banner_file" : "Adventurers Welcome 2021 1st Edition.json",
-			"banner_image" : "Adventurers Welcome 2021 1st Edition.png",
-			"banner_enddatetime" : "2022-01-08T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/7152ab729fc07f2ba26596b68fe255a8?language=en",
-			"banner_short_name" : "adv-welcome-2021-first"
-		},
-		{
-			"name" : "Adventurers Welcome 2021: 2nd Edition",
-			"banner_file" : "Adventurers Welcome 2021 2nd Edition.json",
-			"banner_image" : "Adventurers Welcome 2021 2nd Edition.png",
-			"banner_enddatetime" : "2022-01-08T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b1dcc70f6555607e69686f430b97ece2?language=en",
-			"banner_short_name" : "adv-welcome-2021-second"
-		},
-		{
-			"name" : "Another Style: Transporter",
-			"banner_file" : "Another Style Transporter.json",
-			"banner_image" : "Another Style Transporter.png",
-			"banner_enddatetime" : "2022-01-08T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/7203b45d33df5ee7e5648b2331f20408?language=en",
-			"banner_short_name" : "kikyo-as"
-		},
-		{
-			"name" : "Brilliant Encounter",
-			"banner_file" : "Brilliant Encounter Special Winter 2021 Series.json",
-			"banner_image" : "Brilliant Encounter Special Winter 2021 Series.png",
-			"banner_enddatetime" : "2021-12-31T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/95fa896f636eeced3b862c4f55f9acc3?language=en",
-			"banner_short_name" : "brilliant-winter-2021"
-		},
-		{
-			"name" : "Black Friday 2021 The Chosen Ones: Future",
-			"banner_file" : "Black Friday 2021 The Chosen Ones Future.json",
-			"banner_image" : "Black Friday 2021 The Chosen Ones Future.png",
-			"banner_enddatetime" : "2021-12-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f2c3dcd8fb03ee88ce014e8d710b63d9?language=en",
-			"banner_short_name" : "black-friday-future"
-		},
-		{
-			"name" : "Black Friday 2021 The Chosen Ones: Present",
-			"banner_file" : "Black Friday 2021 The Chosen Ones Present.json",
-			"banner_image" : "Black Friday 2021 The Chosen Ones Present.png",
-			"banner_enddatetime" : "2021-12-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/daea26106d8a403352c943f6ea48a007?language=en",
-			"banner_short_name" : "black-friday-present"
-		},
-		{
-			"name" : "Black Friday 2021 The Chosen Ones: Antiquity",
-			"banner_file" : "Black Friday 2021 The Chosen Ones Antiquity.json",
-			"banner_image" : "Black Friday 2021 The Chosen Ones Antiquity.png",
-			"banner_enddatetime" : "2021-12-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a8776d945162961f99460ab92f9bc79d?language=en",
-			"banner_short_name" : "black-friday-antiquity"
-		},
-		{
-			"name" : "The 3000 Realm Ark and the Sea Abyss",
-			"banner_file" : "The 3000 Realm Ark and the Sea Abyss.json",
-			"banner_image" : "The 3000 Realm Ark and the Sea Abyss.png",
-			"banner_enddatetime" : "2021-12-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/44c13f77b229a7c50dbfe1423f0b654b?language=en",
-			"banner_short_name" : "the-3k-realm-ark"
-		},
-		{
-			"name" : "Another Style: Maverick",
-			"banner_file" : "Another Style Maverick.json",
-			"banner_image" : "Another Style Maverick.png",
-			"banner_enddatetime" : "2021-12-05T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f479501bc70f6aa595e55f3873eee55f?language=en",
-			"banner_short_name" : "hardy-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Rosetta.json",
-			"banner_image" : "Manifestation Weapon Discovery Rosetta.png",
-			"banner_enddatetime" : "2021-12-05T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/3cc2861851c4e9fc22063b3ea874c89a?language=en",
-			"banner_short_name" : "manifest-rosetta-dunarith"
-		},
-		{
-			"name" : "Halloween 2021 Special",
-			"banner_file" : "Halloween 2021 Special.json",
-			"banner_image" : "Halloween 2021 Special.png",
-			"banner_enddatetime" : "2021-11-25T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ed1c474641b76d6337caea5ed3f71581?language=en",
-			"banner_short_name" : "halloween-2021"
-		},
-		{
-			"name" : "Another Style: Sayorihime",
-			"banner_file" : "Another Style Sayorihime.json",
-			"banner_image" : "Another Style Sayorihime.png",
-			"banner_enddatetime" : "2021-11-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b4c4964eb7376a9dc447230e4bbfac0c?language=en",
-			"banner_short_name" : "chiyo-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Hismena.json",
-			"banner_image" : "Manifestation Weapon Discovery Hismena.png",
-			"banner_enddatetime" : "2021-11-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/420b0345ce6fa71c3f02c0b92efcc9fd?language=en",
-			"banner_short_name" : "manifest-hismena-hozuki"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery The Chosen Ones",
-			"banner_file" : "Manifestation Weapon Discovery The Chosen Ones.json",
-			"banner_image" : "Manifestation Weapon Discovery The Chosen Ones.png",
-			"banner_enddatetime" : "2021-11-05T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/7782150c5b94284d5b1fc1f6734e6869?language=en",
-			"banner_short_name" : "manifest-chosen-ones"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Akane AS.json",
-			"banner_image" : "Manifestation Weapon Discovery Akane AS.png",
-			"banner_enddatetime" : "2021-11-05T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/109a51559dd7f02f3943cd6cfab58182?language=en",
-			"banner_short_name" : "manifest-akane-as"
-		},
-		{
-			"name" : "Another Style: Ometeotl",
-			"banner_file" : "Another Style Ometeotl.json",
-			"banner_image" : "Another Style Ometeotl.png",
-			"banner_enddatetime" : "2021-10-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/4d943afeea9ffd49643a7f34ab59338d?language=en",
-			"banner_short_name" : "victor-as"
-		},
-		{
-			"name" : "Another Style: Tea Maiden",
-			"banner_file" : "Another Style Tea Maiden.json",
-			"banner_image" : "Another Style Tea Maiden.png",
-			"banner_enddatetime" : "2021-10-06T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e44747d7ef63a5f07a6b87da12376bbf?language=en",
-			"banner_short_name" : "myunfa-as"
-		},
-		{
-			"name" : "Ally Encounter: Garambarrel",
-			"banner_file" : "Ally Encounter Garambarrel.json",
-			"banner_image" : "Ally Encounter Garambarrel.png",
-			"banner_enddatetime" : "2021-09-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/549c72eb50b6194d3fa5e1d4d2fcabf0?language=en",
-			"banner_short_name" : "garambarrel"
-		},
-		{
-			"name" : "Return of the Goddess of Time: Main Story 2 Tales from the East Part III Conclusion",
-			"banner_file" : "Return of the Goddess of Time Main Story 2 Tales from the East Part III Conclusion.json",
-			"banner_image" : "Return of the Goddess of Time Main Story 2 Tales from the East Part III Conclusion.png",
-			"banner_enddatetime" : "2021-09-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8304f0ac36f779dc047430e67d628288?language=en",
-			"banner_short_name" : "rogt-two-pt-three-conclusion"
-		},
-		{
-			"name" : "Brilliant Encounter",
-			"banner_file" : "Brilliant Encounter Special Summer 2021 Series.json",
-			"banner_image" : "Brilliant Encounter Special Summer 2021 Series.png",
-			"banner_enddatetime" : "2021-08-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/5c62d17d4d8c40f46b21ff58d259341c?language=en",
-			"banner_short_name" : "brilliant-summer-2021"
-		},
-		{
-			"name" : "Another Style: Felis Circulus",
-			"banner_file" : "Another Style Felis Circulus.json",
-			"banner_image" : "Another Style Felis Circulus.png",
-			"banner_enddatetime" : "2021-09-05T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/9aa42f7733885f87374949fe71c18a82?language=en",
-			"banner_short_name" : "tsubame-as"
-		},
-		{
-			"name" : "Ally Encounter: Melody",
-			"banner_file" : "Ally Encounter Melody.json",
-			"banner_image" : "Ally Encounter Melody.png",
-			"banner_enddatetime" : "2021-08-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/6367653f01dfdd318e133ef3b5b14e8a?language=en",
-			"banner_short_name" : "melody"
-		},
-		{
-			"name" : "Another Style: Abyss Liberator",
-			"banner_file" : "Another Style Abyss Liberator.json",
-			"banner_image" : "Another Style Abyss Liberator.png",
-			"banner_enddatetime" : "2021-08-14T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1a6ab0e9b9e8d194dcc23f46b182ed46?language=en",
-			"banner_short_name" : "thillelille-as"
-		},
-		{
-			"name" : "Another Style: Draco Nodus",
-			"banner_file" : "Another Style Draco Nodus.json",
-			"banner_image" : "Another Style Draco Nodus.png",
-			"banner_enddatetime" : "2021-08-05T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/21ce9deaa703c16d5d61e60c7855fea4?language=en",
-			"banner_short_name" : "tiramisu-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Veina Philo.json",
-			"banner_image" : "Manifestation Weapon Discovery Veina Philo.png",
-			"banner_enddatetime" : "2021-07-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/3234e9ab35b33f3f80d51c2e0b13df4d?language=en",
-			"banner_short_name" : "manifest-weapon-veina-philo"
-		},
-		{
-			"name" : "Another Style: Susanoo",
-			"banner_file" : "Another Style Susanoo.json",
-			"banner_image" : "Another Style Susanoo.png",
-			"banner_enddatetime" : "2021-07-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/80347cfd6c037180c90a68567822b69f?language=en",
-			"banner_short_name" : "shigure-as"
-		},
-		{
-			"name" : "Ally Encounter: Blunt Attack Series",
-			"banner_file" : "Ally Encounter Blunt Attack Series 2021 June.json",
-			"banner_image" : "Ally Encounter Blunt Attack Series 2021 June.png",
-			"banner_enddatetime" : "2021-06-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/99f669e9e70acd061d32ed3826003ccb?language=en",
-			"banner_short_name" : "blunt-attack"
-		},
-		{
-			"name" : "Ally Encounter: Slash Attack Series",
-			"banner_file" : "Ally Encounter Slash Attack Series 2021 June.json",
-			"banner_image" : "Ally Encounter Slash Attack Series 2021 June.png",
-			"banner_enddatetime" : "2021-06-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/be5267552d3659de3e3c24439277c161?language=en",
-			"banner_short_name" : "slash-attack"
-		},
-		{
-			"name" : "Ally Encounter: Piercing Attack Series",
-			"banner_file" : "Ally Encounter Piercing Attack Series 2021 June.json",
-			"banner_image" : "Ally Encounter Piercing Attack Series 2021 June.png",
-			"banner_enddatetime" : "2021-06-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/2f95e2d02c316f0050b63e879f478673?language=en",
-			"banner_short_name" : "pierce-attack"
-		},
-		{
-			"name" : "Ally Encounter: Magic Attack Series",
-			"banner_file" : "Ally Encounter Magic Attack Series 2021 June.json",
-			"banner_image" : "Ally Encounter Magic Attack Series 2021 June.png",
-			"banner_enddatetime" : "2021-06-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/173903e9f636d3528ba995d7677d3ebe?language=en",
-			"banner_short_name" : "magic-attack"
-		},
-		{
-			"name" : "Extra Style: Hecatoncheires",
-			"banner_file" : "Extra Style Hecatoncheires.json",
-			"banner_image" : "Extra Style Hecatoncheires.png",
-			"banner_enddatetime" : "2021-07-07T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/4645380f8989057887d60aa1e2295d03?language=en",
-			"banner_short_name" : "melina-es"
-		},
-		{
-			"name" : "Another Style: Seele Gnade",
-			"banner_file" : "Another Style Seele Gnade.json",
-			"banner_image" : "Another Style Seele Gnade.png",
-			"banner_enddatetime" : "2021-06-25T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b7db95ee57d4dbd0b017d2102eb141bf?language=en",
-			"banner_short_name" : "dunarith-as"
-		},
-		{
-			"name" : "Ally Encounter: Ewella",
-			"banner_file" : "Ally Encounter Ewella.json",
-			"banner_image" : "Ally Encounter Ewella.png",
-			"banner_enddatetime" : "2021-06-18T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e7c0127637b842a9d308140302a58d2b?language=en",
-			"banner_short_name" : "ewella"
-		},
-		{
-			"name" : "Another Style: Minerva",
-			"banner_file" : "Another Style Minerva.json",
-			"banner_image" : "Another Style Minerva.png",
-			"banner_enddatetime" : "2021-06-10T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/d332b60453dbe08f76c74c071232fbef?language=en",
-			"banner_short_name" : "miyu-as"
-		},
-		{
-			"name" : "Another Style: Fortuna",
-			"banner_file" : "Another Style Fortuna.json",
-			"banner_image" : "Another Style Fortuna.png",
-			"banner_enddatetime" : "2021-05-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/452010be9f00675a1119fbd4792d46a7?language=en",
-			"banner_short_name" : "radica-as"
-		},
-		{
-			"name" : "Brilliant Encounter",
-			"banner_file" : "Brilliant Encounter 4th Anni.json",
-			"banner_image" : "Brilliant Encounter 4th Anni.png",
-			"banner_enddatetime" : "2021-05-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8899063550889bc1a55e2fc729c2d7c2?language=en",
-			"banner_short_name" : "brilliant-encounter-4th"
-		},
-		{
-			"name" : "Another Style: Areadbhar",
-			"banner_file" : "Another Style Areadbhar.json",
-			"banner_image" : "Another Style Areadbhar.png",
-			"banner_enddatetime" : "2021-05-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f4d976c0bce0946077cdc30d134471f2?language=en",
-			"banner_short_name" : "hismena-as"
-		},
-		{
-			"name" : "Ally Encounter: Milsha",
-			"banner_file" : "Ally Encounter Milsha.json",
-			"banner_image" : "Ally Encounter Milsha.png",
-			"banner_enddatetime" : "2021-04-30T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/59ad8ad17cfed54ffd18d066bd7c1f8e?language=en",
-			"banner_short_name" : "milsha"
-		},
-		{
-			"name" : "Ally Encounter: New Blessing Series",
-			"banner_file" : "Ally Encounter New Blessing Series.json",
-			"banner_image" : "Ally Encounter New Blessing Series.png",
-			"banner_enddatetime" : "2021-04-30T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e84909d9a4245a9e9d2a48ca27e971f4?language=en",
-			"banner_short_name" : "new-blessing"
-		},
-		{
-			"name" : "Ally Encounter: Essence of Weapons Series",
-			"banner_file" : "Ally Encounter Essence of Weapons Series.json",
-			"banner_image" : "Ally Encounter Essence of Weapons Series.png",
-			"banner_enddatetime" : "2021-04-29T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8df8c95e2a153ae6fa389f92cf7a0d62?language=en",
-			"banner_short_name" : "weapon-zone"
-		},
-		{
-			"name" : "Another Style: Curse Seeker",
-			"banner_file" : "Another Style Curse Seeker.json",
-			"banner_image" : "Another Style Curse Seeker.png",
-			"banner_enddatetime" : "2021-04-29T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/dbadea36f742433d252074bd17909f13?language=en",
-			"banner_short_name" : "ewan-as"
-		},
-		{
-			"name" : "Another Style: Libitina",
-			"banner_file" : "Another Style Libitina.json",
-			"banner_image" : "Another Style Libitina.png",
-			"banner_enddatetime" : "2021-04-21T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/830d255f817a772984d8964621b2befb?language=en",
-			"banner_short_name" : "ilulu-as"
-		},
-		{
-			"name" : "Another Style: Silken Wisp",
-			"banner_file" : "Another Style Silken Wisp.json",
-			"banner_image" : "Another Style Silken Wisp.png",
-			"banner_enddatetime" : "2021-04-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/02e57e53872c5aa52c3b95d86e3d2f79?language=en",
-			"banner_short_name" : "hozuki-as"
-		},
-		{
-			"name" : "Ally Encounter: Western Mythos Series",
-			"banner_file" : "Ally Encounter Western Mythos Series.json",
-			"banner_image" : "Ally Encounter Western Mythos Series.png",
-			"banner_enddatetime" : "2021-03-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8f2d878562620e5cbe463bd840a6d9aa?language=en",
-			"banner_short_name" : "western-mythos"
-		},
-		{
-			"name" : "Ally Encounter: Blunt Attack Series",
-			"banner_file" : "Ally Encounter Blunt Attack Series.json",
-			"banner_image" : "Ally Encounter Blunt Attack Series.png",
-			"banner_enddatetime" : "2021-02-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/405808fb078bd3b2a9c03f1119203c5b?language=en",
-			"banner_short_name" : "blunt-attack"
-		},
-		{
-			"name" : "Ally Encounter: Slash Attack Series",
-			"banner_file" : "Ally Encounter Slash Attack Series.json",
-			"banner_image" : "Ally Encounter Slash Attack Series.png",
-			"banner_enddatetime" : "2021-02-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/49974bb9121237430717e135f8c553f8?language=en",
-			"banner_short_name" : "slash-attack"
-		},
-		{
-			"name" : "Ally Encounter: Piercing Attack Series",
-			"banner_file" : "Ally Encounter Piercing Attack Series.json",
-			"banner_image" : "Ally Encounter Piercing Attack Series.png",
-			"banner_enddatetime" : "2021-02-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/0ea2f21d65aa4080e671764c85d19ff5?language=en",
-			"banner_short_name" : "pierce-attack"
-		},
-		{
-			"name" : "Ally Encounter: Magic Attack Series",
-			"banner_file" : "Ally Encounter Magic Attack Series.json",
-			"banner_image" : "Ally Encounter Magic Attack Series.png",
-			"banner_enddatetime" : "2021-02-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/04c29b1a77086ac5cf853ade02a6dabb?language=en",
-			"banner_short_name" : "magic-attack"
-		},
-		{
-			"name" : "Another Style: Remittetur",
-			"banner_file" : "Another Style Remittetur.json",
-			"banner_image" : "Another Style Remittetur.png",
-			"banner_enddatetime" : "2021-03-12T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b99a5c305a695d0fb2645f7aaeaf64b9?language=en",
-			"banner_short_name" : "rosetta-as"
-		},
-		{
-			"name" : "2nd Anniversary",
-			"banner_file" : "2nd Anniversary.json",
-			"banner_image" : "2nd Anniversary.png",
-			"banner_enddatetime" : "2021-02-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/abcf502de72f255be36b83c9b33ecc7d?language=en",
-			"banner_short_name" : "second-anni"
-		},
-		{
-			"name" : "Ally Encounter: Melissa",
-			"banner_file" : "Ally Encounter Melissa.json",
-			"banner_image" : "Ally Encounter Melissa.png",
-			"banner_enddatetime" : "2021-02-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/6a2b65a0d3862d4367b68dab3a600e81?language=en",
-			"banner_short_name" : "melissa"
-		},
-		{
-			"name" : "Part 2 Tales from the East - Return of the Goddess of Time Part III: The Twist",
-			"banner_file" : "Part 2 Tales from the East Return of the Goddess of Time Part III The Twist.json",
-			"banner_image" : "Part 2 Tales from the East Return of the Goddess of Time Part III The Twist.png",
-			"banner_enddatetime" : "2021-02-19T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b41f339877fc46f9483d2558da211bc5?language=en",
-			"banner_short_name" : "heena"
-		},
-		{
-			"name" : "Ally Encounter: Yukino",
-			"banner_file" : "Ally Encounter Yukino.json",
-			"banner_image" : "Ally Encounter Yukino.png",
-			"banner_enddatetime" : "2021-02-11T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ce353e71a6983768f78881671efebab3?language=en",
-			"banner_short_name" : "yukino"
-		},
-		{
-			"name" : "Another Style: Sarashinahime",
-			"banner_file" : "Another Style Sarashinahime.json",
-			"banner_image" : "Another Style Sarashinahime.png",
-			"banner_enddatetime" : "2021-01-24T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/08ecadbbed0163918b23ee396c78d780?language=en",
-			"banner_short_name" : "tsukiha-as"
-		},
-		{
-			"name" : "Another Style: Migl Aspida",
-			"banner_file" : "Another Style Migl Aspida.json",
-			"banner_image" : "Another Style Migl Aspida.png",
-			"banner_enddatetime" : "2021-01-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f53f07d1b9865e199b60a7c34a86242a?language=en",
-			"banner_short_name" : "bertrand-as"
-		},
-		{
-			"name" : "The Chosen Ones: Another Style Special 2020 Series",
-			"banner_file" : "The Chosen Ones Another Style Special 2020 Series.json",
-			"banner_image" : "The Chosen Ones Another Style Special 2020 Series.png",
-			"banner_enddatetime" : "2021-01-03T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/6f9af5440192c729885af68d8a72b1ae?language=en",
-			"banner_short_name" : "chosen-ones-as-special-2020"
-		},
-		{
-			"name" : "Brilliant Encounter",
-			"banner_file" : "Brilliant Encounter.json",
-			"banner_image" : "Brilliant Encounter.png",
-			"banner_enddatetime" : "2020-12-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/64c2ec3629f85f2d183da5e8a645c650?language=en",
-			"banner_short_name" : "brilliant-encounter"
-		},
-		{
-			"name" : "First Curing Light Series",
-			"banner_file" : "First Curing Light Series.json",
-			"banner_image" : "First Curing Light Series.png",
-			"banner_enddatetime" : "2020-12-24T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/7c3b44864ce985fc91d8ff8b1b29ffac?language=en",
-			"banner_short_name" : "first-curing-light-series"
-		},
-		{
-			"name" : "Ally Encounter: IDA School Special Series",
-			"banner_file" : "Ally Encounter IDA School Special Series.json",
-			"banner_image" : "Ally Encounter IDA School Special Series.png",
-			"banner_enddatetime" : "2021-01-03T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f3a6f50b48ba0ea45e5c64a78942848b?language=en",
-			"banner_short_name" : "ida-school-special-series"
-		},
-		{
-			"name" : "Ally Encounter: Mistrare",
-			"banner_file" : "Ally Encounter Mistrare.json",
-			"banner_image" : "Ally Encounter Mistrare.png",
-			"banner_enddatetime" : "2020-12-25T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8b99fab99cfb882c346098830152b9e3?language=en",
-			"banner_short_name" : "mistrare"
-		},
-		{
-			"name" : "Ally Encounter: Holy Blessings Series",
-			"banner_file" : "Ally Encounter Holy Blessings Series.json",
-			"banner_image" : "Ally Encounter Holy Blessings Series.png",
-			"banner_enddatetime" : "2020-12-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a6eea4eeac9fb9913a7382c43350ccfa?language=en",
-			"banner_short_name" : "holy-blessings-series"
-		},
-		{
-			"name" : "Ally Encounter: Victor",
-			"banner_file" : "Ally Encounter Victor.json",
-			"banner_image" : "Ally Encounter Victor.png",
-			"banner_enddatetime" : "2020-12-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/189ae9e909972b42b954695d7c1f3d95?language=en",
-			"banner_short_name" : "victor"
-		},
-		{
-			"name" : "Song of Sword and Wings of Lost Paradise",
-			"banner_file" : "Song of Sword and Wings of Lost Paradise.json",
-			"banner_image" : "Song of Sword and Wings of Lost Paradise.png",
-			"banner_enddatetime" : "2020-12-05T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e1a64a05054a9fa7ff72940912e360a3?language=en",
-			"banner_short_name" : "thillelille"
-		},
-		{
-			"name" : "Another Style: Mellow Diva",
-			"banner_file" : "Another Style Mellow Diva.json",
-			"banner_image" : "Another Style Mellow Diva.png",
-			"banner_enddatetime" : "2020-11-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/95a407cfc84e34d12c581773a5c3f35e?language=en",
-			"banner_short_name" : "ciel-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Elga Renri.json",
-			"banner_image" : "Manifestation Weapon Discovery Elga Renri.png",
-			"banner_enddatetime" : "2020-11-26T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ff51074f007e89187a9e643dbe7d3616?language=en",
-			"banner_short_name" : "manifest-weapon-elga-renri"
-		},
-		{
-			"name" : "Ally Encounter: Yipha",
-			"banner_file" : "Ally Encounter Yipha.json",
-			"banner_image" : "Ally Encounter Yipha.png",
-			"banner_enddatetime" : "2020-11-13T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/39821b0ef551709802139f99442f6c5b?language=en",
-			"banner_short_name" : "yipha"
-		},
-		{
-			"name" : "Re-encounter 1st Anniversary",
-			"banner_file" : "Re-encounter 1st Anniversary.json",
-			"banner_image" : "Re-encounter 1st Anniversary.png",
-			"banner_enddatetime" : "2020-10-13T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/d0ee651b65729fa6912bd2c5f72fd8c8?language=en",
-			"banner_short_name" : "reencounter-1st-anni"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Mariel Suzette AS.json",
-			"banner_image" : "Manifestation Weapon Discovery Mariel Suzette AS.png",
-			"banner_enddatetime" : "2020-11-07T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e590afdba78469e89d170b85db23f861?language=en",
-			"banner_short_name" : "manifest-weapon-mariel-suzette-as"
-		},
-		{
-			"name" : "Another Style: Beauty Police",
-			"banner_file" : "Another Style Beauty Police.json",
-			"banner_image" : "Another Style Beauty Police.png",
-			"banner_enddatetime" : "2020-10-30T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1bb9a4638ce3ba2c99c881c1411984dc?language=en",
-			"banner_short_name" : "shannon-as"
-		},
-		{
-			"name" : "Ally Encounter: Zone Series",
-			"banner_file" : "Ally Encounter Zone Series.json",
-			"banner_image" : "Ally Encounter Zone Series.png",
-			"banner_enddatetime" : "2020-09-30T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/af7d479fc501ddccc17f661f7e09e6aa?language=en",
-			"banner_short_name" : "zones"
-		},
-		{
-			"name" : "The Lost Tome and the Silver, Unfading Flower",
-			"banner_file" : "The Lost Tome and the Silver Unfading Flower.json",
-			"banner_image" : "The Lost Tome and the Silver Unfading Flower.png",
-			"banner_enddatetime" : "2020-10-17T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e23f64bd8b4a7edb62d63c96de1503e0?language=en",
-			"banner_short_name" : "hardy"
-		},
-		{
-			"name" : "Ally Encounter: Cynthia",
-			"banner_file" : "Ally Encounter Cynthia.json",
-			"banner_image" : "Ally Encounter Cynthia.png",
-			"banner_enddatetime" : "2020-10-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/638c9b03aa9e44e8c147e9b8c66a6404?language=en",
-			"banner_short_name" : "cynthia"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Yuna Dewey.json",
-			"banner_image" : "Manifestation Weapon Discovery Yuna Dewey.png",
-			"banner_enddatetime" : "2020-10-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/fe9d15755165273d8ea6e4eb4c4723ae?language=en",
-			"banner_short_name" : "manifest-weapon-yuna-dewey"
-		},
-		{
-			"name" : "Another Style: Titania",
-			"banner_file" : "Another Style Titania.json",
-			"banner_image" : "Another Style Titania.png",
-			"banner_enddatetime" : "2020-09-30T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/5785374577e72fc2812e99752821b862?language=en",
-			"banner_short_name" : "veina-as"
-		},
-		{
-			"name" : "Ally Encounter: Zeviro",
-			"banner_file" : "Ally Encounter Zeviro.json",
-			"banner_image" : "Ally Encounter Zeviro.png",
-			"banner_enddatetime" : "2020-09-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8fb5643a1583555ed850c984232fb931?language=en",
-			"banner_short_name" : "zeviro"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Claude Tsukiha.json",
-			"banner_image" : "Manifestation Weapon Discovery Claude Tsukiha.png",
-			"banner_enddatetime" : "2020-09-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/fccc479020e53a780a51064b13b3b878?language=en",
-			"banner_short_name" : "manifest-weapon-claude-tsukiha"
-		},
-		{
-			"name" : "Another Style: Divine Paladin",
-			"banner_file" : "Another Style Divine Paladin.json",
-			"banner_image" : "Another Style Divine Paladin.png",
-			"banner_enddatetime" : "2020-09-10T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b26ecd3f5678cbe9e58b454c88061339?language=en",
-			"banner_short_name" : "anabel-as"
-		},
-		{
-			"name" : "Ally Encounter: AS Series Part 1",
-			"banner_file" : "Ally Encounter AS Series Part 1.json",
-			"banner_image" : "Ally Encounter AS Series Part 1.png",
-			"banner_enddatetime" : "2020-08-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/fbd78d3d9231f865caef6e037144bec4?language=en",
-			"banner_short_name" : "summer-asseries-pt1"
-		},
-		{
-			"name" : "Ally Encounter: AS Series Part 2",
-			"banner_file" : "Ally Encounter AS Series Part 2.json",
-			"banner_image" : "Ally Encounter AS Series Part 2.png",
-			"banner_enddatetime" : "2020-08-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/688dac7dad63e36b3edbecdc9ad3efad?language=en",
-			"banner_short_name" : "summer-asseries-pt2"
-		},
-		{
-			"name" : "Ally Encounter: AS Series Part 3",
-			"banner_file" : "Ally Encounter AS Series Part 3.json",
-			"banner_image" : "Ally Encounter AS Series Part 3.png",
-			"banner_enddatetime" : "2020-08-20T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ba14f348d6fbfd0e88e3edf80e52adb1?language=en",
-			"banner_short_name" : "summer-asseries-pt3"
-		},
-		{
-			"name" : "First Knight and the Holy Sword",
-			"banner_file" : "First Knight and the Holy Sword.json",
-			"banner_image" : "First Knight and the Holy Sword.png",
-			"banner_enddatetime" : "2020-08-27T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a64f52b17cc938dd96fb84d95f1cdeb6?language=en",
-			"banner_short_name" : "radias"
-		},
-		{
-			"name" : "Another Style: Cybele",
-			"banner_file" : "Another Style Cybele.json",
-			"banner_image" : "Another Style Cybele.png",
-			"banner_enddatetime" : "2020-08-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f571e8a7df5dd8ec9e4a6efb10275c02?language=en",
-			"banner_short_name" : "myrus-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Bertrand Felmina.json",
-			"banner_image" : "Manifestation Weapon Discovery Bertrand Felmina.png",
-			"banner_enddatetime" : "2020-08-16T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/63c5987be6d3e2a5783b3ac0a3360ade?language=en",
-			"banner_short_name" : "manifest-weapon-bertrand-felmina"
-		},
-		{
-			"name" : "Another Style: Covert Agent",
-			"banner_file" : "Another Style Covert Agent.json",
-			"banner_image" : "Another Style Covert Agent.png",
-			"banner_enddatetime" : "2020-08-08T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/02ce78b36d9dd3c769d57901098a0132?language=en",
-			"banner_short_name" : "renri-as"
-		},
-		{
-			"name" : "Ally Encounter: Tiramisu",
-			"banner_file" : "Ally Encounter Tiramisu.json",
-			"banner_image" : "Ally Encounter Tiramisu.png",
-			"banner_enddatetime" : "2020-07-31T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a02e42ffee33b4d8a352310ebc7649bf?language=en",
-			"banner_short_name" : "tiramisu"
-		},
-		{
-			"name" : "Another Style: Orco-Figlia",
-			"banner_file" : "Another Style Orco-Figlia.json",
-			"banner_image" : "Another Style Orco-Figlia.png",
-			"banner_enddatetime" : "2020-07-18T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/de44445c12a92de3b61c71703a19b2ed?language=en",
-			"banner_short_name" : "elga-as"
-		},
-		{
-			"name" : "Ally Encounter: Cat Lover Series",
-			"banner_file" : "Ally Encounter Cat Lover Series.json",
-			"banner_image" : "Ally Encounter Cat Lover Series.png",
-			"banner_enddatetime" : "2020-07-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/e347497d56294432e5c6c53eab0f0faf?language=en",
-			"banner_short_name" : "cat-lover"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Lokido Melina.json",
-			"banner_image" : "Manifestation Weapon Discovery Lokido Melina.png",
-			"banner_enddatetime" : "2020-07-09T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/582369eb42abfca078ac7901db497bb2?language=en",
-			"banner_short_name" : "manifest-weapon-lokido-melina"
-		},
-		{
-			"name" : "Another Style: Shining Shadow",
-			"banner_file" : "Another Style Shining Shadow.json",
-			"banner_image" : "Another Style Shining Shadow.png",
-			"banner_enddatetime" : "2020-06-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/0227aef17e096e580aa265edf16dbab7?language=en",
-			"banner_short_name" : "felmina-as"
-		},
-		{
-			"name" : "Ally Encounter: Myunfa",
-			"banner_file" : "Ally Encounter Myunfa.json",
-			"banner_image" : "Ally Encounter Myunfa.png",
-			"banner_enddatetime" : "2020-06-19T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/5cd946f68c6adc5dba2b5037867cea18?language=en",
-			"banner_short_name" : "myunfa"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Anabel Shanie.json",
-			"banner_image" : "Manifestation Weapon Discovery Anabel Shanie.png",
-			"banner_enddatetime" : "2020-06-19T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/8145da138c45c6cc6b04d02f4b8c3415?language=en",
-			"banner_short_name" : "manifest-weapon-anabel-shanie"
-		},
-		{
-			"name" : "Another Style: Crimson Ray",
-			"banner_file" : "Another Style Crimson Ray.json",
-			"banner_image" : "Another Style Crimson Ray.png",
-			"banner_enddatetime" : "2020-06-11T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/d2e025729272c478cd0a919d72832b96?language=en",
-			"banner_short_name" : "cetie-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Isuka Myrus.json",
-			"banner_image" : "Manifestation Weapon Discovery Isuka Myrus.png",
-			"banner_enddatetime" : "2020-06-11T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/bd4016fb56dbca39b5e8422b1f4d2862?language=en",
-			"banner_short_name" : "manifest-weapon-isuka-myrus"
-		},
-		{
-			"name" : "Part 2: Tales from the East Return of the Goddess of Time",
-			"banner_file" : "Part 2 Tales from the East Return of the Goddess of Time.json",
-			"banner_image" : "Part 2 Tales from the East Return of the Goddess of Time.png",
-			"banner_enddatetime" : "2020-05-24T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/33b5a12e0792b42189734259a8a03157?language=en",
-			"banner_short_name" : "kikyo"
-		},
-		{
-			"name" : "Another Style: Yasomagatsuhi",
-			"banner_file" : "Another Style Yasomagatsuhi.json",
-			"banner_image" : "Another Style Yasomagatsuhi.png",
-			"banner_enddatetime" : "2020-05-24T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/c77dd0769d2df159932bfa79b827fcbc?language=en",
-			"banner_short_name" : "nikeh-as"
-		},
-		{
-			"name" : "Another Style: Magna Rex",
-			"banner_file" : "Another Style Magna Rex.json",
-			"banner_image" : "Another Style Magna Rex.png",
-			"banner_enddatetime" : "2020-05-14T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/52ca3f1b74cdcd82a1d57a9a555805f5?language=en",
-			"banner_short_name" : "claude-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery Nagi Ewan.json",
-			"banner_image" : "Manifestation Weapon Discovery Nagi Ewan.png",
-			"banner_enddatetime" : "2020-05-14T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/b4e1bef23b876fe3e8e560d17eb50e44?language=en",
-			"banner_short_name" : "manifest-weapon-nagi-ewan"
-		},
-		{
-			"name" : "Ally Encounter: Premaya",
-			"banner_file" : "Ally Encounter Premaya.json",
-			"banner_image" : "Ally Encounter Premaya.png",
-			"banner_enddatetime" : "2020-05-02T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/20fb5ebeb3f7dd91f8ce9e6261778d70?language=en",
-			"banner_short_name" : "premaya"
-		},
-		{
-			"name" : "Another Style: Aqua Goddess",
-			"banner_file" : "Another Style Aqua Goddess.json",
-			"banner_image" : "Another Style Aqua Goddess.png",
-			"banner_enddatetime" : "2020-04-23T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/156df456c5daa4330920476ed8636e1a?language=en",
-			"banner_short_name" : "yuna-as"
-		},
-		{
-			"name" : "Another Style: Brunhild",
-			"banner_file" : "Another Style Brunhild.json",
-			"banner_image" : "Another Style Brunhild.png",
-			"banner_enddatetime" : "2020-04-10T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/aa79f3fcdd01d46ce511c7e59693db4b?language=en",
-			"banner_short_name" : "shanie-as"
-		},
-		{
-			"name" : "Another Style: Sky Sprite",
-			"banner_file" : "Another Style Sky Sprite.json",
-			"banner_image" : "Another Style Sky Sprite.png",
-			"banner_enddatetime" : "2020-04-02T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/7b71a815b7bc6ff3c954ad8d766a1554?language=en",
-			"banner_short_name" : "ruina-as"
-		},
-		{
-			"name" : "Fruit of Guidance and the Lost Digital Child",
-			"banner_file" : "Fruit of Guidance and the Lost Digital Child.json",
-			"banner_image" : "Fruit of Guidance and the Lost Digital Child.png",
-			"banner_enddatetime" : "2020-03-21T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/ec84a9a722b6e884a1cb2245b38177a4?language=en",
-			"banner_short_name" : "hismena"
-		},
-		{
-			"name" : "Ally Encounter: Dunarith",
-			"banner_file" : "Ally Encounter Dunarith.json",
-			"banner_image" : "Ally Encounter Dunarith.png",
-			"banner_enddatetime" : "2020-03-11T14:59:59Z",
-			"official_link" : "https://api-ap.another-eden.games/asset/lottery_notice/view/b99a57f3348ca8584567882653d008c2?q=210750184021&language=en",
-			"banner_short_name" : "dunarith"
-		},
-		{
-			"name" : "1st Anniversary",
-			"banner_file" : "1st Anniversary.json",
-			"banner_image" : "1st Anniversary.png",
-			"banner_enddatetime" : "2020-02-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/07a1b78f88e3ffe68cc58dc7cdc85cc6?language=en",
-			"banner_short_name" : "first-anny"
-		},
-		{
-			"name" : "Another Style: Proud Beast",
-			"banner_file" : "Another Style Proud Beast.json",
-			"banner_image" : "Another Style Proud Beast.png",
-			"banner_enddatetime" : "2020-02-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/f002cef8346ea91374361a6930422a1b?language=en",
-			"banner_short_name" : "lokido-as"
-		},
-		{
-			"name" : "Manifestation: Weapon Discovery",
-			"banner_file" : "Manifestation Weapon Discovery.json",
-			"banner_image" : "Manifestation Weapon Discovery.png",
-			"banner_enddatetime" : "2020-02-28T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/932bdb21590764b02ac90bd17b59b48c?language=en",
-			"banner_short_name" : "manifest-weapon"
-		},
-		{
-			"name" : "The Closed-off Open World and the Azure Rebel: One Other Ordeal",
-			"banner_file" : "The Closed-off Open World and the Azure Rebel One Other Ordeal.json",
-			"banner_image" : "The Closed-off Open World and the Azure Rebel One Other Ordeal.png",
-			"banner_enddatetime" : "2020-02-21T14:59:59Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/3c52e125d25ad2baa7f2254b9ed30c24?language=en",
-			"banner_short_name" : "lovely"
-		}
-		
-	],
-	"regular" : [
-		{
-			"name" : "The Lost Tome and the Silver, Unfading Flower",
-			"banner_file" : "Episode The Lost Tome and the Silver Unfading Flower.json",
-			"banner_image" : "Episode The Lost Tome and the Silver Unfading Flower.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/a3032eee7da3990a9fb1b54898f5902f?language=en",
-			"banner_short_name" : "lost-tome"
-		},
-		{
-			"name" : "Mythos: Song of Sword and Wings of Lost Paradise",
-			"banner_file" : "Mythos Song of Sword and Wings of Lost Paradise.json",
-			"banner_image" : "Mythos Song of Sword and Wings of Lost Paradise.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/46e86fcb0efe9cbce914a8ce9100824f?language=en",
-			"banner_short_name" : "mythos-song-sword"
-		},
-		{
-			"name" : "First Knight and the Holy Sword",
-			"banner_file" : "Episode First Knight and the Holy Sword.json",
-			"banner_image" : "Episode First Knight and the Holy Sword.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/d315bed16959a5660269e76f0ce59177?language=en",
-			"banner_short_name" : "first-knight"
-		},
-		{
-			"name" : "IDA School Part 3 Fruit of Guidance and the Lost Digital Child",
-			"banner_file" : "IDA 3 Fruit of Guidance and the Lost Digital Child.json",
-			"banner_image" : "IDA 3 Fruit of Guidance and the Lost Digital Child.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/d6a6fc0109813f2aa0960778ef35dc38?language=en",
-			"banner_short_name" : "ida-three"
-		},
-		{
-			"name" : "IDA School Part 2 Butterfly's City and Heaven's Cradle",
-			"banner_file" : "Butterflys City and Heavens Cradle.json",
-			"banner_image" : "Butterflys City and Heavens Cradle.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/69a5731f5222da4a88f6507877c43f50?language=en",
-			"banner_short_name" : "ida-two"
-		},
-		{
-			"name" : "The Celestial Tower and the Shadow Witch",
-			"banner_file" : "The Celestial Tower and the Shadow Witch.json",
-			"banner_image" : "The Celestial Tower and the Shadow Witch.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/003d9fe0a403b903e8e73a9d9609340f?language=en",
-			"banner_short_name" : "shadow-witch"
-		},
-		{
-			"name" : "The Time Mine and the Dreamers",
-			"banner_file" : "The Time Mine and the Dreamers.json",
-			"banner_image" : "The Time Mine and the Dreamers.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/0847f268ceb289f5f1b92773cf5110a9?language=en",
-			"banner_short_name" : "time-mine"
-		},
-		{
-			"name" : "The 1000 Year Ark of the Ocean Palace",
-			"banner_file" : "The 1000 Year Ark of the Ocean Palace.json",
-			"banner_image" : "The 1000 Year Ark of the Ocean Palace.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/3b50ed8f46da90b471f59f4a1ad48d46?language=en",
-			"banner_short_name" : "ocean-palace"
-		},
-		{
-			"name" : "Absolute Zero Chain",
-			"banner_file" : "Absolute Zero Chain.json",
-			"banner_image" : "Absolute Zero Chain.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/97a81dc5583274dfa58de59e1ec1634d?language=en",
-			"banner_short_name" : "absolute-zero"
-		},
-		{
-			"name" : "Two Knights and the Holy Sword",
-			"banner_file" : "Two Knights and the Holy Sword.json",
-			"banner_image" : "Two Knights and the Holy Sword.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-			"official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/7afe777d0db5b4ff6e4af815bfa581af?language=en",
-			"banner_short_name" : "two-knights"
-		},
-		{
-			"name" : "Default Encounter",
-			"banner_file" : "Default Encounter.json",
-			"banner_image" : "Default Encounter.png",
-			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/5d0ba6902b7ec580f83c9ba750ce56ec?language=en",
-			"banner_short_name" : "default-encounter"
-		}
-	]
+            "name": "Another Style: Erato",
+            "banner_file": "Another Style Erato.json",
+            "banner_image": "Another Style Erato.png",
+            "banner_enddatetime": "2023-09-23T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/badc7911e57261e0d4adb6ff70622e37?language=en",
+            "banner_short_name": "pizzica-as"
+        },
+        {
+            "name": "Wanderer in the Binding Night",
+            "banner_file": "Wanderer in the Binding Night.json",
+            "banner_image": "Wanderer in the Binding Night.png",
+            "banner_enddatetime": "2023-09-12T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/f89c962dc2658177edc3b948facd052b?language=en",
+            "banner_short_name": "wanderer-binding-night"
+        },
+        {
+            "name": "Another Style: Lovebird",
+            "banner_file": "Another Style Lovebird.json",
+            "banner_image": "Another Style Lovebird.png",
+            "banner_enddatetime": "2023-09-03T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/271b15a21f3124e8a1207e6b545464dc?language=en",
+            "banner_short_name": "lovely-as"
+        },
+        {
+            "name": "Wanderer's Diary: Chapter 6",
+            "banner_file": "Wanderers Diary Chapter 6.json",
+            "banner_image": "Wanderers Diary Chapter 6.png",
+            "banner_enddatetime": "2023-06-27T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/22d7ced79eccfa93e9135f70fc5dc360?language=en",
+            "banner_short_name": "wanderers-diary-ch-6"
+        },
+        {
+            "name": "Ally Encounter: Sunlit Amber Series",
+            "banner_file": "Ally Encounter Sunlit Amber Series.json",
+            "banner_image": "Ally Encounter Sunlit Amber Series.png",
+            "banner_enddatetime": "2023-07-21T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/e0cca3c6547686637e2d58cd41a9afbc?language=en",
+            "banner_short_name": "sunlit-amber"
+        },
+        {
+            "name": "Encounter Across Time Layers: \"Beautiful Stranger\" Shannon",
+            "banner_file": "Encounter Across Time Layers Beautiful Stranger Shannon.json",
+            "banner_image": "Encounter Across Time Layers Beautiful Stranger Shannon.png",
+            "banner_enddatetime": "2023-08-20T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/c5cce865e9196b3364db48bc70714327?language=en",
+            "banner_short_name": "bs-shannon"
+        },
+        {
+            "name": "Wanderer's Diary: Chapter 5",
+            "banner_file": "Wanderers Diary Chapter 5.json",
+            "banner_image": "Wanderers Diary Chapter 5.png",
+            "banner_enddatetime": "2023-06-21T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/cd1153ed1a4c38b9bb457e214b854c86?language=en",
+            "banner_short_name": "wanderers-diary-ch-5"
+        },
+        {
+            "name": "Wanderer's Diary: Chapter 4",
+            "banner_file": "Wanderers Diary Chapter 4.json",
+            "banner_image": "Wanderers Diary Chapter 4.png",
+            "banner_enddatetime": "2023-06-15T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/a513a6bcb04be94a9958ff8316080e46?language=en",
+            "banner_short_name": "wanderers-diary-ch-4"
+        },
+        {
+            "name": "Ally Encounter: Yakumo <Kumos>",
+            "banner_file": "Ally Encounter Yakumo Kumos.json",
+            "banner_image": "Ally Encounter Yakumo Kumos.png",
+            "banner_enddatetime": "2023-08-08T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/7c17090e098962de8d7cc0098ac46262?language=en",
+            "banner_short_name": "yakumo"
+        },
+        {
+            "name": "Wanderer's Diary: Chapter 3",
+            "banner_file": "Wanderers Diary Chapter 3.json",
+            "banner_image": "Wanderers Diary Chapter 3.png",
+            "banner_enddatetime": "2023-06-09T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/d0a728c3e8e008d869a7a0d577373df8?language=en",
+            "banner_short_name": "wanderers-diary-ch-3"
+        },
+        {
+            "name": "Wanderer's Diary: Chapter 2",
+            "banner_file": "Wanderers Diary Chapter 2.json",
+            "banner_image": "Wanderers Diary Chapter 2.png",
+            "banner_enddatetime": "2023-06-03T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/31ae196c4b5876965790894acd4b0102?language=en",
+            "banner_short_name": "wanderers-diary-ch-2"
+        },
+        {
+            "name": "Wanderer's Diary: Chapter 1",
+            "banner_file": "Wanderers Diary Chapter 1.json",
+            "banner_image": "Wanderers Diary Chapter 1.png",
+            "banner_enddatetime": "2023-05-28T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/e5bfc569e7ccff5965eda781320e73a2?language=en",
+            "banner_short_name": "wanderers-diary-ch-1"
+        },
+        {
+            "name": "Ally Encounter: Shrouded Wisdom Series",
+            "banner_file": "Ally Encounter Shrouded Wisdom Series.json",
+            "banner_image": "Ally Encounter Shrouded Wisdom Series.png",
+            "banner_enddatetime": "2023-07-22T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/329e6c3fdf66a705e8987c9947f82057?language=en",
+            "banner_short_name": "shrouded-wisdom"
+        },
+        {
+            "name": "Ally Encounter: Lazuline Sky Series",
+            "banner_file": "Ally Encounter Lazuline Sky Series.json",
+            "banner_image": "Ally Encounter Lazuline Sky Series.png",
+            "banner_enddatetime": "2023-06-09T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/1ab25e1c30d92fcde09ed11161d0219a?language=en",
+            "banner_short_name": "lazuline-sky"
+        },
+        {
+            "name": "Ally Encounter: Phantom Thief",
+            "banner_file": "Ally Encounter Phantom Thief.json",
+            "banner_image": "Ally Encounter Phantom Thief.png",
+            "banner_enddatetime": "2023-07-09T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/0d6da72e7bf0009afbbba63b63bee8b7?language=en",
+            "banner_short_name": "dewey-as"
+        },
+        {
+            "name": "Encounter Across Time Layers: \"Vermillion Whip\" Hozuki",
+            "banner_file": "Encounter Across Time Layers Vermillion Whip Hozuki.json",
+            "banner_image": "Encounter Across Time Layers Vermillion Whip Hozuki.png",
+            "banner_enddatetime": "2023-06-25T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/f0998ab640b09698480a0110c095f502?language=en",
+            "banner_short_name": "vw-hozuki"
+        },
+        {
+            "name": "Ally Encounter: Japan Ver. 6th Anniversary Blessing Series",
+            "banner_file": "Ally Encounter Japan Ver 6th Anniversary Blessing Series.json",
+            "banner_image": "Ally Encounter Japan Ver 6th Anniversary Blessing Series.png",
+            "banner_enddatetime": "2023-04-25T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/df7257a55b6eecaf7f2692a6ea87cb95?language=en",
+            "banner_short_name": "jp-6th-anni-blessing"
+        },
+        {
+            "name": "Ally Encounter: Japan Ver. 6th Anniversary Fighting Spirit Series",
+            "banner_file": "Ally Encounter Japan Ver 6th Anniversary Fighting Spirit Series.json",
+            "banner_image": "Ally Encounter Japan Ver 6th Anniversary Fighting Spirit Series.png",
+            "banner_enddatetime": "2023-04-25T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/6b2e8b75208aa9fbddce5a1d76b7545a?language=en",
+            "banner_short_name": "jp-6th-anni-fighting-spirit"
+        },
+        {
+            "name": "Extra Style: Arcana",
+            "banner_file": "Extra Style Arcana.json",
+            "banner_image": "Extra Style Arcana.png",
+            "banner_enddatetime": "2023-06-10T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/470f47fb6dea29a9e2a1c239f59f9d0d?language=en",
+            "banner_short_name": "mariel-es"
+        },
+        {
+            "name": "Another Style: Jorurihime",
+            "banner_file": "Another Style Jorurihime.json",
+            "banner_image": "Another Style Jorurihime.png",
+            "banner_enddatetime": "2023-05-23T14:59:59Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/60ed12a6dd77a55f4bba74b369df8fba?language=en",
+            "banner_short_name": "heena-as"
+        }
+    ],
+    "regular": [
+        {
+            "name": "The Lost Tome and the Silver, Unfading Flower",
+            "banner_file": "Episode The Lost Tome and the Silver Unfading Flower.json",
+            "banner_image": "Episode The Lost Tome and the Silver Unfading Flower.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/a3032eee7da3990a9fb1b54898f5902f?language=en",
+            "banner_short_name": "lost-tome"
+        },
+        {
+            "name": "Mythos: Song of Sword and Wings of Lost Paradise",
+            "banner_file": "Mythos Song of Sword and Wings of Lost Paradise.json",
+            "banner_image": "Mythos Song of Sword and Wings of Lost Paradise.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/46e86fcb0efe9cbce914a8ce9100824f?language=en",
+            "banner_short_name": "mythos-song-sword"
+        },
+        {
+            "name": "First Knight and the Holy Sword",
+            "banner_file": "Episode First Knight and the Holy Sword.json",
+            "banner_image": "Episode First Knight and the Holy Sword.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/d315bed16959a5660269e76f0ce59177?language=en",
+            "banner_short_name": "first-knight"
+        },
+        {
+            "name": "IDA School Part 3 Fruit of Guidance and the Lost Digital Child",
+            "banner_file": "IDA 3 Fruit of Guidance and the Lost Digital Child.json",
+            "banner_image": "IDA 3 Fruit of Guidance and the Lost Digital Child.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/d6a6fc0109813f2aa0960778ef35dc38?language=en",
+            "banner_short_name": "ida-three"
+        },
+        {
+            "name": "IDA School Part 2 Butterfly's City and Heaven's Cradle",
+            "banner_file": "Butterflys City and Heavens Cradle.json",
+            "banner_image": "Butterflys City and Heavens Cradle.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/69a5731f5222da4a88f6507877c43f50?language=en",
+            "banner_short_name": "ida-two"
+        },
+        {
+            "name": "The Celestial Tower and the Shadow Witch",
+            "banner_file": "The Celestial Tower and the Shadow Witch.json",
+            "banner_image": "The Celestial Tower and the Shadow Witch.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/003d9fe0a403b903e8e73a9d9609340f?language=en",
+            "banner_short_name": "shadow-witch"
+        },
+        {
+            "name": "The Time Mine and the Dreamers",
+            "banner_file": "The Time Mine and the Dreamers.json",
+            "banner_image": "The Time Mine and the Dreamers.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/0847f268ceb289f5f1b92773cf5110a9?language=en",
+            "banner_short_name": "time-mine"
+        },
+        {
+            "name": "The 1000 Year Ark of the Ocean Palace",
+            "banner_file": "The 1000 Year Ark of the Ocean Palace.json",
+            "banner_image": "The 1000 Year Ark of the Ocean Palace.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/3b50ed8f46da90b471f59f4a1ad48d46?language=en",
+            "banner_short_name": "ocean-palace"
+        },
+        {
+            "name": "Absolute Zero Chain",
+            "banner_file": "Absolute Zero Chain.json",
+            "banner_image": "Absolute Zero Chain.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/97a81dc5583274dfa58de59e1ec1634d?language=en",
+            "banner_short_name": "absolute-zero"
+        },
+        {
+            "name": "Two Knights and the Holy Sword",
+            "banner_file": "Two Knights and the Holy Sword.json",
+            "banner_image": "Two Knights and the Holy Sword.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/7afe777d0db5b4ff6e4af815bfa581af?language=en",
+            "banner_short_name": "two-knights"
+        },
+        {
+            "name": "Default Encounter",
+            "banner_file": "Default Encounter.json",
+            "banner_image": "Default Encounter.png",
+            "banner_enddatetime": "2099-01-01T00:00:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/34c4cd1f3e39bb15ca4211aa230f7363?language=en",
+            "banner_short_name": "default-encounter"
+        }
+    ]
 }
