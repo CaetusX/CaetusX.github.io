@@ -23,7 +23,7 @@
 	"Minalca" : { "id" : 101010131, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"\"Moonlight Flower\" Hismena" : { "id" : 101010141, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"\"Beautiful Stranger\" Shannon" : { "id" : 101010151, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
-	"Elsir" : { "id" : 101010161, "5" : true, "AS" : false, "ES" : false, "Acquired" : false },
+	"Elseal" : { "id" : 101010161, "5" : true, "AS" : false, "ES" : false, "Acquired" : false },
 	"Shion" : { "id" : 101020031, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Isuka" : { "id" : 101020071, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Tsukiha" : { "id" : 101020081, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
