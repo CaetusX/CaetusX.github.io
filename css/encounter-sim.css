@@ -1238,7 +1238,51 @@ a.banner-select.reenc-minalca {
 a.banner-select.premaya-as {
   background: url("../images/banners/91041.premayaas.combo.png") 0 0 no-repeat;
 }
-
+a.banner-select.elseal {
+  background: url("../images/banners/91047.elseal.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-elseal {
+  background: url("../images/banners/91048.fatefulelseal.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-boundless-windearth {
+  background: url("../images/banners/91050.fatefulboundlesswindearth.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-boundless-firewater {
+  background: url("../images/banners/91049.fatefulboundlessfirewater.combo.png") 0 0 no-repeat;
+}
+a.banner-select.felmina-es {
+  background: url("../images/banners/91009.felminaes.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-felmina-es {
+  background: url("../images/banners/91030.fatefulfelminaes.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-boundless-summit {
+  background: url("../images/banners/91018.fatefulboundlesssummit.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-ways-we-walked-2 {
+  background: url("../images/banners/91021.fatefulwayswewalked2.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-inverse-whirl {
+  background: url("../images/banners/91012.fatefulinversewhirl.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-melody-as {
+  background: url("../images/banners/91003.fatefulmelodyas.combo.png") 0 0 no-repeat;
+}
+a.banner-select.melody-as {
+  background: url("../images/banners/91006.melodyas.combo.png") 0 0 no-repeat;
+}
+a.banner-select.dw-dunarith {
+  background: url("../images/banners/91022.dwdunarith.combo.png") 0 0 no-repeat;
+}
+a.banner-select.ways-we-walked-rd-3 {
+  background: url("../images/banners/91028.wayswewalkedrd3.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-dw-dunarith {
+  background: url("../images/banners/91036.fatefuldwdunarith.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-ptl-series-2 {
+  background: url("../images/banners/91039.fatefulptlseries2.combo.png") 0 0 no-repeat;
+}
 a.banner-select:hover {
   background-position: 0 -7.625rem;
 }

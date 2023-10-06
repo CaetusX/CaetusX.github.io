@@ -1,6 +1,94 @@
 {
 	"fateful" : [
         {
+            "name": "Fateful Encounter: Parallel Time Layer Series",
+            "banner_file": "Fateful Encounter Parallel Time Layer Series 2.json",
+            "banner_image": "Fateful Encounter Parallel Time Layer Series 2.png",
+            "banner_enddatetime": "2023-10-11T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/6c80fa64e018b5ed137adebebab4b2e4?language=en",
+            "banner_short_name": "fateful-ptl-series-2"
+        },
+        {
+            "name": "Fateful Encounter: \"Dream Weaver\" Dunarith",
+            "banner_file": "Fateful Encounter Dream Weaver Dunarith.json",
+            "banner_image": "Fateful Encounter Dream Weaver Dunarith.png",
+            "banner_enddatetime": "2023-10-26T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/05c8ce75dbb47aac2fc78fd20d509021?language=en",
+            "banner_short_name": "fateful-dw-dunarith"
+        },
+        {
+            "name": "Fateful Encounter: Inverse Whirl Edition",
+            "banner_file": "Fateful Encounter Inverse Whirl Edition.json",
+            "banner_image": "Fateful Encounter Inverse Whirl Edition.png",
+            "banner_enddatetime": "2023-09-25T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/ed417bf8895a7a0d4f9f2a09f5c456cf?language=en",
+            "banner_short_name": "fateful-inverse-whirl"
+        },
+        {
+            "name": "Fateful Encounter: Another Style Medea",
+            "banner_file": "Fateful Encounter Another Style Medea.json",
+            "banner_image": "Fateful Encounter Another Style Medea.png",
+            "banner_enddatetime": "2023-10-15T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/cbcc3dae1b67ca120b2f38bdf128d7bf?language=en",
+            "banner_short_name": "fateful-melody-as"
+        },
+        {
+            "name": "Fateful Encounter: The Ways We Walked Round 2 (Twin Destinies)",
+            "banner_file": "Fateful Encounter The Ways We Walked Round 2.json",
+            "banner_image": "Fateful Encounter The Ways We Walked Round 2.png",
+            "banner_enddatetime": "2023-09-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/58b58733a57409f64a68e81f6e6761f2?language=en",
+            "banner_short_name": "fateful-ways-we-walked-2"
+        },
+        {
+            "name": "Fateful Encounter: Boundless Heights Summit Edition",
+            "banner_file": "Fateful Encounter Boundless Heights Summit Edition.json",
+            "banner_image": "Fateful Encounter Boundless Heights Summit Edition.png",
+            "banner_enddatetime": "2023-09-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/dd18f31a7f00d209289fa4ef20891ac2?language=en",
+            "banner_short_name": "fateful-boundless-summit"
+        },
+        {
+            "name": "Fateful Encounter: Extra Style Erinys",
+            "banner_file": "Fateful Encounter Extra Style Erinys.json",
+            "banner_image": "Fateful Encounter Extra Style Erinys.png",
+            "banner_enddatetime": "2023-10-06T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/1dddf4ce989470169e2c4dfaeb291ee1?language=en",
+            "banner_short_name": "fateful-felmina-es"
+        },
+        {
+            "name": "Fateful Encounter: Seven Days Encounter",
+            "banner_file": "Fateful Encounter Seven Days Encounter September 2023.json",
+            "banner_image": "Fateful Encounter Seven Days Encounter September 2023.png",
+            "banner_enddatetime": "2023-09-07T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/14f6bc09306d7e9d4c0e3ff510d46b05?language=en",
+            "banner_short_name": "fateful-seven-days"
+        },
+        {
+            "name": "Fateful Encounter: Boundless Heights Fire/Water Edition",
+            "banner_file": "Fateful Encounter Boundless Heights FireWater Edition.json",
+            "banner_image": "Fateful Encounter Boundless Heights FireWater Edition.png",
+            "banner_enddatetime": "2023-09-24T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/4940884efc33f62809ab026dbfcf4554?language=en",
+            "banner_short_name": "fateful-boundless-firewater"
+        },
+        {
+            "name": "Fateful Encounter: Boundless Heights Wind/Earth Edition",
+            "banner_file": "Fateful Encounter Boundless Heights WindEarth Edition.json",
+            "banner_image": "Fateful Encounter Boundless Heights WindEarth Edition.png",
+            "banner_enddatetime": "2023-09-24T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/f183b0fc0400c54fe861e08cabf6ae53?language=en",
+            "banner_short_name": "fateful-boundless-windearth"
+        },
+        {
+            "name": "Fateful Encounter: Elseal",
+            "banner_file": "Fateful Encounter Elseal.json",
+            "banner_image": "Fateful Encounter Elseal.png",
+            "banner_enddatetime": "2023-09-24T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/72f78ed689861cdf3006f4be14b34335?language=en",
+            "banner_short_name": "fateful-elseal"
+        },
+        {
             "name": "Fateful Encounter: Twin Destinies Encounter Japan Version Main Story Part 3 Volume 2 Edition",
             "banner_file": "Twin Destinies Encounter Japan Version Main Story Part 3 Volume 2 Edition.json",
             "banner_image": "Twin Destinies Encounter Japan Version Main Story Part 3 Volume 2 Edition.png",
@@ -1851,6 +1939,46 @@
 	],
 	"nonfateful" : [
 		{
+            "name": "The Ways We Walked: Round 3",
+            "banner_file": "The Ways We Walked Round 3.json",
+            "banner_image": "The Ways We Walked Round 3.png",
+            "banner_enddatetime": "2023-10-11T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/eb89a661963d8b3aab0c36ad54e842db?language=en",
+            "banner_short_name": "ways-we-walked-rd-3"
+        },
+        {
+            "name": "Encounter Across Time Layers: \"Dream Weaver\" Dunarith",
+            "banner_file": "Encounter Across Time Layers Dream Weaver Dunarith.json",
+            "banner_image": "Encounter Across Time Layers Dream Weaver Dunarith.png",
+            "banner_enddatetime": "2023-11-25T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/a8033f5e99b8e568d64ea3cd42f6aa4d?language=en",
+            "banner_short_name": "dw-dunarith"
+        },
+        {
+            "name": "Another Style: Medea",
+            "banner_file": "Another Style Medea.json",
+            "banner_image": "Another Style Medea.png",
+            "banner_enddatetime": "2023-11-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/b08d5513dca3b6d2166eebd938cbebc7?language=en",
+            "banner_short_name": "melody-as"
+        },
+        {
+            "name": "Extra Style: Erinys",
+            "banner_file": "Extra Style Erinys.json",
+            "banner_image": "Extra Style Erinys.png",
+            "banner_enddatetime": "2023-11-05T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/92dcfa12b6d490251a44f3787e6674e4?language=en",
+            "banner_short_name": "felmina-es"
+        },
+        {
+            "name": "Ally Encounter: Elseal",
+            "banner_file": "Ally Encounter Elseal.json",
+            "banner_image": "Ally Encounter Elseal.png",
+            "banner_enddatetime": "2023-10-24T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/8fde0f225e62b25f4140ea0b1cfae886?language=en",
+            "banner_short_name": "elseal"
+        },
+        {
             "name": "The Ways We Walked",
             "banner_file": "The Ways We Walked.json",
             "banner_image": "The Ways We Walked.png",
@@ -3418,7 +3546,7 @@
 			"banner_file" : "Default Encounter.json",
 			"banner_image" : "Default Encounter.png",
 			"banner_enddatetime" : "2099-01-01T00:00:00Z",
-            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/5d0ba6902b7ec580f83c9ba750ce56ec?language=en",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/59d5b2b98cc9a1b15f639c286ef8a0f9?language=en",
 			"banner_short_name" : "default-encounter"
 		}
 	]
