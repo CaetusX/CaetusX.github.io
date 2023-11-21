@@ -120,20 +120,21 @@ def scrape_html(url):
 
     banner_name = ' '.join([parse_title(text) for text in soup.find('h2').stripped_strings])
 
+    section_divs = soup.find_all('div', class_='section')
+
     rate_up = []
-    pattern = re.compile(u'\u30FB')
-    for mid_dots in soup.find_all(string=pattern):
-        if not mid_dots.find_parent('p'):
-            rm_dot = re.sub(pattern, '', mid_dots.text).strip()
-            rate_up.append(parse_characters(rm_dot))
+    mid_dot_pattern = re.compile(u'\u30FB')
+    for mid_dots in section_divs[1].find_all(string=mid_dot_pattern):
+        rm_dot = re.sub(mid_dot_pattern, '', mid_dots.text).strip()
+        rate_up.append(parse_characters(rm_dot))
 
     #Banner End Datetime (format codes: https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes)
-    avail_until = [av_unt for av_unt in soup.css.select('div.section > p')[0].stripped_strings if 'Available until' in av_unt]
+    avail_until = [av_unt for av_unt in section_divs[0].find('p').stripped_strings if 'Available until' in av_unt]
     date_string = avail_until[0].replace('Available until ', '').replace(' (UTC)', '')
     end_time = datetime.strptime(date_string, '%H:%M %b %d, %Y')
 
     new_banner = {
-        'name' : banner_name,
+        'name' : banner_name.replace('Fateful Encounter', 'Fateful Encounter:'),
         'banner_file' : banner_name + '.json',
         'banner_image' : banner_name + '.png',
         'banner_enddatetime' : end_time.strftime('%Y-%m-%dT%H:%M:%SZ'),
@@ -330,6 +331,7 @@ def main():
     
     if combo_img:
         add_new_banner_css(base_path, combo_img, new_banner)
+        print('HTML and CSS updated for new banner')
     
         
 

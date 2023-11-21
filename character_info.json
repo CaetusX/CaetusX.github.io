@@ -4,7 +4,7 @@
 	"Mighty" : { "id" : 101000041, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Toova" : { "id" : 101000051, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Yuna" : { "id" : 101000121, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
-	"Melody" : { "id" : 101000141, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
+	"Melody" : { "id" : 101000141, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Radica" : { "id" : 101000171, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Myrus" : { "id" : 101000221, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Rosetta" : { "id" : 101000241, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
@@ -15,6 +15,7 @@
 	"Iphi" : { "id" : 101000321, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Yakumo" : { "id" : 101000331, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"\"Dream Weaver\" Dunarith" : { "id" : 101000351, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
+	"\"Porcelain Pixie\" Myunfa" : { "id" : 101000361, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Anabel" : { "id" : 101010011, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Shanie" : { "id" : 101010081, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Shannon" : { "id" : 101010091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
@@ -43,7 +44,7 @@
 	"Zeviro" : { "id" : 101030131, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Necoco" : { "id" : 101030151, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Cyan Scyther" : { "id" : 101030161, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
-	"Orleya" : { "id" : 101030171, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
+	"Orleya" : { "id" : 101030171, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"\"Crimson Reaper\" Ilulu" : { "id" : 101030181, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Suzette" : { "id" : 101040031, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Cetie" : { "id" : 101040091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
@@ -66,7 +67,7 @@
 	"Silver Striker" : { "id" : 101050151, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Alma" : { "id" : 101050171, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Lokido" : { "id" : 101060031, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
-	"Felmina" : { "id" : 101060091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
+	"Felmina" : { "id" : 101060091, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Dewey" : { "id" : 101060101, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Tsubame" : { "id" : 101060111, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Lovely" : { "id" : 101060121, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
@@ -77,5 +78,6 @@
 	"Biaka" : { "id" : 101070081, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Myunfa" : { "id" : 101070091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Yipha" : { "id" : 101070101, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
-	"Daisy" : { "id" : 101070111, "5" : true, "AS" : false, "ES" : false, "Acquired" : true }
+	"Daisy" : { "id" : 101070111, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
+	"Velette" : { "id" : 101070131, "5" : true, "AS" : false, "ES" : false, "Acquired" : false }
 }
