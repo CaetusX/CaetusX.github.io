@@ -1,6 +1,134 @@
 {
     "fateful" : [
         {
+            "name": "Fateful Encounter: The Ways We Walked Round 8",
+            "banner_file": "Fateful Encounter The Ways We Walked Round 8.json",
+            "banner_image": "Fateful Encounter The Ways We Walked Round 8.png",
+            "banner_enddatetime": "2024-01-28T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/22a1a559b3d1924b58b5d89dbdda8b8d?language=en",
+            "banner_short_name": "fateful-ways-we-walked-8"
+        },
+        {
+            "name": "Fateful Encounter: Another Style Epoch Maker",
+            "banner_file": "Fateful Encounter Another Style Epoch Maker.json",
+            "banner_image": "Fateful Encounter Another Style Epoch Maker.png",
+            "banner_enddatetime": "2024-01-28T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/3d410c89d7f32b4f7994e4fd1c2e079e?language=en",
+            "banner_short_name": "fateful-alma-as"
+        },
+        {
+            "name": "Fateful Encounter: Seven Days Encounter Catch-up Campaign Special Edition",
+            "banner_file": "Fateful Encounter Seven Days Encounter Catch-up Campaign Special Edition January 2024.json",
+            "banner_image": "Fateful Encounter Seven Days Encounter Catch-up Campaign Special Edition January 2024.png",
+            "banner_enddatetime": "2024-01-10T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/2bfcbbf28dc884f3adaaa1738f87e850?language=en",
+            "banner_short_name": "fateful-7de-jan-2024"
+        },
+        {
+            "name": "Fateful Encounter: Wenefica",
+            "banner_file": "Fateful Encounter Wenefica.json",
+            "banner_image": "Fateful Encounter Wenefica.png",
+            "banner_enddatetime": "2024-01-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/0376cc5f851207b9dd3a34ed1cfc4103?language=en",
+            "banner_short_name": "fateful-wenefica"
+        },
+        {
+            "name": "Fateful Encounter: Seven Days Encounter Catch-up Campaign Special Edition",
+            "banner_file": "Fateful Encounter Seven Days Encounter Catch-up Campaign Special Edition December 2023 Part 2.json",
+            "banner_image": "Fateful Encounter Seven Days Encounter Catch-up Campaign Special Edition December 2023 Part 2.png",
+            "banner_enddatetime": "2023-12-30T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/6975a8f9b2cac3c1e9581a6c28acabfa?language=en",
+            "banner_short_name": "fateful-7de-dec-2023-pt-2"
+        },
+        {
+            "name": "Fateful Encounter: The Ways We Walked Round 7",
+            "banner_file": "Fateful Encounter The Ways We Walked Round 7.json",
+            "banner_image": "Fateful Encounter The Ways We Walked Round 7.png",
+            "banner_enddatetime": "2024-01-06T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/17ae3fed574e1b811bd03bfd388d7352?language=en",
+            "banner_short_name": "fateful-ways-we-walked-7"
+        },
+        {
+            "name": "Fateful Encounter: Ally Re-Encounter Murasame Starchart",
+            "banner_file": "Fateful Encounter Ally Re-Encounter Murasame Starchart.json",
+            "banner_image": "Fateful Encounter Ally Re-Encounter Murasame Starchart.png",
+            "banner_enddatetime": "2024-01-06T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/b1c50d723567e96ec83a91f8b07039d2?language=en",
+            "banner_short_name": "fateful-stellar-tsukiha"
+        },
+        {
+            "name": "Fateful Encounter: Ally Re-Encounter Dragoon Starchart",
+            "banner_file": "Fateful Encounter Ally Re-Encounter Dragoon Starchart.json",
+            "banner_image": "Fateful Encounter Ally Re-Encounter Dragoon Starchart.png",
+            "banner_enddatetime": "2024-01-06T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/441f301299e588e1ffde5f2a727841da?language=en",
+            "banner_short_name": "fateful-stellar-suzette"
+        },
+        {
+            "name": "Fateful Encounter: Twin Destinies Encounter Special Winter 2023 Series",
+            "banner_file": "Twin Destinies Encounter Special Winter 2023 Series.json",
+            "banner_image": "Twin Destinies Encounter Special Winter 2023 Series.png",
+            "banner_enddatetime": "2023-12-12T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/8254cfb92eaffcf34908e07892102fac?language=en",
+            "banner_short_name": "fateful-twin-winter-2023"
+        },
+        {
+            "name": "Fateful Encounter: Concerto Series",
+            "banner_file": "Fateful Encounter Concerto Series.json",
+            "banner_image": "Fateful Encounter Concerto Series.png",
+            "banner_enddatetime": "2023-12-31T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/9f4346560309cca582e69d8f21e6d8f6?language=en",
+            "banner_short_name": "fateful-concerto"
+        },
+        {
+            "name": "Fateful Encounter: Intertwining Melodies Series",
+            "banner_file": "Fateful Encounter Intertwining Melodies Series.json",
+            "banner_image": "Fateful Encounter Intertwining Melodies Series.png",
+            "banner_enddatetime": "2023-12-31T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/a8ee78e46af52473da5a1eba5f9348df?language=en",
+            "banner_short_name": "fateful-intertwine-melody"
+        },
+        {
+            "name": "Fateful Encounter: Thundercrack Edition",
+            "banner_file": "Fateful Encounter Thundercrack Edition.json",
+            "banner_image": "Fateful Encounter Thundercrack Edition.png",
+            "banner_enddatetime": "2023-12-18T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/8bb7288f8bb53853d83e8e025c99e7e0?language=en",
+            "banner_short_name": "fateful-thundercrack"
+        },
+        {
+            "name": "Fateful Encounter: Oboro",
+            "banner_file": "Fateful Encounter Oboro.json",
+            "banner_image": "Fateful Encounter Oboro.png",
+            "banner_enddatetime": "2023-12-18T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/c81f0781b7546d62be20f7f0812f6d4d?language=en",
+            "banner_short_name": "fateful-oboro"
+        },
+        {
+            "name": "Fateful Encounter: Seven Days Encounter Catch-up Campaign Special Edition",
+            "banner_file": "Fateful Encounter Seven Days Encounter Catch-up Campaign Special Edition December 2023.json",
+            "banner_image": "Fateful Encounter Seven Days Encounter Catch-up Campaign Special Edition December 2023.png",
+            "banner_enddatetime": "2023-12-07T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/e598881c3ccbe706f1a5ffc97c8a83f9?language=en",
+            "banner_short_name": "fateful-7de-dec-2023"
+        },
+        {
+            "name": "Fateful Encounter: Cerius",
+            "banner_file": "Fateful Encounter Cerius.json",
+            "banner_image": "Fateful Encounter Cerius.png",
+            "banner_enddatetime": "2023-12-10T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/6601e6c0b0f386d7c4c60ff8517a432f?language=en",
+            "banner_short_name": "fateful-cerius"
+        },
+        {
+            "name": "Fateful Encounter: Twin Destinies Encounter Special Fall 2023 Series",
+            "banner_file": "Twin Destinies Encounter Special Fall 2023 Series.json",
+            "banner_image": "Twin Destinies Encounter Special Fall 2023 Series.png",
+            "banner_enddatetime": "2023-11-25T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/db82166595539744470fd794d896b63b?language=en",
+            "banner_short_name": "twin-destinies-fall-2023"
+        },
+        {
             "name": "Fateful Encounter: Alluring Illusion Edition",
             "banner_file": "Fateful Encounter Alluring Illusion Edition.json",
             "banner_image": "Fateful Encounter Alluring Illusion Edition.png",
@@ -25,7 +153,7 @@
             "banner_short_name": "fateful-dauntless-challenge"
         },
         {
-            "name": "Fateful Encounter: The Ways We Walked Round 5",
+            "name": "Fateful Encounter: The Ways We Walked Round 5 (Twin Destinies)",
             "banner_file": "Fateful Encounter The Ways We Walked Round 5.json",
             "banner_image": "Fateful Encounter The Ways We Walked Round 5.png",
             "banner_enddatetime": "2023-11-23T14:59:00Z",
@@ -81,7 +209,7 @@
             "banner_short_name": "fateful-pp-myunfa"
         },
         {
-            "name": "Fateful Encounter: The Ways We Walked Round 4",
+            "name": "Fateful Encounter: The Ways We Walked Round 4 (Twin Destinies)",
             "banner_file": "Fateful Encounter The Ways We Walked Round 4.json",
             "banner_image": "Fateful Encounter The Ways We Walked Round 4.png",
             "banner_enddatetime": "2023-11-03T14:59:00Z",
@@ -2059,6 +2187,70 @@
     ],
     "nonfateful" : [
         {
+            "name": "Another Style: Epoch Maker",
+            "banner_file": "Another Style Epoch Maker.json",
+            "banner_image": "Another Style Epoch Maker.png",
+            "banner_enddatetime": "2024-02-08T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/24ca821b1c319de82d1aa8fe3c329558?language=en",
+            "banner_short_name": "alma-as"
+        },
+        {
+            "name": "Ally Encounter: Wenefica",
+            "banner_file": "Ally Encounter Wenefica.json",
+            "banner_image": "Ally Encounter Wenefica.png",
+            "banner_enddatetime": "2024-01-28T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/25c73743ea6e32b2542e955fc63c0f7a?language=en",
+            "banner_short_name": "wenefica"
+        },
+        {
+            "name": "Ally Encounter: Suzette & Tsukiha",
+            "banner_file": "Ally Encounter Suzette & Tsukiha.json",
+            "banner_image": "Ally Encounter Suzette & Tsukiha.png",
+            "banner_enddatetime": "2024-01-06T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/f8c53536944a8d3e431816817ffeed42?language=en",
+            "banner_short_name": "suzette-tsukiha"
+        },
+        {
+            "name": "Brilliant Encounter: Special Winter 2023 Series",
+            "banner_file": "Brilliant Encounter Special Winter 2023 Series.json",
+            "banner_image": "Brilliant Encounter Special Winter 2023 Series.png",
+            "banner_enddatetime": "2023-12-12T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/bf6f102a1df926e6ccfef767a391470e?language=en",
+            "banner_short_name": "brilliant-winter-2023"
+        },
+        {
+            "name": "Ally Encounter: Oboro",
+            "banner_file": "Ally Encounter Oboro.json",
+            "banner_image": "Ally Encounter Oboro.png",
+            "banner_enddatetime": "2023-12-18T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/0e6782830218b9a0aa93d3172dd6bbca?language=en",
+            "banner_short_name": "oboro"
+        },
+        {
+            "name": "The Ways We Walked: Round 6",
+            "banner_file": "The Ways We Walked Round 6.json",
+            "banner_image": "The Ways We Walked Round 6.png",
+            "banner_enddatetime": "2023-12-10T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/dff83443c747e4b4006e4984fd1b927e?language=en",
+            "banner_short_name": "ways-we-walked-6"
+        },
+        {
+            "name": "Ally Encounter: Cerius",
+            "banner_file": "Ally Encounter Cerius.json",
+            "banner_image": "Ally Encounter Cerius.png",
+            "banner_enddatetime": "2023-12-10T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/987fdcb3e95144c2d9944063b9cb3266?language=en",
+            "banner_short_name": "cerius"
+        },
+        {
+            "name": "Brilliant Encounter: Special Fall 2023 Series",
+            "banner_file": "Brilliant Encounter Special Fall 2023 Series.json",
+            "banner_image": "Brilliant Encounter Special Fall 2023 Series.png",
+            "banner_enddatetime": "2023-11-25T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/afe3324b04af919759f49a13488ca773?language=en",
+            "banner_short_name": "brilliant-fall-2023"
+        },
+        {
             "name": "Another Style: Venus",
             "banner_file": "Another Style Venus.json",
             "banner_image": "Another Style Venus.png",
@@ -3714,7 +3906,7 @@
             "banner_file" : "Default Encounter.json",
             "banner_image" : "Default Encounter.png",
             "banner_enddatetime" : "2099-01-01T00:00:00Z",
-            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/d11aa8ae644012f4e773cd983937b486?language=en",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/b8dce2c8e91ee4340aa58a10e701478e?language=en",
             "banner_short_name" : "default-encounter"
         }
     ]

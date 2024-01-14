@@ -8,7 +8,7 @@
   <title>Another Eden Encounter Simulator</title>
   <link rel="stylesheet" href="css/vendor/bootswatch-litera-4.4.1/bootstrap.min.css">
   <link rel="stylesheet" href="css/vendor/fontawesome-pro-5.14.0-web/css/all.min.css">
-  <link rel="stylesheet" href="css/encounter-sim.css?v=dRv263mgz8">
+  <link rel="stylesheet" href="css/encounter-sim.css?v=HGY1UOrEw6">
   
   <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -223,8 +223,14 @@
   <script src="js/vendor/bootstrap-4.4.1/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/binarysearch.js"></script>
   <script>
-    function createStars(rarity, maxRarity, isAS, isES) {
-        if (isAS) {
+    function createStars(rarity, maxRarity, isAS, isES, isPUB) {
+        if (isPUB && rarity == 5 && isAS) {
+            let starPUBAS = $("<img>").attr("src", "images/zodiac_style_as.png").addClass("star"); 
+            return [starPUBAS, starPUBAS.clone(), starPUBAS.clone(), starPUBAS.clone(), starPUBAS.clone()];
+        } else if (isPUB && rarity == 5) {
+            let starPUB = $("<img>").attr("src", "images/zodiac_style.png").addClass("star"); 
+            return [starPUB, starPUB.clone(), starPUB.clone(), starPUB.clone(), starPUB.clone()];
+        } else if (isAS) {
             let starAS = $("<img>").attr("src", "images/style.png").addClass("star");
             return [starAS, starAS.clone(), starAS.clone(), starAS.clone(), starAS.clone()];
         } else if (isES) {
@@ -242,13 +248,13 @@
             return starArray;
         }
     }
-    function prepareImage(name, rarity, charImages) {
+    function prepareImage(name, rarity, charImages, pickUpBonus) {
         if (name in charImages) {
             let charId = charImages[name]["id"];
             let imgPath = "images/characters/party_portrait/" + charId + "/" + charId + charImages[name][String(rarity)] + ".png";
             let divWrapper = $("<div></div>").addClass("img-wrap d-block mx-auto");
 
-            let divRarity = $("<div></div>").addClass("overlay rarity-overlay d-flex align-items-center justify-content-center").append(createStars(rarity, charImages[name]["max_rarity"], ("AS" in charImages[name]),("ES" in charImages[name])))
+            let divRarity = $("<div></div>").addClass("overlay rarity-overlay d-flex align-items-center justify-content-center").append(createStars(rarity, charImages[name]["max_rarity"], ("AS" in charImages[name]),("ES" in charImages[name]), (pickUpBonus.includes(name))))
             return divWrapper.append($("<img>").attr("src", imgPath).addClass("character")).append($("<span></span>").addClass("overlay name-overlay").toggleClass("name-too-long", name.length > 15).html(name)).append(divRarity);
         } else {
             return $("<div>Character not found!</div>");
@@ -560,13 +566,13 @@
 
         $('[data-toggle="tooltip"]').tooltip();
 
-        $.getJSON("character_images.json?v=dRv263mgz8", function(images) {
+        $.getJSON("character_images.json?v=HGY1UOrEw6", function(images) {
             $("#loading-images").append($("<div></div>").addClass("toast").attr({"role" : "alert", "data-delay" : 1000}).append($("<div></div>").addClass("toast-body").text("Loading character image map...")).toast("show"));
             charImages = images;
             $("#container").trigger("imageMapLoaded");
         });
 
-        $.getJSON("character_info.json?v=dRv263mgz8", function(characterinfo) {
+        $.getJSON("character_info.json?v=HGY1UOrEw6", function(characterinfo) {
             charInfo = characterinfo;
         });
 
@@ -574,7 +580,7 @@
             $("#loading-images").append($("<div></div>").addClass("toast").attr({"role" : "alert", "data-delay" : 1000}).append($("<div></div>").addClass("toast-body").text("Character image map load complete!")).toast("show"));
         });
 
-        $.getJSON("encounter_banners.json?v=dRv263mgz8", function(bannerList) {
+        $.getJSON("encounter_banners.json?v=HGY1UOrEw6", function(bannerList) {
             if ("future" in bannerList) {
               $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Future")));
               $.each(bannerList["future"], function(i, banner) {
@@ -625,6 +631,9 @@
             let bannerToLoad = 'banners/' + $(this).attr("data-banner-file");
             $.getJSON(bannerToLoad, function(encounter) {
                 currentEnc = encounter;
+                if (!("pick_up_bonus" in encounter)) {
+                    currentEnc["pick_up_bonus"] = [];
+                }
                 $.each(encounter["rate_up"], function(i, character) {
                     $("#rateup-chars").append(getCommandImage(character, 0, charImages));
                 });
@@ -654,7 +663,7 @@
             e.preventDefault();
             clearEncounterResults();
             let unit_pulled = pullUnit(currentEnc, "lone", charInfo);
-            $("#encounter-results-row-1").html($("<div></div>").addClass("col py-2").append(prepareImage(unit_pulled["name"], unit_pulled["rarity"], charImages)));
+            $("#encounter-results-row-1").html($("<div></div>").addClass("col py-2").append(prepareImage(unit_pulled["name"], unit_pulled["rarity"], charImages, currentEnc["pick_up_bonus"])));
             updateTotalsAndProbabilities("lone", charImages);
             $("#single-pull-badge").show("fast");
         });
@@ -667,7 +676,8 @@
             if ($("#banner-name").text().includes("Fateful")) {
                 resetTotalsAndProbabilities();
             }
-            if ($("#banner-name").text().includes("Twin Destinies")) {
+            let ninth_and_tenth = ["Twin Destinies"]
+            if (ninth_and_tenth.some(i => $("#banner-name").text().includes(i))) {
                 single_pulls = 8;
                 tenth_pulls = 2;
             }
@@ -675,11 +685,11 @@
             for (let x = 0; x < single_pulls; x++) {
                 unit_pulled = pullUnit(currentEnc, "lone", charInfo);
                 resultRow = x < 5 ? $("#encounter-results-row-1") : $("#encounter-results-row-2");
-                resultRow.append($("<div></div>").addClass("col py-2").append(prepareImage(unit_pulled["name"], unit_pulled["rarity"], charImages)));
+                resultRow.append($("<div></div>").addClass("col py-2").append(prepareImage(unit_pulled["name"], unit_pulled["rarity"], charImages, currentEnc["pick_up_bonus"])));
             }
             for (let y = 0; y < tenth_pulls; y++) {
                 unit_pulled = pullUnit(currentEnc, "tenth", charInfo);
-                $("#encounter-results-row-2").append($("<div></div>").addClass("col py-2").append(prepareImage(unit_pulled["name"], unit_pulled["rarity"], charImages)));
+                $("#encounter-results-row-2").append($("<div></div>").addClass("col py-2").append(prepareImage(unit_pulled["name"], unit_pulled["rarity"], charImages, currentEnc["pick_up_bonus"])));
             }
             updateTotalsAndProbabilities("tenth", charImages);
             $("#ten-pull-badge").show("fast");
