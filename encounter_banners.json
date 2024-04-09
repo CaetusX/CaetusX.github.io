@@ -1,6 +1,14 @@
 {
     "fateful" : [
         {
+            "name": "Fateful Encounter: Twin Destinies Encounter Another Eden Spring Festival 2024",
+            "banner_file": "Twin Destinies Encounter Another Eden Spring Festival 2024.json",
+            "banner_image": "Twin Destinies Encounter Another Eden Spring Festival 2024.png",
+            "banner_enddatetime": "2024-04-11T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/2804a0ef3a0f2f33448ed50e55afee73?language=en",
+            "banner_short_name": "fateful-twin-spring-fest-2024"
+        },
+        {
             "name": "Fateful Encounter: Kuchinawa",
             "banner_file": "Fateful Encounter Kuchinawa.json",
             "banner_image": "Fateful Encounter Kuchinawa.png",
@@ -647,86 +655,6 @@
             "banner_enddatetime": "2023-06-30T14:59:59Z",
             "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/260cd857711d28eee25af208c0787714?language=en",
             "banner_short_name": "fateful-wanderers-special"
-        },
-        {
-            "name" : "Fateful Encounter: Wind Force Special Edition -Sesta-",
-            "banner_file" : "Fateful Encounter Wind Force Special Edition Sesta.json",
-            "banner_image" : "Fateful Encounter Wind Force Special Edition Sesta.png",
-            "banner_enddatetime" : "2023-08-13T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/58b654e04fc90358b09553e0bd1c663e?language=en",
-            "banner_short_name" : "fateful-wind-force-sesta"
-        },
-        {
-            "name" : "Fateful Encounter: Shade Force Special Edition -Toova ES-",
-            "banner_file" : "Fateful Encounter Shade Force Special Edition Toova ES.json",
-            "banner_image" : "Fateful Encounter Shade Force Special Edition Toova ES.png",
-            "banner_enddatetime" : "2023-08-13T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/6415e0c1fae2875fd7cc6cbbcd84f453?language=en",
-            "banner_short_name" : "fateful-shade-force-toova-es"
-        },
-        {
-            "name" : "Fateful Encounter: Wanderer in the Binding Night",
-            "banner_file" : "Fateful Encounter Wanderer in the Binding Night.json",
-            "banner_image" : "Fateful Encounter Wanderer in the Binding Night.png",
-            "banner_enddatetime" : "2023-08-13T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/d889268a1f38578c375c218649e1ea75?language=en",
-            "banner_short_name" : "fateful-wanderer-binding-night"
-        },
-        {
-            "name" : "Fateful Encounter: Extra Style Series",
-            "banner_file" : "Fateful Encounter Extra Style Series.json",
-            "banner_image" : "Fateful Encounter Extra Style Series.png",
-            "banner_enddatetime" : "2023-08-13T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/3c1163b6a177ccfeee0ce12312bd0067?language=en",
-            "banner_short_name" : "fateful-es-series"
-        },
-        {
-            "name" : "Fateful Encounter: Deft Destruction Series",
-            "banner_file" : "Fateful Encounter Deft Destruction Series.json",
-            "banner_image" : "Fateful Encounter Deft Destruction Series.png",
-            "banner_enddatetime" : "2023-08-13T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/13fb866beb14701a153f3895d6f51ea9?language=en",
-            "banner_short_name" : "fateful-deft-destruction"
-        },
-        {
-            "name" : "Fateful Encounter: Lovebird",
-            "banner_file" : "Fateful Encounter Lovebird.json",
-            "banner_image" : "Fateful Encounter Lovebird.png",
-            "banner_enddatetime" : "2023-08-04T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/446b03195fd78a2dbcf6a33b8e0e551a?language=en",
-            "banner_short_name" : "fateful-lovely-as"
-        },
-        {
-            "name" : "Fateful Encounter: Seven Days Encounter",
-            "banner_file" : "Fateful Encounter Seven Days Encounter July 2023.json",
-            "banner_image" : "Fateful Encounter Seven Days Encounter July 2023.png",
-            "banner_enddatetime" : "2023-07-07T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/1a352ea8d02653f4a6fdf18f1b9716d1?language=en",
-            "banner_short_name" : "fateful-seven-days"
-        },
-        {
-            "name" : "Fateful Encounter: Twin Destinies Encounter Origins Edition",
-            "banner_file" : "Fateful Encounter Twin Destinies Encounter Origins Edition June 2023.json",
-            "banner_image" : "Fateful Encounter Twin Destinies Encounter Origins Edition June 2023.png",
-            "banner_enddatetime" : "2023-06-30T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/522f224668b1985366248e526c308fb2?language=en",
-            "banner_short_name" : "fateful-twin-destinies-origins-june-2023"
-        },
-        {
-            "name" : "Fateful Encounter: Twin Destinies Encounter Rebirth Edition",
-            "banner_file" : "Fateful Encounter Twin Destinies Encounter Rebirth Edition June 2023.json",
-            "banner_image" : "Fateful Encounter Twin Destinies Encounter Rebirth Edition June 2023.png",
-            "banner_enddatetime" : "2023-06-30T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/aff0524815a372d3252784525a58a539?language=en",
-            "banner_short_name" : "fateful-twin-destinies-rebirth-june-2023"
-        },
-        {
-            "name" : "Fateful Encounter: Wanderer's Diary Special Edition",
-            "banner_file" : "Fateful Encounter Wanderers Diary Special Edition.json",
-            "banner_image" : "Fateful Encounter Wanderers Diary Special Edition.png",
-            "banner_enddatetime" : "2023-06-30T14:59:59Z",
-            "official_link" : "https://api-us.another-eden.games/asset/lottery_notice/view/260cd857711d28eee25af208c0787714?language=en",
-            "banner_short_name" : "fateful-wanderers-special"
         },
         {
             "name" : "Fateful Encounter: Sunlit Amber Series",
@@ -2330,6 +2258,30 @@
         }
     ],
     "nonfateful" : [
+        {
+            "name": "Ally Encounter: Spring Festival 2024 Special Edition 2",
+            "banner_file": "Ally Encounter Spring Festival 2024 Special Edition 2.json",
+            "banner_image": "Ally Encounter Spring Festival 2024 Special Edition 2.png",
+            "banner_enddatetime": "2024-04-10T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/65b7bb79014e56f5f1b6571e2c3a81ef?language=en",
+            "banner_short_name": "spring-fest-2024-se2"
+        },
+        {
+            "name": "Ally Encounter: Spring Festival 2024 Special Edition 1",
+            "banner_file": "Ally Encounter Spring Festival 2024 Special Edition 1.json",
+            "banner_image": "Ally Encounter Spring Festival 2024 Special Edition 1.png",
+            "banner_enddatetime": "2024-04-09T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/89457ae2627a26027c9567b524f11018?language=en",
+            "banner_short_name": "spring-fest-2024-se1"
+        },
+        {
+            "name": "Brilliant Encounter: Another Eden Spring Festival 2024",
+            "banner_file": "Brilliant Encounter Another Eden Spring Festival 2024.json",
+            "banner_image": "Brilliant Encounter Another Eden Spring Festival 2024.png",
+            "banner_enddatetime": "2024-04-11T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/07cd146fd42f6e00f4162c8000eddbb5?language=en",
+            "banner_short_name": "brilliant-spring-fest-2024"
+        },
         {
             "name": "Ally Encounter: Kuchinawa",
             "banner_file": "Ally Encounter Kuchinawa.json",
