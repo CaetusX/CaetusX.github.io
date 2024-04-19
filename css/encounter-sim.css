@@ -1526,6 +1526,30 @@ a.banner-select.spring-fest-2024-se1 {
 a.banner-select.spring-fest-2024-se2 {
   background: url("../images/banners/91006.springfest2024se2.combo.png") 0 0 no-repeat;
 }
+a.banner-select.spring-fest-2024-se3 {
+  background: url("../images/banners/91043.springfest2024se3.combo.png") 0 0 no-repeat;
+}
+a.banner-select.seventh-anni {
+  background: url("../images/banners/91030.seventhanni.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-anabel-es {
+  background: url("../images/banners/91052.fatefulanabeles.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-xianhua {
+  background: url("../images/banners/91000.fatefulxianhua.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-7th-anni {
+  background: url("../images/banners/91040.fateful7thanni.combo.png") 0 0 no-repeat;
+}
 a.banner-select:hover {
   background-position: 0 -7.625rem;
+}
+a.banner-select>span {
+  position: absolute;
+  top: 0.24rem;
+  right: 0.15rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  width: 5rem;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.8);
 }

@@ -17,7 +17,8 @@
 	"\"Dream Weaver\" Dunarith" : { "id" : 101000351, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"\"Porcelain Pixie\" Myunfa" : { "id" : 101000361, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Kuchinawa" : { "id" : 101000371, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
-	"Anabel" : { "id" : 101010011, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
+	"Xianhua" : { "id" : 101000381, "5" : true, "AS" : false, "ES" : false, "Acquired" : false },
+	"Anabel" : { "id" : 101010011, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Shanie" : { "id" : 101010081, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Shannon" : { "id" : 101010091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Cynthia" : { "id" : 101010101, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
@@ -56,7 +57,7 @@
 	"Hismena" : { "id" : 101040111, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Tiramisu" : { "id" : 101040121, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Milsha" : { "id" : 101040131, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
-	"Ewella" : { "id" : 101040141, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
+	"Ewella" : { "id" : 101040141, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Garambarrel" : { "id" : 101040161, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Violet Lancer" : { "id" : 101040171, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"\"Noble Blossom\" Tsukiha" : { "id" : 101040181, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
@@ -84,6 +85,6 @@
 	"Biaka" : { "id" : 101070081, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Myunfa" : { "id" : 101070091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Yipha" : { "id" : 101070101, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
-	"Daisy" : { "id" : 101070111, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
+	"Daisy" : { "id" : 101070111, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Velette" : { "id" : 101070131, "5" : true, "AS" : false, "ES" : false, "Acquired" : false }
 }
