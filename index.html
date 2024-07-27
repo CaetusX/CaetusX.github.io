@@ -368,9 +368,23 @@
         resetTotalsAndProbabilities();
         $("#prob-characters>tr").remove();
     }
-    function buildSelectorBanner(banner) {
-        let bannerClass = [banner["banner_short_name"], "banner-select", "d-block", "mx-auto"];
-        return $("<div></div>").addClass("col py-1").append($("<a></a>").addClass(bannerClass).attr({ "href" : "#", "data-banner-file" : banner["banner_file"], "data-banner-img" : banner["banner_image"], "data-toggle" : "collapse", "data-target" : "#encounter-info", "data-banner-official" : banner["official_link"], "data-banner-name" : banner["name"] }));
+    function buildSelectorBanner(banner, showTimeRemaining) {
+        let bannerClass = [banner["banner_short_name"], "banner-select", "d-inline-block", "position-relative", "mx-auto"];
+        let bannerAttrs = { "href" : "#", "data-banner-file" : banner["banner_file"], "data-banner-img" : banner["banner_image"], "data-toggle" : "collapse", "data-target" : "#encounter-info", "data-banner-official" : banner["official_link"], "data-banner-name" : banner["name"] };
+        if (!showTimeRemaining) {
+          return $("<div></div>").addClass("col py-1 d-flex mx-auto").append($("<a></a>").addClass(bannerClass).attr(bannerAttrs));
+        } else {
+          return $("<div></div>").addClass("col py-1 d-flex mx-auto").append($("<a></a>").addClass(bannerClass).attr(bannerAttrs).append($("<span></span>").addClass("text-center").text(getTimeRemaining(banner["banner_enddatetime"]))));
+        }
+    }
+    function getTimeRemaining(endDateTime) {
+        let currentTimeMs = Date.now();
+        let endDT = new Date(endDateTime);
+        if (Math.floor((endDT.getTime() - currentTimeMs) / (1000*60*60*24)) == 0) {
+          return String(Math.floor((endDT.getTime() - currentTimeMs) / (1000*60*60))) + " H Left"; //hours
+        } else {
+          return String(Math.floor((endDT.getTime() - currentTimeMs) / (1000*60*60*24))) + " D Left"; //days
+        }
     }
     function calculateProbabilityOneOrMore(loneRate, lonePulls, tenthRate, tenthPulls) {
         // 1 - (1 - loneRate)^lonePulls * (1 - tenthRate)^tenthPulls
@@ -587,38 +601,38 @@
             if ("future" in bannerList) {
               $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Future")));
               $.each(bannerList["future"], function(i, banner) {
-                  $("#banner-options").append(buildSelectorBanner(banner));
+                  $("#banner-options").append(buildSelectorBanner(banner, false));
               });
             }
             $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Limited")));
             $.each(bannerList["fateful"], function(i, banner) {
                 let bannerDate = new Date(banner["banner_enddatetime"]);
                 if (bannerDate > Date.now()) {
-                    $("#banner-options").append(buildSelectorBanner(banner));
+                    $("#banner-options").append(buildSelectorBanner(banner, true));
                 }
             });
             $.each(bannerList["nonfateful"], function(i, banner) {
                 let bannerDate = new Date(banner["banner_enddatetime"]);
                 if (bannerDate > Date.now()) {
-                    $("#banner-options").append(buildSelectorBanner(banner));
+                    $("#banner-options").append(buildSelectorBanner(banner, false));
                 }
             });
             $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Regular")));
             $.each(bannerList["regular"], function(i, banner) {
-                $("#banner-options").append(buildSelectorBanner(banner));
+                $("#banner-options").append(buildSelectorBanner(banner, false));
             });
             $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Ended Non Fateful")));
             $.each(bannerList["nonfateful"], function(i, banner) {
                 let bannerDate = new Date(banner["banner_enddatetime"]);
                 if (bannerDate <= Date.now()) {
-                    $("#banner-options").append(buildSelectorBanner(banner));
+                    $("#banner-options").append(buildSelectorBanner(banner, false));
 				}
             });
             $("#banner-options").append($("<div></div>").addClass("col-12 py-1").append($("<h4></h4>").text("Ended Fateful")));
             $.each(bannerList["fateful"], function(i, banner) {
                 let bannerDate = new Date(banner["banner_enddatetime"]);
                 if (bannerDate <= Date.now()) {
-                    $("#banner-options").append(buildSelectorBanner(banner));
+                    $("#banner-options").append(buildSelectorBanner(banner, false));
 				}
             });
         });

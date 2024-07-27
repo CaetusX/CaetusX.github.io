@@ -1,6 +1,134 @@
 {
     "fateful" : [
         {
+            "name": "Fateful Encounter: Encounter Across Time Layers \"Undercover Scribe\" Renri",
+            "banner_file": "Fateful Encounter Encounter Across Time Layers Undercover Scribe Renri.json",
+            "banner_image": "Fateful Encounter Encounter Across Time Layers Undercover Scribe Renri.png",
+            "banner_enddatetime": "2024-07-28T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/4ecd982629c809cf5f9a7167647b73a1?language=en",
+            "banner_short_name": "fateful-us-renri"
+        },
+        {
+            "name": "Fateful Encounter: Another Style Eris <Tetra: Another Style>",
+            "banner_file": "Fateful Encounter Another Style Eris Tetra Another Style.json",
+            "banner_image": "Fateful Encounter Another Style Eris Tetra Another Style.png",
+            "banner_enddatetime": "2024-07-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/059a5ea15d074942fb31cd6a48275d7e?language=en",
+            "banner_short_name": "fateful-minalca-as"
+        },
+        {
+            "name": "Fateful Encounter: Ally Re-Encounter Negotiator Starchart",
+            "banner_file": "Fateful Encounter Ally Re-Encounter Negotiator Starchart.json",
+            "banner_image": "Fateful Encounter Ally Re-Encounter Negotiator Starchart.png",
+            "banner_enddatetime": "2024-07-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/e8109ab88dbe265a742828c9689775b4?language=en",
+            "banner_short_name": "fateful-ewan-starchart"
+        },
+        {
+            "name": "Fateful Encounter: Boundless Heights Fire Edition",
+            "banner_file": "Fateful Encounter Boundless Heights Fire Edition 2.json",
+            "banner_image": "Fateful Encounter Boundless Heights Fire Edition 2.png",
+            "banner_enddatetime": "2024-07-14T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/8fc24d8f1d169539a6b7850cd766ebac?language=en",
+            "banner_short_name": "fateful-boundless-fire-2"
+        },
+        {
+            "name": "Fateful Encounter: Ally Encounter Jillfunny <Pyggie>",
+            "banner_file": "Fateful Encounter Ally Encounter Jillfunny Pyggie.json",
+            "banner_image": "Fateful Encounter Ally Encounter Jillfunny Pyggie.png",
+            "banner_enddatetime": "2024-06-30T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/0dc88b920be545b01d71b4522c2bc940?language=en",
+            "banner_short_name": "fateful-jillfunny"
+        },
+        {
+            "name": "Fateful Encounter: Luring Shadow Special Edition",
+            "banner_file": "Fateful Encounter Luring Shadow Special Edition.json",
+            "banner_image": "Fateful Encounter Luring Shadow Special Edition.png",
+            "banner_enddatetime": "2024-06-30T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/e5af4fb10993a2ee387a3054e1f9fa0b?language=en",
+            "banner_short_name": "fateful-luring-shadow"
+        },
+        {
+            "name": "Fateful Encounter: Twin Destinies Encounter Another Eden Summer Festival 2024",
+            "banner_file": "Twin Destinies Encounter Another Eden Summer Festival 2024.json",
+            "banner_image": "Twin Destinies Encounter Another Eden Summer Festival 2024.png",
+            "banner_enddatetime": "2024-06-09T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/f99e61dc73f76c5aa05e814d190d453f?language=en",
+            "banner_short_name": "fateful-twin-summer-fest-24"
+        },
+        {
+            "name": "Fateful Encounter: Ally Encounter Mazrika",
+            "banner_file": "Fateful Encounter Ally Encounter Mazrika.json",
+            "banner_image": "Fateful Encounter Ally Encounter Mazrika.png",
+            "banner_enddatetime": "2024-06-16T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/6a0192067ca37da21a7e1d528c855472?language=en",
+            "banner_short_name": "fateful-mazrika"
+        },
+        {
+            "name": "Fateful Encounter: Ally Re-Encounter Magister Starchart",
+            "banner_file": "Fateful Encounter Ally Re-Encounter Magister Starchart.json",
+            "banner_image": "Fateful Encounter Ally Re-Encounter Magister Starchart.png",
+            "banner_enddatetime": "2024-06-16T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/8bbb45170bf21239806816ba21cf365a?language=en",
+            "banner_short_name": "fateful-magister-starchart"
+        },
+        {
+            "name": "Fateful Encounter: Blessings of the Stream Edition",
+            "banner_file": "Fateful Encounter Blessings of the Stream Edition.json",
+            "banner_image": "Fateful Encounter Blessings of the Stream Edition.png",
+            "banner_enddatetime": "2024-06-16T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/c3cdd148d0313b098d1f15be74f36ae1?language=en",
+            "banner_short_name": "fateful-blessings-stream"
+        },
+        {
+            "name": "Fateful Encounter: Another Style H\u00f6gni <Kumos: Another Style>",
+            "banner_file": "Fateful Encounter Another Style Hogni Kumos Another Style.json",
+            "banner_image": "Fateful Encounter Another Style Hogni Kumos Another Style.png",
+            "banner_enddatetime": "2024-06-02T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/d301c442d6859d0909e26d39981e42a8?language=en",
+            "banner_short_name": "fateful-yakumo-as"
+        },
+        {
+            "name": "Fateful Encounter: Amber Heroes Edition",
+            "banner_file": "Fateful Encounter Amber Heroes Edition.json",
+            "banner_image": "Fateful Encounter Amber Heroes Edition.png",
+            "banner_enddatetime": "2024-06-02T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/2ff8edd439ab7d29022fd727d5261899?language=en",
+            "banner_short_name": "fateful-amber-heroes"
+        },
+        {
+            "name": "Fateful Encounter: Lapis Heroes Edition",
+            "banner_file": "Fateful Encounter Lapis Heroes Edition.json",
+            "banner_image": "Fateful Encounter Lapis Heroes Edition.png",
+            "banner_enddatetime": "2024-06-02T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/b507398c3f19341cfcaa4d644e5594a0?language=en",
+            "banner_short_name": "fateful-lapis-heroes"
+        },
+        {
+            "name": "Fateful Encounter: 7th Anniversary Character Popularity Vote",
+            "banner_file": "Fateful Encounter 7th Anniversary Character Popularity Vote.json",
+            "banner_image": "Fateful Encounter 7th Anniversary Character Popularity Vote.png",
+            "banner_enddatetime": "2024-05-19T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/221686d7e16fb67b212fbd9423313e61?language=en",
+            "banner_short_name": "fateful-7th-anni-pop"
+        },
+        {
+            "name": "Fateful Encounter: Encounter Across Time Layers \"Virtual Reflection\" Ciel",
+            "banner_file": "Fateful Encounter Encounter Across Time Layers Virtual Reflection Ciel.json",
+            "banner_image": "Fateful Encounter Encounter Across Time Layers Virtual Reflection Ciel.png",
+            "banner_enddatetime": "2024-05-19T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/b6f542936a014393d3b16130227ac86c?language=en",
+            "banner_short_name": "fateful-vr-ciel"
+        },
+        {
+            "name": "Fateful Encounter: Boundless Heights Thunder/Blunt Edition",
+            "banner_file": "Fateful Encounter Boundless Heights ThunderBlunt Edition.json",
+            "banner_image": "Fateful Encounter Boundless Heights ThunderBlunt Edition.png",
+            "banner_enddatetime": "2024-05-19T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/c4f97c24644576945f4cf2d129c447f7?language=en",
+            "banner_short_name": "fateful-boundless-thunder-blunt"
+        },
+        {
             "name": "Fateful Encounter: Ally Encounter 7th Anniversary",
             "banner_file": "Fateful Encounter Ally Encounter 7th Anniversary.json",
             "banner_image": "Fateful Encounter Ally Encounter 7th Anniversary.png",
@@ -2283,6 +2411,78 @@
     ],
     "nonfateful" : [
         {
+            "name": "Encounter Across Time Layers: \"Undercover Scribe\" Renri",
+            "banner_file": "Encounter Across Time Layers Undercover Scribe Renri.json",
+            "banner_image": "Encounter Across Time Layers Undercover Scribe Renri.png",
+            "banner_enddatetime": "2024-08-04T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/c988e6d2f5d1c18a913b02e2d49b711c?language=en",
+            "banner_short_name": "us-renri"
+        },
+        {
+            "name": "Another Style Eris <Tetra: Another Style>",
+            "banner_file": "Another Style Eris Tetra Another Style.json",
+            "banner_image": "Another Style Eris Tetra Another Style.png",
+            "banner_enddatetime": "2024-07-21T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/6555cbcbec7c74ec6341172661215ff7?language=en",
+            "banner_short_name": "minalca-as"
+        },
+        {
+            "name": "Ally Encounter: Ewan",
+            "banner_file": "Ally Encounter Ewan.json",
+            "banner_image": "Ally Encounter Ewan.png",
+            "banner_enddatetime": "2024-07-21T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/95072c53ce02666c06de4a56b4a2915f?language=en",
+            "banner_short_name": "ewan"
+        },
+        {
+            "name": "Brilliant Encounter: Another Eden Summer Festival 2024",
+            "banner_file": "Brilliant Encounter Another Eden Summer Festival 2024.json",
+            "banner_image": "Brilliant Encounter Another Eden Summer Festival 2024.png",
+            "banner_enddatetime": "2024-06-09T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/03fa07098a4a6064380e86dcf1af4f64?language=en",
+            "banner_short_name": "brilliant-summer-fest-24"
+        },
+        {
+            "name": "Ally Encounter: Jillfunny <Pyggie>",
+            "banner_file": "Ally Encounter Jillfunny Pyggie.json",
+            "banner_image": "Ally Encounter Jillfunny Pyggie.png",
+            "banner_enddatetime": "2024-07-07T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/ea58ccc1c3939e6e9faf0ab855fe11bc?language=en",
+            "banner_short_name": "jillfunny"
+        },
+        {
+            "name": "Ally Encounter: Mazrika",
+            "banner_file": "Ally Encounter Mazrika.json",
+            "banner_image": "Ally Encounter Mazrika.png",
+            "banner_enddatetime": "2024-06-23T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/0ea70f08e89e5070eb288bf82bc673f9?language=en",
+            "banner_short_name": "mazrika"
+        },
+        {
+            "name": "Ally Encounter: Bertrand",
+            "banner_file": "Ally Encounter Bertrand.json",
+            "banner_image": "Ally Encounter Bertrand.png",
+            "banner_enddatetime": "2024-06-23T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/6ae0b18a1098df7def4c0049d2f76e40?language=en",
+            "banner_short_name": "bertrand"
+        },
+        {
+            "name": "Another Style: H\u00f6gni <Kumos: Another Style>",
+            "banner_file": "Another Style Hogni Kumos Another Style.json",
+            "banner_image": "Another Style Hogni Kumos Another Style.png",
+            "banner_enddatetime": "2024-06-09T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/678534700d7b9ec4e81bc987efb8ef18?language=en",
+            "banner_short_name": "yakumo-as"
+        },
+        {
+            "name": "Encounter Across Time Layers: \"Virtual Reflection\" Ciel",
+            "banner_file": "Encounter Across Time Layers Virtual Reflection Ciel.json",
+            "banner_image": "Encounter Across Time Layers Virtual Reflection Ciel.png",
+            "banner_enddatetime": "2024-05-26T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/bdca636ecff633b9fdb83dd22c25312d?language=en",
+            "banner_short_name": "vr-ciel"
+        },
+        {
             "name": "Ally Encounter: 7th Anniversary",
             "banner_file": "Ally Encounter 7th Anniversary.json",
             "banner_image": "Ally Encounter 7th Anniversary.png",
@@ -4138,7 +4338,7 @@
             "banner_file" : "Default Encounter.json",
             "banner_image" : "Default Encounter.png",
             "banner_enddatetime" : "2099-01-01T00:00:00Z",
-            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/82656c39e39a616555095a323b23cdba?language=en",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/596f9bc8a64541caddb1a5b8ce4199b9?language=en",
             "banner_short_name" : "default-encounter"
         }
     ]
