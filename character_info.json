@@ -53,6 +53,7 @@
 	"Orleya" : { "id" : 101030171, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"\"Crimson Reaper\" Ilulu" : { "id" : 101030181, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"Sazanca" : { "id" : 101030191, "5" : true, "AS" : false, "ES" : false, "Acquired" : false },
+	"Utpalaka" : { "id" : 101030211, "5" : true, "AS" : false, "ES" : false, "Acquired" : false },
 	"Suzette" : { "id" : 101040031, "5" : true, "AS" : true, "ES" : true, "Acquired" : true },
 	"Cetie" : { "id" : 101040091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Bertrand" : { "id" : 101040101, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
