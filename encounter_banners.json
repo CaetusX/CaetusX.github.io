@@ -1,6 +1,62 @@
 {
     "fateful" : [
         {
+            "name": "Fateful Encounter: Another Style Jiutian Xuannu",
+            "banner_file": "Fateful Encounter Another Style Jiutian Xuannu.json",
+            "banner_image": "Fateful Encounter Another Style Jiutian Xuannu.png",
+            "banner_enddatetime": "2024-09-29T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/4c9d16911c7950ee77c98dfa2112a516?language=en",
+            "banner_short_name": "fateful-lingli-as"
+        },
+        {
+            "name": "Fateful Encounter: Burning Secrets Edition",
+            "banner_file": "Fateful Encounter Burning Secrets Edition.json",
+            "banner_image": "Fateful Encounter Burning Secrets Edition.png",
+            "banner_enddatetime": "2024-09-29T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/2ea82cc2c23e8a54e4ea3b67ebb9bd3b?language=en",
+            "banner_short_name": "fateful-burning-secrets"
+        },
+        {
+            "name": "Fateful Encounter: Encounter Across Time Layers \"Thornbound Witch\" Shanie",
+            "banner_file": "Fateful Encounter Encounter Across Time Layers Thornbound Witch Shanie.json",
+            "banner_image": "Fateful Encounter Encounter Across Time Layers Thornbound Witch Shanie.png",
+            "banner_enddatetime": "2024-09-15T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/a5aa26ace7036643655dfe97ea1e20d0?language=en",
+            "banner_short_name": "fateful-ptl-shanie"
+        },
+        {
+            "name": "Fateful Encounter: Tempestuous Edition",
+            "banner_file": "Fateful Encounter Tempestuous Edition.json",
+            "banner_image": "Fateful Encounter Tempestuous Edition.png",
+            "banner_enddatetime": "2024-09-15T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/60ffad53929cbe6430f2e91211cb89d6?language=en",
+            "banner_short_name": "fateful-tempestuous"
+        },
+        {
+            "name": "Fateful Encounter: Concerto Series",
+            "banner_file": "Fateful Encounter Concerto Series 2.json",
+            "banner_image": "Fateful Encounter Concerto Series 2.png",
+            "banner_enddatetime": "2024-09-15T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/c53fe6b08a6389b43d3f8d4f7897c318?language=en",
+            "banner_short_name": "fateful-concerto-2"
+        },
+        {
+            "name": "Fateful Encounter: Journey's Outset Edition",
+            "banner_file": "Fateful Encounter Journeys Outset Edition.json",
+            "banner_image": "Fateful Encounter Journeys Outset Edition.png",
+            "banner_enddatetime": "2024-09-30T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/ad07bbaa21974bd876cce3dd98a1913a?language=en",
+            "banner_short_name": "fateful-journeys-outset"
+        },
+        {
+            "name": "Fateful Encounter: Twin Destinies Encounter Another Eden Midsummer Festival 2024 Global",
+            "banner_file": "Twin Destinies Encounter Another Eden Midsummer Festival 2024 Global.json",
+            "banner_image": "Twin Destinies Encounter Another Eden Midsummer Festival 2024 Global.png",
+            "banner_enddatetime": "2024-08-21T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/72977d5e0772f7baed99341e8c38e8b2?language=en",
+            "banner_short_name": "fateful-twin-2024-midsummer-fest"
+        },
+        {
             "name": "Fateful Encounter: Another Style Wolfskin",
             "banner_file": "Fateful Encounter Another Style Wolfskin.json",
             "banner_image": "Fateful Encounter Another Style Wolfskin.png",
@@ -2451,6 +2507,38 @@
     ],
     "nonfateful" : [
         {
+            "name": "Another Style: Jiutian Xuannu",
+            "banner_file": "Another Style Jiutian Xuannu.json",
+            "banner_image": "Another Style Jiutian Xuannu.png",
+            "banner_enddatetime": "2024-10-06T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/27d2decdfd4abd23f5cbc5ed7482498b?language=en",
+            "banner_short_name": "lingli-as"
+        },
+        {
+            "name": "Encounter Across Time Layers: \"Thornbound Witch\" Shanie",
+            "banner_file": "Encounter Across Time Layers Thornbound Witch Shanie.json",
+            "banner_image": "Encounter Across Time Layers Thornbound Witch Shanie.png",
+            "banner_enddatetime": "2024-09-22T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/a1d43f9835e3b9ebbe24f4dac4b9752a?language=en",
+            "banner_short_name": "ptl-shanie"
+        },
+        {
+            "name": "Ally Encounter: Journey's Outset Edition",
+            "banner_file": "Ally Encounter Journeys Outset Edition.json",
+            "banner_image": "Ally Encounter Journeys Outset Edition.png",
+            "banner_enddatetime": "2024-09-30T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/ca7813e38087ac269d547e6b4561fab3?language=en",
+            "banner_short_name": "journeys-outset"
+        },
+        {
+            "name": "Brilliant Encounter: Another Eden Midsummer Festival 2024 Global",
+            "banner_file": "Brilliant Encounter Another Eden Midsummer Festival 2024 Global.json",
+            "banner_image": "Brilliant Encounter Another Eden Midsummer Festival 2024 Global.png",
+            "banner_enddatetime": "2024-08-21T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/954d571ba16a537ca4c142c80d34cac3?language=en",
+            "banner_short_name": "brilliant-2024-midsummer-fest"
+        },
+        {
             "name": "Another Style: Wolfskin",
             "banner_file": "Another Style Wolfskin.json",
             "banner_image": "Another Style Wolfskin.png",
@@ -4426,7 +4514,7 @@
             "banner_file" : "Default Encounter.json",
             "banner_image" : "Default Encounter.png",
             "banner_enddatetime" : "2099-01-01T00:00:00Z",
-            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/bcfac7bae78a0e012480636e79f9c02c?language=en",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/940ab79c7af258f9c5ac0ba5dcb4e7d1?language=en",
             "banner_short_name" : "default-encounter"
         }
     ]
