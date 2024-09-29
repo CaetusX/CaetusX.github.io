@@ -90,6 +90,6 @@
 	"Myunfa" : { "id" : 101070091, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Yipha" : { "id" : 101070101, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
 	"Daisy" : { "id" : 101070111, "5" : true, "AS" : true, "ES" : false, "Acquired" : true },
-	"Velette" : { "id" : 101070131, "5" : true, "AS" : false, "ES" : false, "Acquired" : true }
+	"Velette" : { "id" : 101070131, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 	"\"Thornbound Witch\" Shanie" : { "id" : 101070151, "5" : true, "AS" : false, "ES" : false, "Acquired" : true },
 }
