@@ -1721,6 +1721,60 @@ a.banner-select.fateful-howling-secrets {
 a.banner-select.fateful-nn-tsubame {
   background: url("../images/banners/91052.fatefulnntsubame.combo.png") 0 0 no-repeat;
 }
+a.banner-select.shanie {
+  background: url("../images/banners/91033.shanie.combo.png") 0 0 no-repeat;
+}
+a.banner-select.rufus-as {
+  background: url("../images/banners/91021.rufusas.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-deep-yearning {
+  background: url("../images/banners/91015.fatefuldeepyearning.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-roaring-blaze {
+  background: url("../images/banners/91055.fatefulroaringblaze.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-shanie {
+  background: url("../images/banners/91010.fatefulshanie.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-rufus-as {
+  background: url("../images/banners/91017.fatefulrufusas.combo.png") 0 0 no-repeat;
+}
+a.banner-select.mighty {
+  background: url("../images/banners/91025.mighty.combo.png") 0 0 no-repeat;
+}
+a.banner-select.izuna {
+  background: url("../images/banners/91034.izuna.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-thundering-secrets {
+  background: url("../images/banners/91049.fatefulthunderingsecrets.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-mighty {
+  background: url("../images/banners/91047.fatefulmighty.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-izuna {
+  background: url("../images/banners/91024.fatefulizuna.combo.png") 0 0 no-repeat;
+}
+a.banner-select.id {
+  background: url("../images/banners/91009.id.combo.png") 0 0 no-repeat;
+}
+a.banner-select.brilliant-winter-2024 {
+  background: url("../images/banners/91041.brilliantwinter2024.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-journeys-outset-2 {
+  background: url("../images/banners/91054.fatefuljourneysoutset2.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-rumbling-secrets {
+  background: url("../images/banners/91042.fatefulrumblingsecrets.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-concerto-3 {
+  background: url("../images/banners/91044.fatefulconcerto3.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-id {
+  background: url("../images/banners/91045.fatefulid.combo.png") 0 0 no-repeat;
+}
+a.banner-select.fateful-twin-winter-2024 {
+  background: url("../images/banners/91003.fatefultwinwinter2024.combo.png") 0 0 no-repeat;
+}
 a.banner-select:hover {
   background-position: 0 -7.625rem;
 }

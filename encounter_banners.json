@@ -1,6 +1,102 @@
 {
     "fateful" : [
         {
+            "name": "Fateful Encounter: Twin Destinies Encounter",
+            "banner_file": "Twin Destinies Encounter Another Eden Winter Festival 2024 Global.json",
+            "banner_image": "Twin Destinies Encounter Another Eden Winter Festival 2024 Global.png",
+            "banner_enddatetime": "2024-12-08T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/d33c9b4fd406c4fa794ca1115abde34c?language=en",
+            "banner_short_name": "fateful-twin-winter-2024"
+        },
+        {
+            "name": "Fateful Encounter: Ally Encounter Id <Hazama>",
+            "banner_file": "Fateful Encounter Ally Encounter Id Hazama.json",
+            "banner_image": "Fateful Encounter Ally Encounter Id Hazama.png",
+            "banner_enddatetime": "2024-12-29T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/df85fc4f7031375e79539d45e6038542?language=en",
+            "banner_short_name": "fateful-id"
+        },
+        {
+            "name": "Fateful Encounter: Concerto Series",
+            "banner_file": "Fateful Encounter Concerto Series 3.json",
+            "banner_image": "Fateful Encounter Concerto Series 3.png",
+            "banner_enddatetime": "2024-12-29T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/516c851a5d5e7c9eb512f154bc3e4c40?language=en",
+            "banner_short_name": "fateful-concerto-3"
+        },
+        {
+            "name": "Fateful Encounter: Rumbling Secrets Edition",
+            "banner_file": "Fateful Encounter Rumbling Secrets Edition.json",
+            "banner_image": "Fateful Encounter Rumbling Secrets Edition.png",
+            "banner_enddatetime": "2024-12-29T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/3fef77036b5bc78d9edf0c8139686aee?language=en",
+            "banner_short_name": "fateful-rumbling-secrets"
+        },
+        {
+            "name": "Fateful Encounter: Journeys Outset Edition",
+            "banner_file": "Fateful Encounter Journeys Outset Edition 2.json",
+            "banner_image": "Fateful Encounter Journeys Outset Edition 2.png",
+            "banner_enddatetime": "2024-12-29T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/f14a3caca7d36fc3486f6f36afaa1443?language=en",
+            "banner_short_name": "fateful-journeys-outset-2"
+        },
+        {
+            "name": "Fateful Encounter: Ally Encounter Izuna",
+            "banner_file": "Fateful Encounter Ally Encounter Izuna.json",
+            "banner_image": "Fateful Encounter Ally Encounter Izuna.png",
+            "banner_enddatetime": "2024-12-15T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/386621e6f4c329a298c73e1690b2290d?language=en",
+            "banner_short_name": "fateful-izuna"
+        },
+        {
+            "name": "Fateful Encounter: Ally Re-Encounter Aqua Ruler Starchart",
+            "banner_file": "Fateful Encounter Ally Re-Encounter Aqua Ruler Starchart.json",
+            "banner_image": "Fateful Encounter Ally Re-Encounter Aqua Ruler Starchart.png",
+            "banner_enddatetime": "2024-12-15T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/4fb2b0ed2851a44b1ccfb383b6a08fe2?language=en",
+            "banner_short_name": "fateful-mighty"
+        },
+        {
+            "name": "Fateful Encounter: Thundering Secrets Edition",
+            "banner_file": "Fateful Encounter Thundering Secrets Edition.json",
+            "banner_image": "Fateful Encounter Thundering Secrets Edition.png",
+            "banner_enddatetime": "2024-12-15T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/3d73a5e7e552ac23e1355aa66f108ab3?language=en",
+            "banner_short_name": "fateful-thundering-secrets"
+        },
+        {
+            "name": "Fateful Encounter: Another Style Blazing Hero",
+            "banner_file": "Fateful Encounter Another Style Blazing Hero.json",
+            "banner_image": "Fateful Encounter Another Style Blazing Hero.png",
+            "banner_enddatetime": "2024-12-01T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/84b8490db305c3d9c46c9deb76796276?language=en",
+            "banner_short_name": "fateful-rufus-as"
+        },
+        {
+            "name": "Fateful Encounter: Ally Re-Encounter Arc Knight Starchart",
+            "banner_file": "Fateful Encounter Ally Re-Encounter Arc Knight Starchart.json",
+            "banner_image": "Fateful Encounter Ally Re-Encounter Arc Knight Starchart.png",
+            "banner_enddatetime": "2024-12-01T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/897426283ea728ba333d88b1394823af?language=en",
+            "banner_short_name": "fateful-shanie"
+        },
+        {
+            "name": "Fateful Encounter: Roaring Blaze Edition",
+            "banner_file": "Fateful Encounter Roaring Blaze Edition.json",
+            "banner_image": "Fateful Encounter Roaring Blaze Edition.png",
+            "banner_enddatetime": "2024-12-01T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/1b94ed9de1d7770caeb560e41e850d53?language=en",
+            "banner_short_name": "fateful-roaring-blaze"
+        },
+        {
+            "name": "Fateful Encounter: Deep Yearning Edition",
+            "banner_file": "Fateful Encounter Deep Yearning Edition.json",
+            "banner_image": "Fateful Encounter Deep Yearning Edition.png",
+            "banner_enddatetime": "2024-12-01T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/4d59339003e50274d89b9fe9bfcd259c?language=en",
+            "banner_short_name": "fateful-deep-yearning"
+        },
+        {
             "name": "Fateful Encounter: Encounter Across Time Layers \"Nocturne Ninja\" Tsubame",
             "banner_file": "Fateful Encounter Encounter Across Time Layers Nocturne Ninja Tsubame.json",
             "banner_image": "Fateful Encounter Encounter Across Time Layers Nocturne Ninja Tsubame.png",
@@ -2579,6 +2675,54 @@
     ],
     "nonfateful" : [
         {
+            "name": "Brilliant Encounter: Another Eden Winter Festival 2024 Global",
+            "banner_file": "Brilliant Encounter Another Eden Winter Festival 2024 Global.json",
+            "banner_image": "Brilliant Encounter Another Eden Winter Festival 2024 Global.png",
+            "banner_enddatetime": "2024-12-08T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/3def7cf4feff21876736b841c6e28c50?language=en",
+            "banner_short_name": "brilliant-winter-2024"
+        },
+        {
+            "name": "Ally Encounter: Id <Hazama>",
+            "banner_file": "Ally Encounter Id Hazama.json",
+            "banner_image": "Ally Encounter Id Hazama.png",
+            "banner_enddatetime": "2025-01-05T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/b49e33bd9a65ced91c221ea57e92629c?language=en",
+            "banner_short_name": "id"
+        },
+        {
+            "name": "Ally Encounter: Izuna",
+            "banner_file": "Ally Encounter Izuna.json",
+            "banner_image": "Ally Encounter Izuna.png",
+            "banner_enddatetime": "2024-12-22T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/4746f29afcab54ea8aa609a274d3409a?language=en",
+            "banner_short_name": "izuna"
+        },
+        {
+            "name": "Ally Encounter: Mighty",
+            "banner_file": "Ally Encounter Mighty.json",
+            "banner_image": "Ally Encounter Mighty.png",
+            "banner_enddatetime": "2024-12-22T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/9c69b26cb5493ce79400db524227ef91?language=en",
+            "banner_short_name": "mighty"
+        },
+        {
+            "name": "Another Style: Blazing Hero",
+            "banner_file": "Another Style Blazing Hero.json",
+            "banner_image": "Another Style Blazing Hero.png",
+            "banner_enddatetime": "2024-12-08T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/b2355cfccf019b7b022d23e19fcf6f0f?language=en",
+            "banner_short_name": "rufus-as"
+        },
+        {
+            "name": "Ally Encounter: Shanie",
+            "banner_file": "Ally Encounter Shanie.json",
+            "banner_image": "Ally Encounter Shanie.png",
+            "banner_enddatetime": "2024-12-08T14:59:00Z",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/99f2d2c327e5517198ed216f026c6415?language=en",
+            "banner_short_name": "shanie"
+        },
+        {
             "name": "Encounter Across Time Layers: \"Nocturne Ninja\" Tsubame",
             "banner_file": "Encounter Across Time Layers Nocturne Ninja Tsubame.json",
             "banner_image": "Encounter Across Time Layers Nocturne Ninja Tsubame.png",
@@ -4618,7 +4762,7 @@
             "banner_file" : "Default Encounter.json",
             "banner_image" : "Default Encounter.png",
             "banner_enddatetime" : "2099-01-01T00:00:00Z",
-            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/4fc02b27680a08497f3cceda0559b4a5?language=en",
+            "official_link": "https://api-us.another-eden.games/asset/lottery_notice/view/d591aaa6f62d7fe6d565ff9ad9a76513?language=en",
             "banner_short_name" : "default-encounter"
         }
     ]
